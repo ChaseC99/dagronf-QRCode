@@ -45,7 +45,7 @@ The unchanged 25-style Release harness uses the same three fixed payloads, prepa
 
 Final comparisons run serially in one temporary checkout on the same Mac, with batching and element-wise variants alternating. No builds or tests run concurrently with measurements. Each report has raw samples, dependency pins, hardware/toolchain metadata, matrix fingerprints and a reconstructable source-state sidecar. The working source in the main checkout remains the element-wise implementation.
 
-The [full three-way comparison](comparison.md) includes the original native implementation and two alternating runs of each final variant. Large Gear path construction measures 19,074.806 ms originally, 102.829 ms with batching, and 18.186 ms with element-wise accumulation (5.65× faster than batching). Complete Gear image generation improves from 881.308 to 800.960 ms versus batching. No case/operation shows a >5% increase in both paired runs. The report explicitly includes the small Square tradeoff and noisy controls rather than claiming every measurement improves.
+The [comparison README](../README.md) presents the original native implementation against elements runs 3 and 4, with [complete results](comparison.md) for every measured case. Large Gear path construction falls from 19,074.806 ms to 18.186 ms; complete image generation falls from 20,088.497 ms to 800.960 ms (25.08× faster). Baseline medians use five samples from one run; elements medians pool ten samples from two runs. The baseline was measured after both elements runs, so this is not an alternating baseline/elements experiment. The report retains slower control measurements and sample ranges rather than claiming every workload improves.
 
 The earlier `transform-elements-1` report is exploratory and includes additional checks for degenerate general paths; `transform-elements-2` measures the final code in the main checkout. Neither is substituted for the paired comparison runs. All old reports remain intact.
 
@@ -56,10 +56,12 @@ python3 Benchmarks/transform-elements-evaluation/verify-sources.py --archives-on
 python3 Benchmarks/transform-elements-evaluation/compare.py
 ```
 
+The comparison script regenerates both `Benchmarks/README.md` and `comparison.md`
+using only the baseline and final elements reports.
+
 Archive-only verification leaves the saved verification record unchanged. The
 default verifier also checks the current checkout byte for byte and rewrites that
 record; it is intended for a reconstructed measured checkout, before the rename.
 
 Physical-iPhone performance has not been measured; no iOS speedup is claimed.
-The local review branches are described in the [research overview](../README.md).
-No branch or PR has been published.
+The review branches are described in the [comparison README](../README.md#implementation-and-research).
