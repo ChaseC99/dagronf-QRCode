@@ -1,0 +1,2800 @@
+{
+  "fixtures" : [
+    {
+      "activeDataModules" : 303,
+      "imageHeight" : 702,
+      "imageWidth" : 702,
+      "maskedMatrixFNV1a64" : "2a891b88c866ec96",
+      "matrixDimension" : 31,
+      "name" : "small",
+      "pathDimension" : 558,
+      "payload" : "https:\/\/example.com\/",
+      "pixelsPerModule" : 18,
+      "utf8Bytes" : 20
+    },
+    {
+      "activeDataModules" : 3863,
+      "imageHeight" : 693,
+      "imageWidth" : 693,
+      "maskedMatrixFNV1a64" : "986ad723bcbac764",
+      "matrixDimension" : 91,
+      "name" : "medium",
+      "pathDimension" : 637,
+      "payload" : "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Example;Alex;;;\r\nFN:Alex Example\r\nNOTE:abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij \r\nEND:VCARD",
+      "pixelsPerModule" : 7,
+      "utf8Bytes" : 298
+    },
+    {
+      "activeDataModules" : 14173,
+      "imageHeight" : 716,
+      "imageWidth" : 716,
+      "maskedMatrixFNV1a64" : "8a619882b27f217a",
+      "matrixDimension" : 171,
+      "name" : "large",
+      "pathDimension" : 684,
+      "payload" : "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Example;Alex;;;\r\nFN:Alex Example\r\nNOTE:abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij \r\nEND:VCARD",
+      "pixelsPerModule" : 4,
+      "utf8Bytes" : 1123
+    }
+  ],
+  "metadata" : {
+    "architecture" : "arm64",
+    "configuration" : "release",
+    "finishedAt" : "2026-10-28T06:35:32Z",
+    "hardware" : "Apple M1 Pro \/ MacBookPro18,1",
+    "harness_sha256" : "26a7509def7541eaddb1cafbf1da5813ef3c2ae724c5de7828af4a904c090609",
+    "os" : "Version 26.7.1 (Build 25G241)",
+    "packageResolved" : {
+      "object" : {
+        "pins" : [
+          {
+            "package" : "swift-argument-parser",
+            "repositoryURL" : "https:\/\/github.com\/apple\/swift-argument-parser",
+            "state" : {
+              "branch" : null,
+              "revision" : "83b23d940471b313427da226196661856f6ba3e0",
+              "version" : "0.4.4"
+            }
+          },
+          {
+            "package" : "swift-qrcode-generator",
+            "repositoryURL" : "https:\/\/github.com\/dagronf\/swift-qrcode-generator",
+            "state" : {
+              "branch" : null,
+              "revision" : "2b1980b825f08a81ccc762b0c4d17fcde9d5e953",
+              "version" : "2.0.2"
+            }
+          },
+          {
+            "package" : "SwiftImageReadWrite",
+            "repositoryURL" : "https:\/\/github.com\/dagronf\/SwiftImageReadWrite",
+            "state" : {
+              "branch" : null,
+              "revision" : "42ace2412279f18bc264bc306e96b51c36e12a33",
+              "version" : "1.9.2"
+            }
+          }
+        ]
+      },
+      "version" : 1
+    },
+    "physicalMemoryBytes" : 34359738368,
+    "processorCount" : 10,
+    "revision" : "a8b8a5166e072156baf66ec2fff0850aa14b5297",
+    "source_diff_sha256" : "11fbc02222bd5327d9086d4d3c034cfef18c9c3a1947be99047ddce1f966c395",
+    "source_state_sha256" : "075bc0daca6f6b875d6c6356ffa7d82390affac16963eaf8cb46f42e9acacb4b",
+    "source_tree" : "137e58a72ce401f454b3e6a47dfec7a729299589",
+    "startedAt" : "2026-10-28T06:34:53Z",
+    "swift_version" : "Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)\nTarget: arm64-apple-macosx26.0",
+    "worktree_status" : " M Sources\/QRCode\/styles\/data\/QRCodePixelShapeAbstract.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeBlob.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeCircuit.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeCrosshatch.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeCurvePixel.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeDiagonalStripes.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeDonut.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeDripHorizontal.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeDripVertical.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeGrid.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapePointy.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeRazor.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeRoundedEndIndent.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeRoundedPath.swift\n M Sources\/QRCode\/styles\/data\/QRCodePixelShapeVortex.swift\n M Sources\/QRCode\/styles\/data\/pixel\/private\/QRCodePixelShapePixel.swift\n?? Sources\/QRCode\/styles\/data\/pixel\/private\/CGMutablePath+PixelPath.swift\n?? Sources\/QRCode\/styles\/data\/pixel\/private\/QRCodeBatchedModulePath.swift\n?? Tests\/QRCodeTests\/NativePixelReferences\/\n?? Tests\/QRCodeTests\/QRCodeNeighborBatchingTests.swift\n?? Tests\/QRCodeTests\/QRCodePerformanceTests.swift\n?? Tests\/QRCodeTests\/QRCodePixelBatchingTests.swift\n?? Tests\/QRCodeTests\/QRCodeStandaloneBatchingTests.swift\n?? Tests\/QRCodeTests\/QRCodeTransformedPixelPathTests.swift\n?? Tests\/QRCodeTests\/UnbatchedNeighbors\/\n?? scripts\/benchmark-render.sh\n?? scripts\/benchmark-source-state.py",
+    "xcode_version" : "Xcode 27.1\nBuild version 27A9275"
+  },
+  "method" : {
+    "additionalQuietZonePixels" : 4,
+    "background" : "white",
+    "clock" : "DispatchTime.uptimeNanoseconds",
+    "engine" : "coreimage",
+    "errorCorrection" : "high",
+    "eyes" : "square",
+    "foreground" : "black",
+    "image" : "QRCode.cgImage; includes context allocation, masking, all paths, drawing, and makeImage",
+    "logo" : "none",
+    "path" : "Pixel generator only; pre-masked data modules, excluding eyes and quiet zone",
+    "pupil" : "default for square eye",
+    "samples" : 5,
+    "targetDimension" : 720,
+    "unit" : "milliseconds",
+    "warmups" : 1
+  },
+  "results" : [
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.41749999999999998,
+        "meanMs" : 0.40498320000000004,
+        "medianMs" : 0.41129100000000002,
+        "minMs" : 0.387125,
+        "samplesMs" : [
+          0.41187499999999999,
+          0.41129100000000002,
+          0.39712500000000001,
+          0.387125,
+          0.41749999999999998
+        ],
+        "standardDeviationMs" : 0.011176959736887305
+      },
+      "path" : {
+        "maxMs" : 0.104542,
+        "meanMs" : 0.1025668,
+        "medianMs" : 0.10245799999999999,
+        "minMs" : 0.10091700000000001,
+        "samplesMs" : [
+          0.10295899999999999,
+          0.104542,
+          0.10091700000000001,
+          0.10195799999999999,
+          0.10245799999999999
+        ],
+        "standardDeviationMs" : 0.001196624485793264
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "square"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.314959,
+        "meanMs" : 1.1674751999999999,
+        "medianMs" : 1.153125,
+        "minMs" : 1.0841670000000001,
+        "samplesMs" : [
+          1.153125,
+          1.169125,
+          1.314959,
+          1.1160000000000001,
+          1.0841670000000001
+        ],
+        "standardDeviationMs" : 0.07943560126895241
+      },
+      "path" : {
+        "maxMs" : 0.37312499999999998,
+        "meanMs" : 0.26108340000000002,
+        "medianMs" : 0.23508299999999999,
+        "minMs" : 0.229459,
+        "samplesMs" : [
+          0.23699999999999999,
+          0.37312499999999998,
+          0.23508299999999999,
+          0.23075000000000001,
+          0.229459
+        ],
+        "standardDeviationMs" : 0.056088446077957974
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed"
+      },
+      "style" : "circle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.7070829999999999,
+        "meanMs" : 2.5157834000000001,
+        "medianMs" : 2.5329579999999998,
+        "minMs" : 2.1382500000000002,
+        "samplesMs" : [
+          2.1382500000000002,
+          2.6855419999999999,
+          2.5150839999999999,
+          2.7070829999999999,
+          2.5329579999999998
+        ],
+        "standardDeviationMs" : 0.20407863356814193
+      },
+      "path" : {
+        "maxMs" : 0.44600000000000001,
+        "meanMs" : 0.41192499999999999,
+        "medianMs" : 0.42491699999999999,
+        "minMs" : 0.38104199999999999,
+        "samplesMs" : [
+          0.38124999999999998,
+          0.42641600000000002,
+          0.44600000000000001,
+          0.42491699999999999,
+          0.38104199999999999
+        ],
+        "standardDeviationMs" : 0.026209166655962197
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "squircle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 4.5463750000000003,
+        "meanMs" : 4.4263333999999999,
+        "medianMs" : 4.4182920000000001,
+        "minMs" : 4.3187499999999996,
+        "samplesMs" : [
+          4.4182920000000001,
+          4.4530839999999996,
+          4.3187499999999996,
+          4.3951659999999997,
+          4.5463750000000003
+        ],
+        "standardDeviationMs" : 0.074479311520985664
+      },
+      "path" : {
+        "maxMs" : 1.151875,
+        "meanMs" : 1.1075336,
+        "medianMs" : 1.1425000000000001,
+        "minMs" : 0.98845899999999998,
+        "samplesMs" : [
+          1.151875,
+          1.104417,
+          1.150417,
+          0.98845899999999998,
+          1.1425000000000001
+        ],
+        "standardDeviationMs" : 0.061993981061390167
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flower"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 5.608708,
+        "meanMs" : 5.2881999999999998,
+        "medianMs" : 5.2927920000000004,
+        "minMs" : 4.8582919999999996,
+        "samplesMs" : [
+          5.2457500000000001,
+          5.2927920000000004,
+          5.4354579999999997,
+          4.8582919999999996,
+          5.608708
+        ],
+        "standardDeviationMs" : 0.24942103923125661
+      },
+      "path" : {
+        "maxMs" : 2.272583,
+        "meanMs" : 2.2521334,
+        "medianMs" : 2.2519999999999998,
+        "minMs" : 2.2345419999999998,
+        "samplesMs" : [
+          2.2345419999999998,
+          2.272583,
+          2.2519999999999998,
+          2.2556669999999999,
+          2.2458749999999998
+        ],
+        "standardDeviationMs" : 0.012484511918373171
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "gear"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.1931670000000001,
+        "meanMs" : 1.1821666,
+        "medianMs" : 1.1822919999999999,
+        "minMs" : 1.1685829999999999,
+        "samplesMs" : [
+          1.192625,
+          1.1685829999999999,
+          1.174166,
+          1.1931670000000001,
+          1.1822919999999999
+        ],
+        "standardDeviationMs" : 0.0097869959149884615
+      },
+      "path" : {
+        "maxMs" : 0.20733299999999999,
+        "meanMs" : 0.20644979999999999,
+        "medianMs" : 0.20658399999999999,
+        "minMs" : 0.205708,
+        "samplesMs" : [
+          0.20733299999999999,
+          0.20658399999999999,
+          0.205708,
+          0.20683299999999999,
+          0.205791
+        ],
+        "standardDeviationMs" : 0.0006211567918005832
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedRect"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.1052919999999999,
+        "meanMs" : 1.0216086,
+        "medianMs" : 1.038875,
+        "minMs" : 0.86091700000000004,
+        "samplesMs" : [
+          1.1052919999999999,
+          1.018084,
+          1.038875,
+          1.084875,
+          0.86091700000000004
+        ],
+        "standardDeviationMs" : 0.086183398040689918
+      },
+      "path" : {
+        "maxMs" : 0.39024999999999999,
+        "meanMs" : 0.3672668,
+        "medianMs" : 0.38429099999999999,
+        "minMs" : 0.33695900000000001,
+        "samplesMs" : [
+          0.39024999999999999,
+          0.385459,
+          0.38429099999999999,
+          0.33937499999999998,
+          0.33695900000000001
+        ],
+        "standardDeviationMs" : 0.023855910197684765
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid2x2"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.0899160000000001,
+        "meanMs" : 1.7323833999999998,
+        "medianMs" : 1.5802909999999999,
+        "minMs" : 1.5494589999999999,
+        "samplesMs" : [
+          2.0899160000000001,
+          1.5802909999999999,
+          1.5494589999999999,
+          1.574292,
+          1.8679589999999999
+        ],
+        "standardDeviationMs" : 0.21344630630919809
+      },
+      "path" : {
+        "maxMs" : 0.91774999999999995,
+        "meanMs" : 0.80573340000000004,
+        "medianMs" : 0.74404199999999998,
+        "minMs" : 0.74304199999999998,
+        "samplesMs" : [
+          0.91774999999999995,
+          0.74404199999999998,
+          0.74304199999999998,
+          0.74366699999999997,
+          0.880166
+        ],
+        "standardDeviationMs" : 0.07704052063063957
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid3x3"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.799042,
+        "meanMs" : 2.6227336000000001,
+        "medianMs" : 2.574125,
+        "minMs" : 2.5121669999999998,
+        "samplesMs" : [
+          2.574125,
+          2.5480839999999998,
+          2.5121669999999998,
+          2.68025,
+          2.799042
+        ],
+        "standardDeviationMs" : 0.10445393241922497
+      },
+      "path" : {
+        "maxMs" : 1.6459999999999999,
+        "meanMs" : 1.4601,
+        "medianMs" : 1.3581669999999999,
+        "minMs" : 1.345542,
+        "samplesMs" : [
+          1.345542,
+          1.3581669999999999,
+          1.3557079999999999,
+          1.595083,
+          1.6459999999999999
+        ],
+        "standardDeviationMs" : 0.13205361169313015
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid4x4"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.5953750000000002,
+        "meanMs" : 2.3398830000000004,
+        "medianMs" : 2.2900830000000001,
+        "minMs" : 2.2427079999999999,
+        "samplesMs" : [
+          2.3112910000000002,
+          2.2427079999999999,
+          2.2900830000000001,
+          2.2599580000000001,
+          2.5953750000000002
+        ],
+        "standardDeviationMs" : 0.12992666452887958
+      },
+      "path" : {
+        "maxMs" : 0.62012500000000004,
+        "meanMs" : 0.53346640000000001,
+        "medianMs" : 0.48158299999999998,
+        "minMs" : 0.479875,
+        "samplesMs" : [
+          0.48158299999999998,
+          0.479875,
+          0.48066599999999998,
+          0.62012500000000004,
+          0.60508300000000004
+        ],
+        "standardDeviationMs" : 0.064792681591673632
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "donut"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 5.990666,
+        "meanMs" : 5.472333400000001,
+        "medianMs" : 5.4156250000000004,
+        "minMs" : 5.0065,
+        "samplesMs" : [
+          5.990666,
+          5.6874169999999999,
+          5.0065,
+          5.4156250000000004,
+          5.2614590000000003
+        ],
+        "standardDeviationMs" : 0.34047444866632798
+      },
+      "path" : {
+        "maxMs" : 1.6359170000000001,
+        "meanMs" : 1.4447668,
+        "medianMs" : 1.344916,
+        "minMs" : 1.2952090000000001,
+        "samplesMs" : [
+          1.312208,
+          1.6359170000000001,
+          1.6355839999999999,
+          1.344916,
+          1.2952090000000001
+        ],
+        "standardDeviationMs" : 0.15675404685991362
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "diagonalStripes"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.117416,
+        "meanMs" : 1.8474080000000002,
+        "medianMs" : 1.8355410000000001,
+        "minMs" : 1.6194999999999999,
+        "samplesMs" : [
+          2.0143749999999998,
+          2.117416,
+          1.8355410000000001,
+          1.6502079999999999,
+          1.6194999999999999
+        ],
+        "standardDeviationMs" : 0.19583310307810578
+      },
+      "path" : {
+        "maxMs" : 0.33774999999999999,
+        "meanMs" : 0.28020020000000001,
+        "medianMs" : 0.25304199999999999,
+        "minMs" : 0.24537500000000001,
+        "samplesMs" : [
+          0.31558399999999998,
+          0.33774999999999999,
+          0.25304199999999999,
+          0.24925,
+          0.24537500000000001
+        ],
+        "standardDeviationMs" : 0.03865816872227653
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "abstract"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.676334,
+        "meanMs" : 1.5119669999999998,
+        "medianMs" : 1.471125,
+        "minMs" : 1.4605840000000001,
+        "samplesMs" : [
+          1.4855830000000001,
+          1.676334,
+          1.471125,
+          1.4605840000000001,
+          1.4662090000000001
+        ],
+        "standardDeviationMs" : 0.082601092440717713
+      },
+      "path" : {
+        "maxMs" : 0.481875,
+        "meanMs" : 0.4110336,
+        "medianMs" : 0.37429200000000001,
+        "minMs" : 0.36133399999999999,
+        "samplesMs" : [
+          0.37429200000000001,
+          0.47587499999999999,
+          0.481875,
+          0.36133399999999999,
+          0.361792
+        ],
+        "standardDeviationMs" : 0.055619496022887516
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : true
+      },
+      "style" : "roundedPath"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.455292,
+        "meanMs" : 2.1458002000000005,
+        "medianMs" : 2.071958,
+        "minMs" : 1.7705420000000001,
+        "samplesMs" : [
+          2.0658340000000002,
+          2.455292,
+          2.3653749999999998,
+          2.071958,
+          1.7705420000000001
+        ],
+        "standardDeviationMs" : 0.24358335221143493
+      },
+      "path" : {
+        "maxMs" : 0.48883399999999999,
+        "meanMs" : 0.42469180000000001,
+        "medianMs" : 0.38462499999999999,
+        "minMs" : 0.38004199999999999,
+        "samplesMs" : [
+          0.38458300000000001,
+          0.48883399999999999,
+          0.485375,
+          0.38462499999999999,
+          0.38004199999999999
+        ],
+        "standardDeviationMs" : 0.050998708851891533
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "blob"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.8337500000000002,
+        "meanMs" : 3.2882330000000004,
+        "medianMs" : 3.2200410000000002,
+        "minMs" : 2.8460000000000001,
+        "samplesMs" : [
+          3.5288330000000001,
+          3.8337500000000002,
+          3.0125410000000001,
+          3.2200410000000002,
+          2.8460000000000001
+        ],
+        "standardDeviationMs" : 0.35544434481533116
+      },
+      "path" : {
+        "maxMs" : 0.92674999999999996,
+        "meanMs" : 0.69483319999999993,
+        "medianMs" : 0.63808299999999996,
+        "minMs" : 0.63283299999999998,
+        "samplesMs" : [
+          0.638625,
+          0.92674999999999996,
+          0.63808299999999996,
+          0.63787499999999997,
+          0.63283299999999998
+        ],
+        "standardDeviationMs" : 0.11597724812807035
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "circuit"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.902542,
+        "meanMs" : 2.2010502000000001,
+        "medianMs" : 2.0262500000000001,
+        "minMs" : 2.02075,
+        "samplesMs" : [
+          2.02075,
+          2.0262500000000001,
+          2.0326249999999999,
+          2.0230839999999999,
+          2.902542
+        ],
+        "standardDeviationMs" : 0.35076859433102042
+      },
+      "path" : {
+        "maxMs" : 0.55795799999999995,
+        "meanMs" : 0.43761659999999997,
+        "medianMs" : 0.40808299999999997,
+        "minMs" : 0.40550000000000003,
+        "samplesMs" : [
+          0.40799999999999997,
+          0.40808299999999997,
+          0.40550000000000003,
+          0.40854200000000002,
+          0.55795799999999995
+        ],
+        "standardDeviationMs" : 0.060180125355801625
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripHorizontal"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.3559999999999999,
+        "meanMs" : 2.2437165999999999,
+        "medianMs" : 2.256958,
+        "minMs" : 2.1072500000000001,
+        "samplesMs" : [
+          2.2829579999999998,
+          2.3559999999999999,
+          2.256958,
+          2.1072500000000001,
+          2.215417
+        ],
+        "standardDeviationMs" : 0.082154469554857376
+      },
+      "path" : {
+        "maxMs" : 0.52829099999999996,
+        "meanMs" : 0.51271659999999986,
+        "medianMs" : 0.52295899999999995,
+        "minMs" : 0.47137499999999999,
+        "samplesMs" : [
+          0.47137499999999999,
+          0.52295899999999995,
+          0.52829099999999996,
+          0.51749999999999996,
+          0.52345799999999998
+        ],
+        "standardDeviationMs" : 0.020951635607751477
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripVertical"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 4.622916,
+        "meanMs" : 4.2425581999999995,
+        "medianMs" : 4.1537499999999996,
+        "minMs" : 3.7707090000000001,
+        "samplesMs" : [
+          4.5376250000000002,
+          4.1277910000000002,
+          3.7707090000000001,
+          4.622916,
+          4.1537499999999996
+        ],
+        "standardDeviationMs" : 0.30836230204316484
+      },
+      "path" : {
+        "maxMs" : 0.79062500000000002,
+        "meanMs" : 0.69662480000000004,
+        "medianMs" : 0.71366700000000005,
+        "minMs" : 0.59995799999999999,
+        "samplesMs" : [
+          0.71366700000000005,
+          0.611958,
+          0.59995799999999999,
+          0.79062500000000002,
+          0.76691600000000004
+        ],
+        "standardDeviationMs" : 0.078205197043163324
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "crosshatch"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.5924160000000001,
+        "meanMs" : 1.4935916000000002,
+        "medianMs" : 1.5461670000000001,
+        "minMs" : 1.231125,
+        "samplesMs" : [
+          1.5229999999999999,
+          1.5924160000000001,
+          1.57525,
+          1.5461670000000001,
+          1.231125
+        ],
+        "standardDeviationMs" : 0.13338073257948466
+      },
+      "path" : {
+        "maxMs" : 0.35620800000000002,
+        "meanMs" : 0.2689666,
+        "medianMs" : 0.25512499999999999,
+        "minMs" : 0.20549999999999999,
+        "samplesMs" : [
+          0.25512499999999999,
+          0.255,
+          0.27300000000000002,
+          0.35620800000000002,
+          0.20549999999999999
+        ],
+        "standardDeviationMs" : 0.049075442557760002
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1
+      },
+      "style" : "curvePixel"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.53745799999999999,
+        "meanMs" : 0.51948299999999992,
+        "medianMs" : 0.51500000000000001,
+        "minMs" : 0.51045799999999997,
+        "samplesMs" : [
+          0.53745799999999999,
+          0.52295800000000003,
+          0.51500000000000001,
+          0.51154100000000002,
+          0.51045799999999997
+        ],
+        "standardDeviationMs" : 0.0099979950790145908
+      },
+      "path" : {
+        "maxMs" : 0.099625000000000005,
+        "meanMs" : 0.098891400000000004,
+        "medianMs" : 0.099042000000000005,
+        "minMs" : 0.098166000000000003,
+        "samplesMs" : [
+          0.099291000000000004,
+          0.099042000000000005,
+          0.098166000000000003,
+          0.099625000000000005,
+          0.098333000000000004
+        ],
+        "standardDeviationMs" : 0.00055830909002093168
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "pointy"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.2810000000000001,
+        "meanMs" : 2.2206834,
+        "medianMs" : 2.2566250000000001,
+        "minMs" : 2.122417,
+        "samplesMs" : [
+          2.1781670000000002,
+          2.2566250000000001,
+          2.2810000000000001,
+          2.122417,
+          2.2652079999999999
+        ],
+        "standardDeviationMs" : 0.060623857497193297
+      },
+      "path" : {
+        "maxMs" : 0.44933299999999998,
+        "meanMs" : 0.37833319999999998,
+        "medianMs" : 0.387042,
+        "minMs" : 0.32229099999999999,
+        "samplesMs" : [
+          0.44933299999999998,
+          0.39600000000000002,
+          0.387042,
+          0.33700000000000002,
+          0.32229099999999999
+        ],
+        "standardDeviationMs" : 0.04533892857754801
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "razor"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.798208,
+        "meanMs" : 1.4723666000000002,
+        "medianMs" : 1.4108339999999999,
+        "minMs" : 1.1655,
+        "samplesMs" : [
+          1.4108339999999999,
+          1.798208,
+          1.7602910000000001,
+          1.2270000000000001,
+          1.1655
+        ],
+        "standardDeviationMs" : 0.26352655180197687
+      },
+      "path" : {
+        "maxMs" : 0.34712500000000002,
+        "meanMs" : 0.28649179999999996,
+        "medianMs" : 0.28399999999999997,
+        "minMs" : 0.229042,
+        "samplesMs" : [
+          0.28399999999999997,
+          0.34712500000000002,
+          0.34112500000000001,
+          0.23116700000000001,
+          0.229042
+        ],
+        "standardDeviationMs" : 0.051046436833142431
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : false
+      },
+      "style" : "roundedEndIndent"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.4632499999999999,
+        "meanMs" : 1.175325,
+        "medianMs" : 1.0467500000000001,
+        "minMs" : 1.0411250000000001,
+        "samplesMs" : [
+          1.0467500000000001,
+          1.044125,
+          1.0411250000000001,
+          1.4632499999999999,
+          1.2813749999999999
+        ],
+        "standardDeviationMs" : 0.17082272609345628
+      },
+      "path" : {
+        "maxMs" : 0.29025000000000001,
+        "meanMs" : 0.26498340000000004,
+        "medianMs" : 0.25758300000000001,
+        "minMs" : 0.25483299999999998,
+        "samplesMs" : [
+          0.25758300000000001,
+          0.25629200000000002,
+          0.25483299999999998,
+          0.29025000000000001,
+          0.265959
+        ],
+        "standardDeviationMs" : 0.013211281884813453
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "vortex"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.0385409999999999,
+        "meanMs" : 0.99681659999999983,
+        "medianMs" : 0.98724999999999996,
+        "minMs" : 0.95925000000000005,
+        "samplesMs" : [
+          1.0385409999999999,
+          1.0189999999999999,
+          0.98724999999999996,
+          0.98004199999999997,
+          0.95925000000000005
+        ],
+        "standardDeviationMs" : 0.028344965222063648
+      },
+      "path" : {
+        "maxMs" : 0.156,
+        "meanMs" : 0.13704179999999999,
+        "medianMs" : 0.13250000000000001,
+        "minMs" : 0.13062499999999999,
+        "samplesMs" : [
+          0.156,
+          0.13179199999999999,
+          0.13429199999999999,
+          0.13250000000000001,
+          0.13062499999999999
+        ],
+        "standardDeviationMs" : 0.0095534121317987757
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "horizontal"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.92825000000000002,
+        "meanMs" : 0.88178339999999999,
+        "medianMs" : 0.870417,
+        "minMs" : 0.86245799999999995,
+        "samplesMs" : [
+          0.92825000000000002,
+          0.88075000000000003,
+          0.870417,
+          0.86245799999999995,
+          0.86704199999999998
+        ],
+        "standardDeviationMs" : 0.024000782650572063
+      },
+      "path" : {
+        "maxMs" : 0.12987499999999999,
+        "meanMs" : 0.1093334,
+        "medianMs" : 0.104292,
+        "minMs" : 0.103875,
+        "samplesMs" : [
+          0.12987499999999999,
+          0.103875,
+          0.104708,
+          0.103917,
+          0.104292
+        ],
+        "standardDeviationMs" : 0.01027520208268431
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "vertical"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 2.8077920000000001,
+        "meanMs" : 2.5736750000000002,
+        "medianMs" : 2.6295829999999998,
+        "minMs" : 2.2191670000000001,
+        "samplesMs" : [
+          2.4723329999999999,
+          2.8077920000000001,
+          2.7395,
+          2.6295829999999998,
+          2.2191670000000001
+        ],
+        "standardDeviationMs" : 0.21041888118987798
+      },
+      "path" : {
+        "maxMs" : 1.517042,
+        "meanMs" : 1.3585086,
+        "medianMs" : 1.294584,
+        "minMs" : 1.290125,
+        "samplesMs" : [
+          1.2926249999999999,
+          1.3981669999999999,
+          1.517042,
+          1.294584,
+          1.290125
+        ],
+        "standardDeviationMs" : 0.089228860341483696
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "square"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 25.133458000000001,
+        "meanMs" : 23.832283199999999,
+        "medianMs" : 23.52525,
+        "minMs" : 22.982875,
+        "samplesMs" : [
+          25.133458000000001,
+          24.200500000000002,
+          23.319333,
+          23.52525,
+          22.982875
+        ],
+        "standardDeviationMs" : 0.76256423411628793
+      },
+      "path" : {
+        "maxMs" : 3.2645,
+        "meanMs" : 3.0940249999999998,
+        "medianMs" : 3.0569169999999999,
+        "minMs" : 3.0452499999999998,
+        "samplesMs" : [
+          3.2645,
+          3.0452499999999998,
+          3.0569169999999999,
+          3.0577079999999999,
+          3.04575
+        ],
+        "standardDeviationMs" : 0.085401557395635389
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed"
+      },
+      "style" : "circle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 29.637459,
+        "meanMs" : 28.862708600000001,
+        "medianMs" : 28.824041999999999,
+        "minMs" : 28.173791999999999,
+        "samplesMs" : [
+          29.637459,
+          28.173791999999999,
+          28.914375,
+          28.763874999999999,
+          28.824041999999999
+        ],
+        "standardDeviationMs" : 0.4666426614421792
+      },
+      "path" : {
+        "maxMs" : 5.5950410000000002,
+        "meanMs" : 5.3215918000000002,
+        "medianMs" : 5.2599169999999997,
+        "minMs" : 5.2402920000000002,
+        "samplesMs" : [
+          5.5950410000000002,
+          5.242292,
+          5.2599169999999997,
+          5.2402920000000002,
+          5.2704170000000001
+        ],
+        "standardDeviationMs" : 0.13718252210161472
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "squircle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 111.967417,
+        "meanMs" : 110.77297500000002,
+        "medianMs" : 110.669625,
+        "minMs" : 109.58833300000001,
+        "samplesMs" : [
+          111.967417,
+          110.558916,
+          110.669625,
+          109.58833300000001,
+          111.080584
+        ],
+        "standardDeviationMs" : 0.77216502567650436
+      },
+      "path" : {
+        "maxMs" : 13.445207999999999,
+        "meanMs" : 13.376308399999999,
+        "medianMs" : 13.372833,
+        "minMs" : 13.298584,
+        "samplesMs" : [
+          13.445207999999999,
+          13.335750000000001,
+          13.429167,
+          13.372833,
+          13.298584
+        ],
+        "standardDeviationMs" : 0.055207483270295489
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flower"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 150.120958,
+        "meanMs" : 144.50608319999998,
+        "medianMs" : 143.23108300000001,
+        "minMs" : 142.11533299999999,
+        "samplesMs" : [
+          143.23108300000001,
+          142.11533299999999,
+          143.99137500000001,
+          143.07166699999999,
+          150.120958
+        ],
+        "standardDeviationMs" : 2.870212724327061
+      },
+      "path" : {
+        "maxMs" : 28.621625000000002,
+        "meanMs" : 28.029950000000003,
+        "medianMs" : 28.087458000000002,
+        "minMs" : 27.443916999999999,
+        "samplesMs" : [
+          28.621625000000002,
+          28.363624999999999,
+          28.087458000000002,
+          27.443916999999999,
+          27.633125
+        ],
+        "standardDeviationMs" : 0.4394610879311166
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "gear"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 14.896292000000001,
+        "meanMs" : 13.622016800000001,
+        "medianMs" : 13.698834,
+        "minMs" : 12.563542,
+        "samplesMs" : [
+          14.896292000000001,
+          12.563542,
+          13.949083,
+          13.002333,
+          13.698834
+        ],
+        "standardDeviationMs" : 0.80511208920880106
+      },
+      "path" : {
+        "maxMs" : 3.4365000000000001,
+        "meanMs" : 2.8128413999999999,
+        "medianMs" : 2.6549580000000002,
+        "minMs" : 2.6419999999999999,
+        "samplesMs" : [
+          3.4365000000000001,
+          2.6549580000000002,
+          2.642166,
+          2.6885829999999999,
+          2.6419999999999999
+        ],
+        "standardDeviationMs" : 0.31229288926877607
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedRect"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 9.2447499999999998,
+        "meanMs" : 8.6396499999999996,
+        "medianMs" : 8.9686669999999999,
+        "minMs" : 7.8779170000000001,
+        "samplesMs" : [
+          7.8779170000000001,
+          9.1387909999999994,
+          8.9686669999999999,
+          9.2447499999999998,
+          7.9681249999999997
+        ],
+        "standardDeviationMs" : 0.59240576011446744
+      },
+      "path" : {
+        "maxMs" : 5.3732499999999996,
+        "meanMs" : 4.7560500000000001,
+        "medianMs" : 4.6880420000000003,
+        "minMs" : 4.4733340000000004,
+        "samplesMs" : [
+          4.7527080000000002,
+          5.3732499999999996,
+          4.4733340000000004,
+          4.4929160000000001,
+          4.6880420000000003
+        ],
+        "standardDeviationMs" : 0.32702903101712522
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid2x2"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 22.383875,
+        "meanMs" : 21.200466400000003,
+        "medianMs" : 21.052624999999999,
+        "minMs" : 20.678916000000001,
+        "samplesMs" : [
+          20.698083,
+          21.188832999999999,
+          21.052624999999999,
+          20.678916000000001,
+          22.383875
+        ],
+        "standardDeviationMs" : 0.62399554973400229
+      },
+      "path" : {
+        "maxMs" : 12.568875,
+        "meanMs" : 11.5280834,
+        "medianMs" : 11.402333,
+        "minMs" : 10.143708,
+        "samplesMs" : [
+          11.402333,
+          10.143708,
+          12.330709000000001,
+          12.568875,
+          11.194792
+        ],
+        "standardDeviationMs" : 0.86842922301649905
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid3x3"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 36.084041999999997,
+        "meanMs" : 34.581758600000008,
+        "medianMs" : 35.533749999999998,
+        "minMs" : 31.696625000000001,
+        "samplesMs" : [
+          35.533749999999998,
+          36.084041999999997,
+          35.931209000000003,
+          33.663167000000001,
+          31.696625000000001
+        ],
+        "standardDeviationMs" : 1.6823772370719465
+      },
+      "path" : {
+        "maxMs" : 20.312083000000001,
+        "meanMs" : 19.5256498,
+        "medianMs" : 19.662208,
+        "minMs" : 17.848165999999999,
+        "samplesMs" : [
+          19.662208,
+          19.539542000000001,
+          17.848165999999999,
+          20.312083000000001,
+          20.266249999999999
+        ],
+        "standardDeviationMs" : 0.89440023130283275
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid4x4"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 56.340291000000001,
+        "meanMs" : 55.232174999999998,
+        "medianMs" : 55.343834000000001,
+        "minMs" : 54.407499999999999,
+        "samplesMs" : [
+          55.343834000000001,
+          56.340291000000001,
+          55.562083000000001,
+          54.407499999999999,
+          54.507167000000003
+        ],
+        "standardDeviationMs" : 0.71483614148838348
+      },
+      "path" : {
+        "maxMs" : 6.6685420000000004,
+        "meanMs" : 6.5445915999999995,
+        "medianMs" : 6.5185000000000004,
+        "minMs" : 6.4439580000000003,
+        "samplesMs" : [
+          6.6685420000000004,
+          6.5837079999999997,
+          6.5082500000000003,
+          6.5185000000000004,
+          6.4439580000000003
+        ],
+        "standardDeviationMs" : 0.076187137154771697
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "donut"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 100.06475,
+        "meanMs" : 98.255325200000001,
+        "medianMs" : 98.079667000000001,
+        "minMs" : 97.066166999999993,
+        "samplesMs" : [
+          100.06475,
+          98.201166999999998,
+          97.864874999999998,
+          98.079667000000001,
+          97.066166999999993
+        ],
+        "standardDeviationMs" : 0.98735562023182211
+      },
+      "path" : {
+        "maxMs" : 18.034834,
+        "meanMs" : 17.507308599999998,
+        "medianMs" : 17.380709,
+        "minMs" : 17.329416999999999,
+        "samplesMs" : [
+          18.034834,
+          17.380709,
+          17.339917,
+          17.451665999999999,
+          17.329416999999999
+        ],
+        "standardDeviationMs" : 0.26723471870294119
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "diagonalStripes"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 13.542792,
+        "meanMs" : 13.5002084,
+        "medianMs" : 13.495792,
+        "minMs" : 13.465916,
+        "samplesMs" : [
+          13.480957999999999,
+          13.515584,
+          13.542792,
+          13.495792,
+          13.465916
+        ],
+        "standardDeviationMs" : 0.026891720849362078
+      },
+      "path" : {
+        "maxMs" : 3.1312500000000001,
+        "meanMs" : 3.1040999999999999,
+        "medianMs" : 3.0997089999999998,
+        "minMs" : 3.0878749999999999,
+        "samplesMs" : [
+          3.0997089999999998,
+          3.1312500000000001,
+          3.095208,
+          3.1064579999999999,
+          3.0878749999999999
+        ],
+        "standardDeviationMs" : 0.014861237054835033
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "abstract"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 13.245167,
+        "meanMs" : 13.128467000000001,
+        "medianMs" : 13.132209,
+        "minMs" : 13.019667,
+        "samplesMs" : [
+          13.039917000000001,
+          13.132209,
+          13.245167,
+          13.019667,
+          13.205375
+        ],
+        "standardDeviationMs" : 0.08857344469760664
+      },
+      "path" : {
+        "maxMs" : 4.1545420000000002,
+        "meanMs" : 4.1176000000000004,
+        "medianMs" : 4.117,
+        "minMs" : 4.0795000000000003,
+        "samplesMs" : [
+          4.1545420000000002,
+          4.1418330000000001,
+          4.0795000000000003,
+          4.0951250000000003,
+          4.117
+        ],
+        "standardDeviationMs" : 0.027960848620884077
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : true
+      },
+      "style" : "roundedPath"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 18.615791999999999,
+        "meanMs" : 18.577908400000002,
+        "medianMs" : 18.602167000000001,
+        "minMs" : 18.480499999999999,
+        "samplesMs" : [
+          18.576083000000001,
+          18.602167000000001,
+          18.480499999999999,
+          18.614999999999998,
+          18.615791999999999
+        ],
+        "standardDeviationMs" : 0.050776297795723589
+      },
+      "path" : {
+        "maxMs" : 4.5516670000000001,
+        "meanMs" : 4.5281333999999998,
+        "medianMs" : 4.5339169999999998,
+        "minMs" : 4.5059170000000002,
+        "samplesMs" : [
+          4.5516670000000001,
+          4.5345409999999999,
+          4.5339169999999998,
+          4.5146249999999997,
+          4.5059170000000002
+        ],
+        "standardDeviationMs" : 0.016151674806037943
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "blob"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 53.684167000000002,
+        "meanMs" : 52.811875199999996,
+        "medianMs" : 53.037917,
+        "minMs" : 51.699292,
+        "samplesMs" : [
+          51.699292,
+          52.006582999999999,
+          53.684167000000002,
+          53.037917,
+          53.631416999999999
+        ],
+        "standardDeviationMs" : 0.820971807791815
+      },
+      "path" : {
+        "maxMs" : 9.2360000000000007,
+        "meanMs" : 9.0208832000000001,
+        "medianMs" : 8.9593749999999996,
+        "minMs" : 8.8872079999999993,
+        "samplesMs" : [
+          8.9593749999999996,
+          8.9570830000000008,
+          8.8872079999999993,
+          9.0647500000000001,
+          9.2360000000000007
+        ],
+        "standardDeviationMs" : 0.12159137886116797
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "circuit"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 36.134791,
+        "meanMs" : 34.937341600000003,
+        "medianMs" : 34.991999999999997,
+        "minMs" : 34.008707999999999,
+        "samplesMs" : [
+          36.134791,
+          35.206625000000003,
+          34.991999999999997,
+          34.344583999999998,
+          34.008707999999999
+        ],
+        "standardDeviationMs" : 0.73798483604654186
+      },
+      "path" : {
+        "maxMs" : 6.2081249999999999,
+        "meanMs" : 5.9817,
+        "medianMs" : 6.0077910000000001,
+        "minMs" : 5.8173339999999998,
+        "samplesMs" : [
+          5.8173339999999998,
+          6.2081249999999999,
+          6.0077910000000001,
+          5.8387079999999996,
+          6.0365419999999999
+        ],
+        "standardDeviationMs" : 0.1431220177960052
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripHorizontal"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 32.604542000000002,
+        "meanMs" : 32.096183199999999,
+        "medianMs" : 32.006582999999999,
+        "minMs" : 31.801500000000001,
+        "samplesMs" : [
+          32.220458000000001,
+          32.604542000000002,
+          31.847833000000001,
+          31.801500000000001,
+          32.006582999999999
+        ],
+        "standardDeviationMs" : 0.2933997619272386
+      },
+      "path" : {
+        "maxMs" : 5.9268749999999999,
+        "meanMs" : 5.7850415999999996,
+        "medianMs" : 5.7642499999999997,
+        "minMs" : 5.7125409999999999,
+        "samplesMs" : [
+          5.7642499999999997,
+          5.9268749999999999,
+          5.7441250000000004,
+          5.7774169999999998,
+          5.7125409999999999
+        ],
+        "standardDeviationMs" : 0.074212726222932915
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripVertical"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 59.591541999999997,
+        "meanMs" : 57.655691599999997,
+        "medianMs" : 57.328583000000002,
+        "minMs" : 56.844667000000001,
+        "samplesMs" : [
+          56.844667000000001,
+          56.970874999999999,
+          57.542791000000001,
+          57.328583000000002,
+          59.591541999999997
+        ],
+        "standardDeviationMs" : 0.99939962280312922
+      },
+      "path" : {
+        "maxMs" : 8.7149999999999999,
+        "meanMs" : 8.4218916000000004,
+        "medianMs" : 8.3276660000000007,
+        "minMs" : 8.2700420000000001,
+        "samplesMs" : [
+          8.3276660000000007,
+          8.3225829999999998,
+          8.2700420000000001,
+          8.4741669999999996,
+          8.7149999999999999
+        ],
+        "standardDeviationMs" : 0.1615204100695635
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "crosshatch"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 9.5368329999999997,
+        "meanMs" : 9.2650834,
+        "medianMs" : 9.3109999999999999,
+        "minMs" : 8.8876249999999999,
+        "samplesMs" : [
+          9.3361669999999997,
+          9.3109999999999999,
+          9.2537920000000007,
+          9.5368329999999997,
+          8.8876249999999999
+        ],
+        "standardDeviationMs" : 0.21147642747559353
+      },
+      "path" : {
+        "maxMs" : 2.5842079999999998,
+        "meanMs" : 2.5201499999999997,
+        "medianMs" : 2.5224169999999999,
+        "minMs" : 2.4384999999999999,
+        "samplesMs" : [
+          2.5842079999999998,
+          2.5224169999999999,
+          2.4940000000000002,
+          2.5616249999999998,
+          2.4384999999999999
+        ],
+        "standardDeviationMs" : 0.051340602407840857
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1
+      },
+      "style" : "curvePixel"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 2.790041,
+        "meanMs" : 2.6758168000000002,
+        "medianMs" : 2.6844589999999999,
+        "minMs" : 2.5767090000000001,
+        "samplesMs" : [
+          2.626458,
+          2.5767090000000001,
+          2.7014170000000002,
+          2.6844589999999999,
+          2.790041
+        ],
+        "standardDeviationMs" : 0.072160755102479338
+      },
+      "path" : {
+        "maxMs" : 1.3205420000000001,
+        "meanMs" : 1.2820170000000002,
+        "medianMs" : 1.2865,
+        "minMs" : 1.249959,
+        "samplesMs" : [
+          1.249959,
+          1.252667,
+          1.3004169999999999,
+          1.2865,
+          1.3205420000000001
+        ],
+        "standardDeviationMs" : 0.027320215145565763
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "pointy"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 17.179542000000001,
+        "meanMs" : 16.789899999999999,
+        "medianMs" : 16.658750000000001,
+        "minMs" : 16.470874999999999,
+        "samplesMs" : [
+          17.032291000000001,
+          16.470874999999999,
+          16.608042000000001,
+          17.179542000000001,
+          16.658750000000001
+        ],
+        "standardDeviationMs" : 0.26930424814102027
+      },
+      "path" : {
+        "maxMs" : 3.818333,
+        "meanMs" : 3.6716915999999999,
+        "medianMs" : 3.7434590000000001,
+        "minMs" : 3.510208,
+        "samplesMs" : [
+          3.7607080000000002,
+          3.818333,
+          3.5257499999999999,
+          3.7434590000000001,
+          3.510208
+        ],
+        "standardDeviationMs" : 0.12802662461003964
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "razor"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 10.08975,
+        "meanMs" : 9.8646501999999998,
+        "medianMs" : 9.9819999999999993,
+        "minMs" : 9.4748339999999995,
+        "samplesMs" : [
+          10.08975,
+          9.4748339999999995,
+          10.066167,
+          9.9819999999999993,
+          9.7104999999999997
+        ],
+        "standardDeviationMs" : 0.23696787552105053
+      },
+      "path" : {
+        "maxMs" : 2.7077079999999998,
+        "meanMs" : 2.6503833999999999,
+        "medianMs" : 2.644917,
+        "minMs" : 2.5949170000000001,
+        "samplesMs" : [
+          2.642792,
+          2.7077079999999998,
+          2.5949170000000001,
+          2.6615829999999998,
+          2.644917
+        ],
+        "standardDeviationMs" : 0.03626450941954118
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : false
+      },
+      "style" : "roundedEndIndent"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 13.820791,
+        "meanMs" : 13.383316400000002,
+        "medianMs" : 13.486124999999999,
+        "minMs" : 12.958665999999999,
+        "samplesMs" : [
+          13.486124999999999,
+          13.525375,
+          13.820791,
+          12.958665999999999,
+          13.125624999999999
+        ],
+        "standardDeviationMs" : 0.30622446001820325
+      },
+      "path" : {
+        "maxMs" : 3.2979159999999998,
+        "meanMs" : 3.2468577999999999,
+        "medianMs" : 3.2502909999999998,
+        "minMs" : 3.169041,
+        "samplesMs" : [
+          3.2839160000000001,
+          3.2979159999999998,
+          3.2502909999999998,
+          3.169041,
+          3.2331249999999998
+        ],
+        "standardDeviationMs" : 0.045246173307363774
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "vortex"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 8.4672079999999994,
+        "meanMs" : 8.2762751999999988,
+        "medianMs" : 8.3362920000000003,
+        "minMs" : 8.0464169999999999,
+        "samplesMs" : [
+          8.4672079999999994,
+          8.3362920000000003,
+          8.1163749999999997,
+          8.4150840000000002,
+          8.0464169999999999
+        ],
+        "standardDeviationMs" : 0.16596873164713888
+      },
+      "path" : {
+        "maxMs" : 1.246542,
+        "meanMs" : 1.1685665999999997,
+        "medianMs" : 1.1562079999999999,
+        "minMs" : 1.123459,
+        "samplesMs" : [
+          1.1562079999999999,
+          1.167041,
+          1.246542,
+          1.123459,
+          1.149583
+        ],
+        "standardDeviationMs" : 0.041545873684879969
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "horizontal"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 15.326582999999999,
+        "meanMs" : 14.569574799999998,
+        "medianMs" : 14.469082999999999,
+        "minMs" : 13.934625,
+        "samplesMs" : [
+          14.261666,
+          13.934625,
+          14.855917,
+          14.469082999999999,
+          15.326582999999999
+        ],
+        "standardDeviationMs" : 0.48231129986198717
+      },
+      "path" : {
+        "maxMs" : 1.19875,
+        "meanMs" : 1.1839333999999999,
+        "medianMs" : 1.1830419999999999,
+        "minMs" : 1.166334,
+        "samplesMs" : [
+          1.19875,
+          1.1830419999999999,
+          1.1978329999999999,
+          1.173708,
+          1.166334
+        ],
+        "standardDeviationMs" : 0.012867189243964657
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "vertical"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 7.5967079999999996,
+        "meanMs" : 7.4033500000000005,
+        "medianMs" : 7.4689579999999998,
+        "minMs" : 7.1430420000000003,
+        "samplesMs" : [
+          7.5967079999999996,
+          7.5357500000000002,
+          7.4689579999999998,
+          7.1430420000000003,
+          7.2722920000000002
+        ],
+        "standardDeviationMs" : 0.16979866905014279
+      },
+      "path" : {
+        "maxMs" : 5.0085410000000001,
+        "meanMs" : 4.8150750000000002,
+        "medianMs" : 4.7465830000000002,
+        "minMs" : 4.7279590000000002,
+        "samplesMs" : [
+          5.0085410000000001,
+          4.7430839999999996,
+          4.849208,
+          4.7465830000000002,
+          4.7279590000000002
+        ],
+        "standardDeviationMs" : 0.10588409743299512
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "square"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 68.833375000000004,
+        "meanMs" : 66.898608400000001,
+        "medianMs" : 67.559792000000002,
+        "minMs" : 64.871624999999995,
+        "samplesMs" : [
+          68.833375000000004,
+          65.391417000000004,
+          67.559792000000002,
+          64.871624999999995,
+          67.836832999999999
+        ],
+        "standardDeviationMs" : 1.512682291133153
+      },
+      "path" : {
+        "maxMs" : 11.913916,
+        "meanMs" : 11.7305332,
+        "medianMs" : 11.824458,
+        "minMs" : 11.307542,
+        "samplesMs" : [
+          11.838082999999999,
+          11.768667000000001,
+          11.307542,
+          11.913916,
+          11.824458
+        ],
+        "standardDeviationMs" : 0.21651504375022085
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed"
+      },
+      "style" : "circle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 319.18812500000001,
+        "meanMs" : 307.1356748,
+        "medianMs" : 305.56208299999997,
+        "minMs" : 301.183583,
+        "samplesMs" : [
+          305.56208299999997,
+          306.40325000000001,
+          303.34133300000002,
+          301.183583,
+          319.18812500000001
+        ],
+        "standardDeviationMs" : 6.2944200615309596
+      },
+      "path" : {
+        "maxMs" : 20.321541,
+        "meanMs" : 19.524875000000002,
+        "medianMs" : 19.401208,
+        "minMs" : 19.006042000000001,
+        "samplesMs" : [
+          19.496874999999999,
+          20.321541,
+          19.006042000000001,
+          19.401208,
+          19.398709
+        ],
+        "standardDeviationMs" : 0.43263374438201163
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "squircle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 708.87016700000004,
+        "meanMs" : 530.41009199999996,
+        "medianMs" : 484.96170799999999,
+        "minMs" : 478.323959,
+        "samplesMs" : [
+          499.90183400000001,
+          708.87016700000004,
+          478.323959,
+          479.99279200000001,
+          484.96170799999999
+        ],
+        "standardDeviationMs" : 89.55353390413508
+      },
+      "path" : {
+        "maxMs" : 51.053291000000002,
+        "meanMs" : 49.902516599999998,
+        "medianMs" : 50.330500000000001,
+        "minMs" : 48.665750000000003,
+        "samplesMs" : [
+          51.053291000000002,
+          48.665750000000003,
+          48.718874999999997,
+          50.744166999999997,
+          50.330500000000001
+        ],
+        "standardDeviationMs" : 1.0145369353865044
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flower"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 949.92554099999995,
+        "meanMs" : 893.2793165999999,
+        "medianMs" : 887.06783299999995,
+        "minMs" : 861.28224999999998,
+        "samplesMs" : [
+          861.28224999999998,
+          862.82429200000001,
+          905.29666699999996,
+          949.92554099999995,
+          887.06783299999995
+        ],
+        "standardDeviationMs" : 32.689798935802713
+      },
+      "path" : {
+        "maxMs" : 112.628834,
+        "meanMs" : 106.38337540000001,
+        "medianMs" : 105.145375,
+        "minMs" : 101.045209,
+        "samplesMs" : [
+          101.045209,
+          109.875709,
+          112.628834,
+          103.22175,
+          105.145375
+        ],
+        "standardDeviationMs" : 4.2714561398290671
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "gear"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 91.937167000000002,
+        "meanMs" : 89.826583199999988,
+        "medianMs" : 88.634749999999997,
+        "minMs" : 88.240415999999996,
+        "samplesMs" : [
+          88.634749999999997,
+          88.240415999999996,
+          88.436250000000001,
+          91.884332999999998,
+          91.937167000000002
+        ],
+        "standardDeviationMs" : 1.7063597150790228
+      },
+      "path" : {
+        "maxMs" : 9.812875,
+        "meanMs" : 9.5285916000000004,
+        "medianMs" : 9.5811250000000001,
+        "minMs" : 9.2876250000000002,
+        "samplesMs" : [
+          9.5811250000000001,
+          9.314667,
+          9.2876250000000002,
+          9.6466659999999997,
+          9.812875
+        ],
+        "standardDeviationMs" : 0.20067237496337148
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedRect"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 28.815041999999998,
+        "meanMs" : 28.537866999999999,
+        "medianMs" : 28.775124999999999,
+        "minMs" : 27.764417000000002,
+        "samplesMs" : [
+          27.764417000000002,
+          28.552667,
+          28.775124999999999,
+          28.815041999999998,
+          28.782084000000001
+        ],
+        "standardDeviationMs" : 0.39779472715912079
+      },
+      "path" : {
+        "maxMs" : 17.606625000000001,
+        "meanMs" : 17.464449800000001,
+        "medianMs" : 17.424665999999998,
+        "minMs" : 17.366416000000001,
+        "samplesMs" : [
+          17.366416000000001,
+          17.606625000000001,
+          17.514792,
+          17.409749999999999,
+          17.424665999999998
+        ],
+        "standardDeviationMs" : 0.085945993973890786
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid2x2"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 93.642291999999998,
+        "meanMs" : 91.843674800000002,
+        "medianMs" : 92.140874999999994,
+        "minMs" : 88.532041000000007,
+        "samplesMs" : [
+          91.895707999999999,
+          88.532041000000007,
+          93.007458,
+          93.642291999999998,
+          92.140874999999994
+        ],
+        "standardDeviationMs" : 1.7690318825178217
+      },
+      "path" : {
+        "maxMs" : 42.599249999999998,
+        "meanMs" : 40.658166600000001,
+        "medianMs" : 40.053334,
+        "minMs" : 39.574582999999997,
+        "samplesMs" : [
+          40.053334,
+          39.574582999999997,
+          41.22925,
+          42.599249999999998,
+          39.834415999999997
+        ],
+        "standardDeviationMs" : 1.1236086470585034
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid3x3"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 193.62795800000001,
+        "meanMs" : 188.97087519999997,
+        "medianMs" : 187.53454199999999,
+        "minMs" : 185.84412499999999,
+        "samplesMs" : [
+          193.62795800000001,
+          190.577417,
+          187.53454199999999,
+          187.27033399999999,
+          185.84412499999999
+        ],
+        "standardDeviationMs" : 2.792878694419898
+      },
+      "path" : {
+        "maxMs" : 66.443957999999995,
+        "meanMs" : 65.667675000000003,
+        "medianMs" : 65.666708999999997,
+        "minMs" : 65.128666999999993,
+        "samplesMs" : [
+          66.443957999999995,
+          65.934083000000001,
+          65.666708999999997,
+          65.164957999999999,
+          65.128666999999993
+        ],
+        "standardDeviationMs" : 0.49332412425544359
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid4x4"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 389.9255,
+        "meanMs" : 384.29880839999998,
+        "medianMs" : 382.96275000000003,
+        "minMs" : 381.88724999999999,
+        "samplesMs" : [
+          389.9255,
+          381.88724999999999,
+          382.03312499999998,
+          382.96275000000003,
+          384.68541699999997
+        ],
+        "standardDeviationMs" : 2.9847315391827518
+      },
+      "path" : {
+        "maxMs" : 25.138500000000001,
+        "meanMs" : 24.457925199999998,
+        "medianMs" : 24.296959000000001,
+        "minMs" : 24.064875000000001,
+        "samplesMs" : [
+          25.138500000000001,
+          24.296959000000001,
+          24.503333000000001,
+          24.064875000000001,
+          24.285958999999998
+        ],
+        "standardDeviationMs" : 0.36748193912104049
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "donut"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 793.38041699999997,
+        "meanMs" : 783.72630000000004,
+        "medianMs" : 780.92770900000005,
+        "minMs" : 779.50133300000005,
+        "samplesMs" : [
+          784.45570799999996,
+          780.92770900000005,
+          779.50133300000005,
+          793.38041699999997,
+          780.36633300000005
+        ],
+        "standardDeviationMs" : 5.1128435739343772
+      },
+      "path" : {
+        "maxMs" : 66.776207999999997,
+        "meanMs" : 65.339658200000002,
+        "medianMs" : 65.301708000000005,
+        "minMs" : 64.049542000000002,
+        "samplesMs" : [
+          64.049542000000002,
+          65.301708000000005,
+          64.190042000000005,
+          66.776207999999997,
+          66.380791000000002
+        ],
+        "standardDeviationMs" : 1.1077084697338715
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "diagonalStripes"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 68.194749999999999,
+        "meanMs" : 66.427975000000004,
+        "medianMs" : 66.267499999999998,
+        "minMs" : 63.907457999999998,
+        "samplesMs" : [
+          66.201042000000001,
+          68.194749999999999,
+          67.569125,
+          66.267499999999998,
+          63.907457999999998
+        ],
+        "standardDeviationMs" : 1.4733617330803732
+      },
+      "path" : {
+        "maxMs" : 12.24675,
+        "meanMs" : 11.92755,
+        "medianMs" : 12.042709,
+        "minMs" : 11.502333,
+        "samplesMs" : [
+          12.042709,
+          12.104915999999999,
+          12.24675,
+          11.741042,
+          11.502333
+        ],
+        "standardDeviationMs" : 0.26914816157276644
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "abstract"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 43.513375000000003,
+        "meanMs" : 43.295583400000005,
+        "medianMs" : 43.366750000000003,
+        "minMs" : 42.986167000000002,
+        "samplesMs" : [
+          43.513375000000003,
+          43.366750000000003,
+          43.396500000000003,
+          43.215125,
+          42.986167000000002
+        ],
+        "standardDeviationMs" : 0.18160070972394432
+      },
+      "path" : {
+        "maxMs" : 14.974875000000001,
+        "meanMs" : 14.810758400000001,
+        "medianMs" : 14.791959,
+        "minMs" : 14.733166000000001,
+        "samplesMs" : [
+          14.733166000000001,
+          14.791959,
+          14.974875000000001,
+          14.793583999999999,
+          14.760208
+        ],
+        "standardDeviationMs" : 0.085039472398645732
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : true
+      },
+      "style" : "roundedPath"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 72.024041999999994,
+        "meanMs" : 71.566858400000001,
+        "medianMs" : 71.534709000000007,
+        "minMs" : 71.090625000000003,
+        "samplesMs" : [
+          72.024041999999994,
+          71.534709000000007,
+          71.664416000000003,
+          71.090625000000003,
+          71.520499999999998
+        ],
+        "standardDeviationMs" : 0.29950467972076578
+      },
+      "path" : {
+        "maxMs" : 17.924292000000001,
+        "meanMs" : 16.737067,
+        "medianMs" : 16.476375000000001,
+        "minMs" : 16.324584000000002,
+        "samplesMs" : [
+          16.476375000000001,
+          16.517416999999998,
+          17.924292000000001,
+          16.442667,
+          16.324584000000002
+        ],
+        "standardDeviationMs" : 0.59708009969818987
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "blob"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 284.21562499999999,
+        "meanMs" : 255.86089999999999,
+        "medianMs" : 250.945708,
+        "minMs" : 243.401667,
+        "samplesMs" : [
+          254.52825000000001,
+          250.945708,
+          246.21324999999999,
+          243.401667,
+          284.21562499999999
+        ],
+        "standardDeviationMs" : 14.684925166413192
+      },
+      "path" : {
+        "maxMs" : 35.000374999999998,
+        "meanMs" : 33.480416600000005,
+        "medianMs" : 33.290083000000003,
+        "minMs" : 32.771374999999999,
+        "samplesMs" : [
+          35.000374999999998,
+          33.549292000000001,
+          33.290083000000003,
+          32.790958000000003,
+          32.771374999999999
+        ],
+        "standardDeviationMs" : 0.81600703298307298
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "circuit"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 177.07695799999999,
+        "meanMs" : 154.89378319999997,
+        "medianMs" : 143.08179200000001,
+        "minMs" : 137.73175000000001,
+        "samplesMs" : [
+          175.94645800000001,
+          140.631958,
+          137.73175000000001,
+          143.08179200000001,
+          177.07695799999999
+        ],
+        "standardDeviationMs" : 17.735650752899058
+      },
+      "path" : {
+        "maxMs" : 27.070667,
+        "meanMs" : 24.652800000000003,
+        "medianMs" : 26.248041000000001,
+        "minMs" : 21.603999999999999,
+        "samplesMs" : [
+          27.070667,
+          21.663042000000001,
+          21.603999999999999,
+          26.248041000000001,
+          26.678249999999998
+        ],
+        "standardDeviationMs" : 2.4789980523927002
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripHorizontal"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 157.092208,
+        "meanMs" : 131.76290020000002,
+        "medianMs" : 125.748459,
+        "minMs" : 124.818708,
+        "samplesMs" : [
+          157.092208,
+          126.292917,
+          125.748459,
+          124.86220899999999,
+          124.818708
+        ],
+        "standardDeviationMs" : 12.676824500891215
+      },
+      "path" : {
+        "maxMs" : 23.987541,
+        "meanMs" : 21.720233,
+        "medianMs" : 21.188958,
+        "minMs" : 20.925540999999999,
+        "samplesMs" : [
+          23.987541,
+          21.188958,
+          21.440417,
+          21.058707999999999,
+          20.925540999999999
+        ],
+        "standardDeviationMs" : 1.1463320973290423
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripVertical"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 391.99574999999999,
+        "meanMs" : 353.2597748,
+        "medianMs" : 331.23787499999997,
+        "minMs" : 323.05883299999999,
+        "samplesMs" : [
+          331.23787499999997,
+          329.59966600000001,
+          323.05883299999999,
+          390.40674999999999,
+          391.99574999999999
+        ],
+        "standardDeviationMs" : 31.103810847034463
+      },
+      "path" : {
+        "maxMs" : 37.992249999999999,
+        "meanMs" : 33.040433399999998,
+        "medianMs" : 30.905000000000001,
+        "minMs" : 30.682917,
+        "samplesMs" : [
+          30.775375,
+          30.905000000000001,
+          30.682917,
+          34.846625000000003,
+          37.992249999999999
+        ],
+        "standardDeviationMs" : 2.933641582520305
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "crosshatch"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 32.122875000000001,
+        "meanMs" : 31.524791799999996,
+        "medianMs" : 31.369667,
+        "minMs" : 31.195,
+        "samplesMs" : [
+          31.369667,
+          31.697125,
+          32.122875000000001,
+          31.239291999999999,
+          31.195
+        ],
+        "standardDeviationMs" : 0.34691172268079989
+      },
+      "path" : {
+        "maxMs" : 8.8904169999999993,
+        "meanMs" : 8.8655414000000015,
+        "medianMs" : 8.8648330000000009,
+        "minMs" : 8.8284160000000007,
+        "samplesMs" : [
+          8.8904169999999993,
+          8.8846249999999998,
+          8.8648330000000009,
+          8.8594159999999995,
+          8.8284160000000007
+        ],
+        "standardDeviationMs" : 0.021905693073719038
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1
+      },
+      "style" : "curvePixel"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 8.1741670000000006,
+        "meanMs" : 7.9846916000000006,
+        "medianMs" : 7.94625,
+        "minMs" : 7.9062080000000003,
+        "samplesMs" : [
+          7.94625,
+          7.9062080000000003,
+          7.9617909999999998,
+          8.1741670000000006,
+          7.9350420000000002
+        ],
+        "standardDeviationMs" : 0.096465413019589746
+      },
+      "path" : {
+        "maxMs" : 4.6470409999999998,
+        "meanMs" : 4.5954752000000001,
+        "medianMs" : 4.5979590000000004,
+        "minMs" : 4.564959,
+        "samplesMs" : [
+          4.564959,
+          4.6018340000000002,
+          4.5655830000000002,
+          4.5979590000000004,
+          4.6470409999999998
+        ],
+        "standardDeviationMs" : 0.030101220615782243
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "pointy"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 57.021749999999997,
+        "meanMs" : 56.445641799999997,
+        "medianMs" : 56.369584000000003,
+        "minMs" : 56.040416999999998,
+        "samplesMs" : [
+          57.021749999999997,
+          56.320625,
+          56.040416999999998,
+          56.369584000000003,
+          56.475833000000002
+        ],
+        "standardDeviationMs" : 0.32200412867626349
+      },
+      "path" : {
+        "maxMs" : 12.965458999999999,
+        "meanMs" : 12.848516799999999,
+        "medianMs" : 12.8375,
+        "minMs" : 12.795125000000001,
+        "samplesMs" : [
+          12.965458999999999,
+          12.841165999999999,
+          12.795125000000001,
+          12.8375,
+          12.803334
+        ],
+        "standardDeviationMs" : 0.061225896492905343
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "razor"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 31.924707999999999,
+        "meanMs" : 31.098341600000005,
+        "medianMs" : 30.884291999999999,
+        "minMs" : 30.819417000000001,
+        "samplesMs" : [
+          30.996375,
+          30.866916,
+          30.819417000000001,
+          30.884291999999999,
+          31.924707999999999
+        ],
+        "standardDeviationMs" : 0.4172415575287769
+      },
+      "path" : {
+        "maxMs" : 9.4784170000000003,
+        "meanMs" : 9.4247250000000005,
+        "medianMs" : 9.419708,
+        "minMs" : 9.3925000000000001,
+        "samplesMs" : [
+          9.4784170000000003,
+          9.4109999999999996,
+          9.419708,
+          9.4220000000000006,
+          9.3925000000000001
+        ],
+        "standardDeviationMs" : 0.028782817888455735
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : false
+      },
+      "style" : "roundedEndIndent"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 62.505916999999997,
+        "meanMs" : 54.512824999999999,
+        "medianMs" : 51.335707999999997,
+        "minMs" : 50.636125,
+        "samplesMs" : [
+          56.858165999999997,
+          62.505916999999997,
+          51.335707999999997,
+          50.636125,
+          51.228209
+        ],
+        "standardDeviationMs" : 4.5891550794430547
+      },
+      "path" : {
+        "maxMs" : 12.428750000000001,
+        "meanMs" : 11.7682918,
+        "medianMs" : 11.605791999999999,
+        "minMs" : 11.5405,
+        "samplesMs" : [
+          12.428750000000001,
+          11.605791999999999,
+          11.571624999999999,
+          11.694792,
+          11.5405
+        ],
+        "standardDeviationMs" : 0.33423954700687403
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "vortex"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 22.299042,
+        "meanMs" : 21.606025200000001,
+        "medianMs" : 21.968667,
+        "minMs" : 20.573083,
+        "samplesMs" : [
+          20.573083,
+          21.019500000000001,
+          22.299042,
+          22.169834000000002,
+          21.968667
+        ],
+        "standardDeviationMs" : 0.68419925780766522
+      },
+      "path" : {
+        "maxMs" : 4.351667,
+        "meanMs" : 4.2109915999999998,
+        "medianMs" : 4.1809580000000004,
+        "minMs" : 4.0639580000000004,
+        "samplesMs" : [
+          4.0639580000000004,
+          4.1809580000000004,
+          4.351667,
+          4.3069170000000003,
+          4.1514579999999999
+        ],
+        "standardDeviationMs" : 0.10493464319966016
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "horizontal"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 64.47175,
+        "meanMs" : 58.706716599999993,
+        "medianMs" : 59.676499999999997,
+        "minMs" : 51.356166000000002,
+        "samplesMs" : [
+          64.47175,
+          60.550624999999997,
+          51.356166000000002,
+          57.478541999999997,
+          59.676499999999997
+        ],
+        "standardDeviationMs" : 4.3154396092372131
+      },
+      "path" : {
+        "maxMs" : 4.5957920000000003,
+        "meanMs" : 4.4464002000000011,
+        "medianMs" : 4.4359590000000004,
+        "minMs" : 4.2727079999999997,
+        "samplesMs" : [
+          4.5957920000000003,
+          4.2727079999999997,
+          4.4359590000000004,
+          4.4212499999999997,
+          4.5062920000000002
+        ],
+        "standardDeviationMs" : 0.10659781346050229
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "vertical"
+    }
+  ],
+  "schemaVersion" : 1
+}

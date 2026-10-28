@@ -1,0 +1,1090 @@
+swift-driver version: 1.168.6 Building for production...
+[Computing dependencies]
+[Pre-planning 1 / 476]
+[Planning deferred tasks]
+[7 / 94] ArgumentParser
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite_SwiftImageReadWrite-b.build/empty-SwiftImageReadWrite_SwiftImageReadWrite.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite_SwiftImageReadWrite.bundle' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite_SwiftImageReadWrite.bundle/Contents' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite_SwiftImageReadWrite.bundle/Contents/Info.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite_SwiftImageReadWrite.bundle/Contents/Resources' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite_SwiftImageReadWrite.bundle/Contents/Resources/PrivacyInfo.xcprivacy' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/QRCodeDetector-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/QRCodeDetector.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/DerivedSources/resource_bundle_accessor.swift' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector Swift Compilation Finished' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector+VideoDetector.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector-OutputFileMap.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode_QRCodeDetector-b.build/empty-QRCode_QRCodeDetector.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector-dependency-scan.dia' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeDetector.bundle' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector-primary.swiftconstvalues' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeDetector.bundle/Contents' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeDetector.bundle/Contents/Info.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector.LinkFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeDetector.bundle/Contents/Resources' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector.SwiftFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeDetector.bundle/Contents/Resources/PrivacyInfo.xcprivacy' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector.swiftsourceinfo' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode_QRCode-b.build/empty-QRCode_QRCode.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector_const_extract_protocols.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode_QRCodeTests-b.build/empty-QRCode_QRCodeTests.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCode.bundle' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCode.bundle/Contents' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCode.bundle/Contents/Info.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCode.bundle/Contents/Resources' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Info.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector_dependency_info.dat' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/QRCodeDetector_lto.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/Issue19Generated.svg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/Objects-normal/arm64/resource_bundle_accessor.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCode.bundle/Contents/Resources/PrivacyInfo.xcprivacy' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCodeDetector-t.build/QRCodeDetector.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/apple.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/b-image.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeDetector.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/beach-square.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeDetector.swiftmodule/arm64-apple-macos.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/colored-fill-bw.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeDetector.swiftmodule/arm64-apple-macos.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/colored-fill-invert.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/SwiftImageReadWrite-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeDetector.swiftmodule/arm64-apple-macos.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/SwiftImageReadWrite.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/colored-fill.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/DerivedSources/resource_bundle_accessor.swift' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/corner-heart.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+SVG.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/example-com.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/QRCodeGenerator-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/instagram-icon.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+codable.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/QRCodeGenerator.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/lego.jpeg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+colorspace.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/BitBuffer.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/logo-mask.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/ArgumentParser-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+export.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCode.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/logo-scan.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/ArgumentParser.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeConstants.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/ArgumentParser.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/logo.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode_qrcodegen-b.build/empty-QRCode_qrcodegen.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeECC.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+import.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Argument.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/nsw-health.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_qrcodegen.bundle' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CGImage+platform.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeError.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentDecoder.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/photo-logo.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_qrcodegen.bundle/Contents' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/qrcodes-image.jpg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/CIImage+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_qrcodegen.bundle/Contents/Info.plist' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/square-logo.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentDefinition.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/Errors.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator Swift Compilation Finished' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_qrcodegen.bundle/Contents/Resources' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentHelp.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/ImageExportTypes.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/swift-logo.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator-OutputFileMap.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_qrcodegen.bundle/Contents/Resources/PrivacyInfo.xcprivacy' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/PlatformImage+codable.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/wiki-logo.png' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser Swift Compilation Finished' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/wombles.jpeg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/PlatformImage+export.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode_QRCodeTests.bundle/Contents/Resources/wwf.jpeg' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/PlatformImage+import.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator-dependency-scan.dia' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/PlatformImage+macOS.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser-OutputFileMap.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/PlatformImage.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator-primary.swiftconstvalues' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite Swift Compilation Finished' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator.LinkFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator.SwiftFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite-OutputFileMap.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser-dependency-scan.dia' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser-primary.swiftconstvalues' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite-dependency-scan.dia' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser.LinkFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser.SwiftFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite-primary.swiftconstvalues' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator.swiftsourceinfo' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite.LinkFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator_const_extract_protocols.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser.swiftsourceinfo' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite.SwiftFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator_dependency_info.dat' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser_const_extract_protocols.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser_dependency_info.dat' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeGenerator_lto.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeMask.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRCodeVersion.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/Objects-normal/arm64/QRSegment.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite.swiftsourceinfo' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-qrcode-generator.build/Release/QRCodeGenerator-t.build/QRCodeGenerator.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite_const_extract_protocols.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite_dependency_info.dat' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftImageReadWrite_lto.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeGenerator.swiftmodule/arm64-apple-macos.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/SwiftUI+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeGenerator.swiftmodule/arm64-apple-macos.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCodeGenerator.swiftmodule/arm64-apple-macos.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/Utils.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/Objects-normal/arm64/resource_bundle_accessor.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/SwiftImageReadWrite.build/Release/SwiftImageReadWrite-t.build/SwiftImageReadWrite.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite.swiftmodule/arm64-apple-macos.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite.swiftmodule/arm64-apple-macos.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/SwiftImageReadWrite.swiftmodule/arm64-apple-macos.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentParser_lto.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ArgumentSet.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/BashCompletionsGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/CommandConfiguration.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/CommandParser.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/CompletionKind.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/CompletionsGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/EnumerableFlag.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Errors.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ExpressibleByArgument.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/FishCompletionsGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Flag.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/HelpCommand.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/HelpGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/InputOrigin.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/MessageInfo.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Name.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/NameSpecification.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Option.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/OptionGroup.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ParsableArguments.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ParsableArgumentsValidation.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ParsableCommand.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Parsed.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ParsedValues.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ParserError.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/SequenceExtensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/SplitArguments.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/StringExtensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/Tree.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/QRCode-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/UsageGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/GeneratedModuleMaps/QRCode.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/swift-argument-parser.build/Release/ArgumentParser-t.build/Objects-normal/arm64/ZshCompletionsGenerator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/DerivedSources/resource_bundle_accessor.swift' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/ArgumentParser.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/Array2D.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/BinaryFloatingPoint+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/ArgumentParser.swiftmodule/arm64-apple-macos.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/BoolMatrix.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/ArgumentParser.swiftmodule/arm64-apple-macos.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGColor+BackwardsCompatibility.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/ArgumentParser.swiftmodule/arm64-apple-macos.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGColor+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGColor+hex.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGContext+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGFloat+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGImage+diff.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGImage+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGMutablePath+PaintCodeHelpers.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGMutablePath+PixelPath.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGPath+RoundedRectExtensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGPath+SVG.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGPath+codable.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGPath+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGPath+hexagon.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/CGSize+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/Clamp.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/DSFGradient.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/Debounce.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/FileManager+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/FixedWidthInteger+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/NSBezierPath+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/NSImage+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/Neighbours.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/Optional+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode Swift Compilation Finished' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+ASCII.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Builder.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Combine.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Content.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Conveniences.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Design.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Detection.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Document+Export.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Document+LoadSave.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Document.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Drawing.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Error.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+ErrorCorrection.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+FormattedContent.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Image.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Keys.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+LogoTemplate.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Contact.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Data.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Event.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Link.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Location.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Mail.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Phone.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+SMS.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message+Text.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Message.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Pasteboard.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Path.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Platform.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+SVG.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Shadow.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Shape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Style.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Templating.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+Types.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode+UTI.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode-OutputFileMap.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode-Swift.h' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode-dependency-scan.dia' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode-primary.swiftconstvalues' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.LinkFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.SwiftFileList' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.swiftmodule' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode.swiftsourceinfo' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeDocumentUIView.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeDocumentView+AppKit.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeDocumentView+UIKit.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEngine+CoreImage.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEngine+External+Wrapper.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEngine+External.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEngine.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeArc.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeBarsHorizontal.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeBarsVertical.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeCRT.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeCloud.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeCloudCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeCorneredPixels.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeDiagonalStripes.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeDotDrag.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeEdges.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeExplode.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeEye.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeFabricScissors.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeFactory.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeFireball.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeFlame.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeHeadlight.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeHolePunch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeLeaf.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapePeacock.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapePinch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapePixels.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeRoundedOuter.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeRoundedPointingIn.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeRoundedPointingOut.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeRoundedRect.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeShield.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeSpikyCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeSquare.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeSquarePeg.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeSquircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeSurroundingBars.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeTeardrop.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeUFO.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeUFORounded.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeEyeShapeUsePixelShape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeFillStyle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeFillStyleFactory.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeFillStyleImage.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeFillStyleLinearGradient.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeFillStyleRadialGradient.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeFillStyleSolid.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeAbstract.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeArrow.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeBlob.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeCRT.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeCircuit.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeCrosshatch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeCurvePixel.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeDiagonal.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeDiagonalStripes.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeDiamond.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeDonut.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeDripHorizontal.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeDripVertical.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeFactory.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeFlame.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeFlower.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeGear.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeGrid.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeHeart.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeHexa.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeHexagon.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeHorizontal.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+Fixed.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+Generator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+HorizontalWave.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+Pinch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+Punch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+Random.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeInset+VerticalWave.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeKoala.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeLeaf.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapePixel.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapePointy.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRazor.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRotation+Fixed.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRotation+Generator.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRotation+HWave.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRotation+Random.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRotation+VWave.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRoundedEndIndent.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRoundedPath.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRoundedRect.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeRoundedTriangle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeSharp.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeShiny.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeSpikyCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeSquare.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeSquircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeStar.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeStitch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeVertical.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeVortex.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeWave.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePixelShapeWex.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeArc.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeArrow.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeBarsHorizontal.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeBarsVertical.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeBlade.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeBlobby.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCRT.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCloud.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCloudCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCorneredPixels.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCross.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeCrossCurved.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeDiagonalStripes.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeDotDrag.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeEdges.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeExplode.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeFabricScissors.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeFactory.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeFlame.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeForest.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeGear.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeHeart.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeHexagonLeaf.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeKoala.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeLeaf.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeOrbits.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapePinch.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapePixels.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeRoundedOuter.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeRoundedPointingIn.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeRoundedPointingOut.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeRoundedRect.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeSeal.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeShield.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeSpikyCircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeSquare.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeSquircle.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeTeardrop.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeUFO.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeUFORounded.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodePupilShapeUsePixelShape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeShape.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeView.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCodeViewUI.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode_const_extract_protocols.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode_dependency_info.dat' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/QRCode_lto.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/RandomNumberWithSeed.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/String+extensions.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/Utils.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/Objects-normal/arm64/resource_bundle_accessor.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Intermediates.noindex/QRCode.build/Release/QRCode-t.build/QRCode.modulemap' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode.o' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode.swiftmodule/arm64-apple-macos.abi.json' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode.swiftmodule/arm64-apple-macos.swiftdoc' is located outside of the allowed root paths.
+
+warning: Stale file '/Users/chase/Documents/Code/iOS/dagronf-QRCode/.build/out/Products/Release/QRCode.swiftmodule/arm64-apple-macos.swiftmodule' is located outside of the allowed root paths.
+
+[122 / 189] QRCode_QRCodeTests
+[129 / 193] ArgumentParser
+[140 / 229]
+[143 / 229] SwiftImageReadWrite
+[154 / 277]
+[155 / 277]
+[156 / 277]
+[161 / 277]
+[163 / 277]
+[165 / 277]
+[169 / 277]
+[174 / 277]
+[177 / 277]
+[179 / 277]
+[180 / 277]
+[192 / 277]
+[196 / 277]
+[201 / 277]
+[208 / 277]
+[211 / 277]
+[212 / 277]
+[213 / 277]
+[214 / 277] QRCodeGenerator
+[227 / 277] QRCodeDetector-product
+[228 / 277] QRCodeDetector-product
+[229 / 277]
+[230 / 277]
+[231 / 277] ArgumentParser
+[237 / 277]
+[238 / 277] SwiftImageReadWrite
+[245 / 278] QRCode
+/private/var/folders/56/z7kc8vh54f77bxtsm49lgc200000gn/T/qrcode-all-styles-rk_fixae/Sources/QRCode/views/QRCodeView.swift:350:32: warning: 'kUTTypePDF' was deprecated in macOS 12.0: Use UTTypePDF or UTType.pdf (swift) instead. [#DeprecatedDeclaration]
+348 | 			// 3. The receiver asks for kPasteboardTypeFilePromiseContent to decide if it wants the file.
+349 | 			// In our case, we are dropping a PDF file, so send back the pdf mime type
+350 | 			pasteboard.setString(String(kUTTypePDF), forType: PasteboardFilePromiseContent)
+    |                                `- warning: 'kUTTypePDF' was deprecated in macOS 12.0: Use UTTypePDF or UTType.pdf (swift) instead. [#DeprecatedDeclaration]
+351 | 		}
+352 | 		else if type == PasteboardFileURLPromise {
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[247 / 279] QRCode
+[263 / 281] QRCodeTests-product
+[263 / 281] QRCodeDynamic-product
+[267 / 282] QRCodeTests-product
+[272 / 291]
+[273 / 291] qrcodegen-product
+[275 / 291] qrcodegen-product
+[276 / 291] qrcodegen-product
+[277 / 291]
+[278 / 291]
+[280 / 291]
+[281 / 291]
+[282 / 291] QRCodeTests-product
+[287 / 291] QRCodeTests-product
+[289 / 291] QRCodeTests-product
+Build complete! (54.85 sec)
+Test Suite 'Selected tests' started at 2026-10-28 05:14:18.012.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-28 05:14:18.015.
+Test Suite 'QRCodePerformanceTests' started at 2026-10-28 05:14:18.015.
+Test Case '-[QRCodeTests.QRCodePerformanceTests testRenderBaseline]' started.
+BENCHMARK small / abstract: path 0.149 ms, image 1.594 ms (median, n=5)
+BENCHMARK small / arrow: path 0.083 ms, image 0.585 ms (median, n=5)
+BENCHMARK small / blob: path 0.269 ms, image 1.874 ms (median, n=5)
+BENCHMARK small / circle: path 0.085 ms, image 1.052 ms (median, n=5)
+BENCHMARK small / circuit: path 0.243 ms, image 2.773 ms (median, n=5)
+BENCHMARK small / crosshatch: path 0.203 ms, image 3.550 ms (median, n=5)
+BENCHMARK small / crt: path 0.135 ms, image 2.210 ms (median, n=5)
+BENCHMARK small / curvePixel: path 0.126 ms, image 1.132 ms (median, n=5)
+BENCHMARK small / diagonal: path 0.078 ms, image 0.613 ms (median, n=5)
+BENCHMARK small / diagonalStripes: path 0.280 ms, image 3.930 ms (median, n=5)
+BENCHMARK small / diamond: path 0.075 ms, image 0.582 ms (median, n=5)
+BENCHMARK small / donut: path 0.137 ms, image 2.106 ms (median, n=5)
+BENCHMARK small / dripHorizontal: path 0.135 ms, image 1.846 ms (median, n=5)
+BENCHMARK small / dripVertical: path 0.147 ms, image 1.793 ms (median, n=5)
+BENCHMARK small / flame: path 0.106 ms, image 1.080 ms (median, n=5)
+BENCHMARK small / flower: path 0.258 ms, image 3.363 ms (median, n=5)
+BENCHMARK small / gear: path 0.448 ms, image 3.337 ms (median, n=5)
+BENCHMARK small / grid2x2: path 0.095 ms, image 0.627 ms (median, n=5)
+BENCHMARK small / grid3x3: path 0.167 ms, image 1.135 ms (median, n=5)
+BENCHMARK small / grid4x4: path 0.266 ms, image 1.415 ms (median, n=5)
+BENCHMARK small / heart: path 0.112 ms, image 1.271 ms (median, n=5)
+BENCHMARK small / hexa: path 0.081 ms, image 0.546 ms (median, n=5)
+BENCHMARK small / hexagon: path 0.087 ms, image 0.668 ms (median, n=5)
+BENCHMARK small / horizontal: path 0.108 ms, image 0.808 ms (median, n=5)
+BENCHMARK small / koala: path 0.099 ms, image 1.513 ms (median, n=5)
+BENCHMARK small / leaf: path 0.103 ms, image 1.183 ms (median, n=5)
+BENCHMARK small / pointy: path 0.064 ms, image 0.508 ms (median, n=5)
+BENCHMARK small / razor: path 0.163 ms, image 1.653 ms (median, n=5)
+BENCHMARK small / roundedEndIndent: path 0.152 ms, image 1.166 ms (median, n=5)
+BENCHMARK small / roundedPath: path 0.242 ms, image 1.485 ms (median, n=5)
+BENCHMARK small / roundedRect: path 0.184 ms, image 1.223 ms (median, n=5)
+BENCHMARK small / roundedTriangle: path 0.170 ms, image 1.106 ms (median, n=5)
+BENCHMARK small / sharp: path 0.135 ms, image 3.009 ms (median, n=5)
+BENCHMARK small / shiny: path 0.136 ms, image 3.382 ms (median, n=5)
+BENCHMARK small / spikyCircle: path 0.232 ms, image 5.742 ms (median, n=5)
+BENCHMARK small / square: path 0.070 ms, image 0.405 ms (median, n=5)
+BENCHMARK small / squircle: path 0.117 ms, image 1.965 ms (median, n=5)
+BENCHMARK small / star: path 0.088 ms, image 0.666 ms (median, n=5)
+BENCHMARK small / stitch: path 0.162 ms, image 3.581 ms (median, n=5)
+BENCHMARK small / vertical: path 0.104 ms, image 0.946 ms (median, n=5)
+BENCHMARK small / vortex: path 0.157 ms, image 0.978 ms (median, n=5)
+BENCHMARK small / wave: path 0.139 ms, image 2.307 ms (median, n=5)
+BENCHMARK small / wex: path 0.096 ms, image 0.702 ms (median, n=5)
+BENCHMARK medium / abstract: path 1.724 ms, image 13.278 ms (median, n=5)
+BENCHMARK medium / arrow: path 1.002 ms, image 3.120 ms (median, n=5)
+BENCHMARK medium / blob: path 2.604 ms, image 18.279 ms (median, n=5)
+BENCHMARK medium / circle: path 0.936 ms, image 22.470 ms (median, n=5)
+BENCHMARK medium / circuit: path 2.610 ms, image 45.865 ms (median, n=5)
+BENCHMARK medium / crosshatch: path 2.381 ms, image 53.023 ms (median, n=5)
+BENCHMARK medium / crt: path 1.650 ms, image 60.235 ms (median, n=5)
+BENCHMARK medium / curvePixel: path 1.408 ms, image 8.047 ms (median, n=5)
+BENCHMARK medium / diagonal: path 0.910 ms, image 2.572 ms (median, n=5)
+BENCHMARK medium / diagonalStripes: path 3.333 ms, image 87.250 ms (median, n=5)
+BENCHMARK medium / diamond: path 0.870 ms, image 2.979 ms (median, n=5)
+BENCHMARK medium / donut: path 1.599 ms, image 51.325 ms (median, n=5)
+BENCHMARK medium / dripHorizontal: path 1.740 ms, image 30.421 ms (median, n=5)
+BENCHMARK medium / dripVertical: path 1.750 ms, image 29.960 ms (median, n=5)
+BENCHMARK medium / flame: path 1.394 ms, image 18.699 ms (median, n=5)
+BENCHMARK medium / flower: path 3.140 ms, image 109.917 ms (median, n=5)
+BENCHMARK medium / gear: path 5.381 ms, image 122.701 ms (median, n=5)
+BENCHMARK medium / grid2x2: path 1.134 ms, image 4.352 ms (median, n=5)
+BENCHMARK medium / grid3x3: path 2.137 ms, image 11.178 ms (median, n=5)
+BENCHMARK medium / grid4x4: path 3.110 ms, image 17.248 ms (median, n=5)
+BENCHMARK medium / heart: path 1.399 ms, image 15.838 ms (median, n=5)
+BENCHMARK medium / hexa: path 1.000 ms, image 2.710 ms (median, n=5)
+BENCHMARK medium / hexagon: path 1.052 ms, image 3.376 ms (median, n=5)
+BENCHMARK medium / horizontal: path 1.145 ms, image 8.204 ms (median, n=5)
+BENCHMARK medium / koala: path 1.180 ms, image 16.349 ms (median, n=5)
+BENCHMARK medium / leaf: path 1.271 ms, image 15.591 ms (median, n=5)
+BENCHMARK medium / pointy: path 0.729 ms, image 2.216 ms (median, n=5)
+BENCHMARK medium / razor: path 1.808 ms, image 14.821 ms (median, n=5)
+BENCHMARK medium / roundedEndIndent: path 1.582 ms, image 8.647 ms (median, n=5)
+BENCHMARK medium / roundedPath: path 2.646 ms, image 11.968 ms (median, n=5)
+BENCHMARK medium / roundedRect: path 2.330 ms, image 11.571 ms (median, n=5)
+BENCHMARK medium / roundedTriangle: path 2.105 ms, image 13.283 ms (median, n=5)
+BENCHMARK medium / sharp: path 1.703 ms, image 70.736 ms (median, n=5)
+BENCHMARK medium / shiny: path 1.570 ms, image 58.200 ms (median, n=5)
+BENCHMARK medium / spikyCircle: path 2.996 ms, image 119.198 ms (median, n=5)
+BENCHMARK medium / square: path 0.832 ms, image 1.830 ms (median, n=5)
+BENCHMARK medium / squircle: path 1.465 ms, image 24.285 ms (median, n=5)
+BENCHMARK medium / star: path 1.073 ms, image 4.929 ms (median, n=5)
+BENCHMARK medium / stitch: path 2.024 ms, image 157.520 ms (median, n=5)
+BENCHMARK medium / vertical: path 1.177 ms, image 15.262 ms (median, n=5)
+BENCHMARK medium / vortex: path 1.869 ms, image 11.450 ms (median, n=5)
+BENCHMARK medium / wave: path 1.700 ms, image 31.132 ms (median, n=5)
+BENCHMARK medium / wex: path 1.132 ms, image 5.517 ms (median, n=5)
+BENCHMARK large / abstract: path 6.288 ms, image 59.185 ms (median, n=5)
+BENCHMARK large / arrow: path 3.645 ms, image 12.865 ms (median, n=5)
+BENCHMARK large / blob: path 9.464 ms, image 65.438 ms (median, n=5)
+BENCHMARK large / circle: path 3.569 ms, image 58.599 ms (median, n=5)
+BENCHMARK large / circuit: path 9.254 ms, image 225.528 ms (median, n=5)
+BENCHMARK large / crosshatch: path 8.773 ms, image 314.406 ms (median, n=5)
+BENCHMARK large / crt: path 5.998 ms, image 298.486 ms (median, n=5)
+BENCHMARK large / curvePixel: path 5.167 ms, image 28.313 ms (median, n=5)
+BENCHMARK large / diagonal: path 3.340 ms, image 8.354 ms (median, n=5)
+BENCHMARK large / diagonalStripes: path 12.309 ms, image 738.301 ms (median, n=5)
+BENCHMARK large / diamond: path 3.319 ms, image 15.419 ms (median, n=5)
+BENCHMARK large / donut: path 5.899 ms, image 368.271 ms (median, n=5)
+BENCHMARK large / dripHorizontal: path 6.358 ms, image 125.929 ms (median, n=5)
+BENCHMARK large / dripVertical: path 6.524 ms, image 113.608 ms (median, n=5)
+BENCHMARK large / flame: path 4.970 ms, image 48.463 ms (median, n=5)
+BENCHMARK large / flower: path 10.934 ms, image 445.010 ms (median, n=5)
+BENCHMARK large / gear: path 19.739 ms, image 797.791 ms (median, n=5)
+BENCHMARK large / grid2x2: path 4.418 ms, image 15.635 ms (median, n=5)
+BENCHMARK large / grid3x3: path 7.743 ms, image 53.962 ms (median, n=5)
+BENCHMARK large / grid4x4: path 11.554 ms, image 134.592 ms (median, n=5)
+BENCHMARK large / heart: path 5.190 ms, image 119.257 ms (median, n=5)
+BENCHMARK large / hexa: path 3.656 ms, image 9.217 ms (median, n=5)
+BENCHMARK large / hexagon: path 3.956 ms, image 19.457 ms (median, n=5)
+BENCHMARK large / horizontal: path 4.230 ms, image 23.044 ms (median, n=5)
+BENCHMARK large / koala: path 4.470 ms, image 123.532 ms (median, n=5)
+BENCHMARK large / leaf: path 4.631 ms, image 57.085 ms (median, n=5)
+BENCHMARK large / pointy: path 2.668 ms, image 6.119 ms (median, n=5)
+BENCHMARK large / razor: path 6.324 ms, image 50.895 ms (median, n=5)
+BENCHMARK large / roundedEndIndent: path 5.616 ms, image 28.197 ms (median, n=5)
+BENCHMARK large / roundedPath: path 9.791 ms, image 40.623 ms (median, n=5)
+BENCHMARK large / roundedRect: path 7.999 ms, image 88.764 ms (median, n=5)
+BENCHMARK large / roundedTriangle: path 7.753 ms, image 91.491 ms (median, n=5)
+BENCHMARK large / sharp: path 5.930 ms, image 317.832 ms (median, n=5)
+BENCHMARK large / shiny: path 5.822 ms, image 313.061 ms (median, n=5)
+BENCHMARK large / spikyCircle: path 10.988 ms, image 1512.308 ms (median, n=5)
+BENCHMARK large / square: path 3.252 ms, image 5.648 ms (median, n=5)
+BENCHMARK large / squircle: path 5.583 ms, image 299.585 ms (median, n=5)
+BENCHMARK large / star: path 4.110 ms, image 26.334 ms (median, n=5)
+BENCHMARK large / stitch: path 7.911 ms, image 784.919 ms (median, n=5)
+BENCHMARK large / vertical: path 4.423 ms, image 63.566 ms (median, n=5)
+BENCHMARK large / vortex: path 6.800 ms, image 51.056 ms (median, n=5)
+BENCHMARK large / wave: path 6.172 ms, image 413.923 ms (median, n=5)
+BENCHMARK large / wex: path 4.203 ms, image 36.197 ms (median, n=5)
+Test Case '-[QRCodeTests.QRCodePerformanceTests testRenderBaseline]' passed (61.531 seconds).
+Test Suite 'QRCodePerformanceTests' passed at 2026-10-28 05:15:19.546.
+	 Executed 1 test, with 0 failures (0 unexpected) in 61.531 (61.531) seconds
+Test Suite 'QRCodeTests.xctest' passed at 2026-10-28 05:15:19.546.
+	 Executed 1 test, with 0 failures (0 unexpected) in 61.531 (61.531) seconds
+Test Suite 'Selected tests' passed at 2026-10-28 05:15:19.546.
+	 Executed 1 test, with 0 failures (0 unexpected) in 61.531 (61.534) seconds
+BENCHMARK report: /Users/chase/Documents/Code/iOS/dagronf-QRCode/Benchmarks/all-styles-copy-evaluation/copy-1.json

@@ -1,0 +1,24 @@
+Building for debugging...
+[Computing dependencies]
+[Pre-planning 1 / 476]
+[Planning deferred tasks]
+[1 / 37] QRCode
+[9 / 20] QRCodeTests-product
+[11 / 22] QRCodeTests-product
+[18 / 22] QRCodeTests-product
+[22 / 23] QRCode_qrcodegen
+Build complete! (3.08 sec)
+Test Suite 'Selected tests' started at 2026-10-28 04:30:37.241.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-28 04:30:37.242.
+Test Suite 'QRCodePixelOutputEquivalenceTests' started at 2026-10-28 04:30:37.242.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testDifferentControlBoundsDoNotChangeLibraryDrawing]' started.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testDifferentControlBoundsDoNotChangeLibraryDrawing]' passed (0.007 seconds).
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testEveryStyleThroughPublicImagesSVGAndPDF]' started.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testEveryStyleThroughPublicImagesSVGAndPDF]' passed (22.120 seconds).
+Test Suite 'QRCodePixelOutputEquivalenceTests' passed at 2026-10-28 04:30:59.369.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 22.127 (22.127) seconds
+Test Suite 'QRCodeTests.xctest' passed at 2026-10-28 04:30:59.369.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 22.127 (22.127) seconds
+Test Suite 'Selected tests' passed at 2026-10-28 04:30:59.369.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 22.127 (22.128) seconds
+COPY-APPEND: 43 styles x 4 designs; bounds differences >1e-9: generator=["heart", "koala", "razor"], public=[]

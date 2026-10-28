@@ -1,0 +1,60 @@
+Building for debugging...
+[Computing dependencies]
+[6 / 54]
+[10 / 58] QRCodeGenerator
+[16 / 39] SwiftImageReadWrite
+[19 / 40] QRCode
+[21 / 42] QRCode
+[26 / 36] QRCodeDynamic-product
+[26 / 34] QRCodeTests-product
+[28 / 36] QRCodeTests-product
+[33 / 37] QRCodeTests-product
+Build complete! (9.38 sec)
+Test Suite 'Selected tests' started at 2026-10-28 04:44:20.986.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-28 04:44:20.987.
+Test Suite 'QRCodePixelOutputEquivalenceTests' started at 2026-10-28 04:44:20.987.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testDifferentControlBoundsDoNotChangeLibraryDrawing]' started.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testDifferentControlBoundsDoNotChangeLibraryDrawing]' passed (0.005 seconds).
+Test Suite 'QRCodePixelOutputEquivalenceTests' passed at 2026-10-28 04:44:20.993.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'QRCodeTests.xctest' passed at 2026-10-28 04:44:20.993.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'Selected tests' passed at 2026-10-28 04:44:20.993.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+COPY-APPEND synthetic control bounds differ: true
+Building for production...
+[Computing dependencies]
+[10 / 43] ArgumentParser
+[15 / 46] SwiftImageReadWrite
+[17 / 47] QRCodeDetector
+[20 / 44] SwiftImageReadWrite
+[22 / 40] QRCodeGenerator
+[25 / 42] QRCode
+[27 / 43] ArgumentParser
+/Users/chase/Documents/Code/iOS/dagronf-QRCode/Sources/QRCode/views/QRCodeView.swift:350:32: warning: 'kUTTypePDF' was deprecated in macOS 12.0: Use UTTypePDF or UTType.pdf (swift) instead. [#DeprecatedDeclaration]
+348 | 			// 3. The receiver asks for kPasteboardTypeFilePromiseContent to decide if it wants the file.
+349 | 			// In our case, we are dropping a PDF file, so send back the pdf mime type
+350 | 			pasteboard.setString(String(kUTTypePDF), forType: PasteboardFilePromiseContent)
+    |                                `- warning: 'kUTTypePDF' was deprecated in macOS 12.0: Use UTTypePDF or UTType.pdf (swift) instead. [#DeprecatedDeclaration]
+351 | 		}
+352 | 		else if type == PasteboardFileURLPromise {
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[29 / 39] QRCode
+[32 / 36] QRCodeTests-product
+[34 / 37] QRCodeTests-product
+[37 / 41] QRCodeTests-product
+[39 / 41] QRCodeTests-product
+Build complete! (34.38 sec)
+Test Suite 'Selected tests' started at 2026-10-28 04:44:58.656.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-28 04:44:58.657.
+Test Suite 'QRCodePixelOutputEquivalenceTests' started at 2026-10-28 04:44:58.657.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testDifferentControlBoundsDoNotChangeLibraryDrawing]' started.
+Test Case '-[QRCodeTests.QRCodePixelOutputEquivalenceTests testDifferentControlBoundsDoNotChangeLibraryDrawing]' passed (0.005 seconds).
+Test Suite 'QRCodePixelOutputEquivalenceTests' passed at 2026-10-28 04:44:58.662.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'QRCodeTests.xctest' passed at 2026-10-28 04:44:58.662.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.005) seconds
+Test Suite 'Selected tests' passed at 2026-10-28 04:44:58.662.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+COPY-APPEND synthetic control bounds differ: true

@@ -1,0 +1,113 @@
+swift-driver version: 1.168.6 Building for production...
+[Computing dependencies]
+[Using on-disk description]
+[1 / 15] QRCodeGenerator
+[2 / 10] QRCode
+/Users/chase/Documents/Code/iOS/dagronf-QRCode/Sources/QRCode/views/QRCodeView.swift:350:32: warning: 'kUTTypePDF' was deprecated in macOS 12.0: Use UTTypePDF or UTType.pdf (swift) instead. [#DeprecatedDeclaration]
+348 | 			// 3. The receiver asks for kPasteboardTypeFilePromiseContent to decide if it wants the file.
+349 | 			// In our case, we are dropping a PDF file, so send back the pdf mime type
+350 | 			pasteboard.setString(String(kUTTypePDF), forType: PasteboardFilePromiseContent)
+    |                                `- warning: 'kUTTypePDF' was deprecated in macOS 12.0: Use UTTypePDF or UTType.pdf (swift) instead. [#DeprecatedDeclaration]
+351 | 		}
+352 | 		else if type == PasteboardFileURLPromise {
+
+[#DeprecatedDeclaration]: <https://docs.swift.org/compiler/documentation/diagnostics/deprecated-declaration>
+[4 / 11] QRCode
+[14 / 21] QRCode-product
+[14 / 21] qrcodegen-product
+[17 / 23] QRCodeDynamic-product
+[18 / 23] qrcodegen-product
+[20 / 23] qrcodegen-product
+[20 / 23] QRCodeTests-product
+[23 / 27] QRCodeTests-product
+[25 / 27] QRCodeTests-product
+[26 / 26] QRCodeDynamic-product
+[28 / 28] qrcodegen-product
+Build complete! (34.40 sec)
+Test Suite 'Selected tests' started at 2026-10-28 04:40:07.601.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-28 04:40:07.602.
+Test Suite 'QRCodePerformanceTests' started at 2026-10-28 04:40:07.602.
+Test Case '-[QRCodeTests.QRCodePerformanceTests testRenderBaseline]' started.
+Test Case '-[QRCodeTests.QRCodePerformanceTests testRenderBaseline]' passed (31.907 seconds).
+Test Suite 'QRCodePerformanceTests' passed at 2026-10-28 04:40:39.510.
+	 Executed 1 test, with 0 failures (0 unexpected) in 31.907 (31.908) seconds
+Test Suite 'QRCodeTests.xctest' passed at 2026-10-28 04:40:39.510.
+	 Executed 1 test, with 0 failures (0 unexpected) in 31.907 (31.908) seconds
+Test Suite 'Selected tests' passed at 2026-10-28 04:40:39.510.
+	 Executed 1 test, with 0 failures (0 unexpected) in 31.907 (31.909) seconds
+BENCHMARK small / square: path 0.107 ms, image 0.472 ms (median, n=5)
+BENCHMARK small / circle: path 0.143 ms, image 1.061 ms (median, n=5)
+BENCHMARK small / squircle: path 0.129 ms, image 1.905 ms (median, n=5)
+BENCHMARK small / flower: path 0.192 ms, image 3.268 ms (median, n=5)
+BENCHMARK small / gear: path 0.384 ms, image 3.341 ms (median, n=5)
+BENCHMARK small / roundedRect: path 0.183 ms, image 1.213 ms (median, n=5)
+BENCHMARK small / grid2x2: path 0.173 ms, image 0.721 ms (median, n=5)
+BENCHMARK small / grid3x3: path 0.293 ms, image 1.182 ms (median, n=5)
+BENCHMARK small / grid4x4: path 0.411 ms, image 1.565 ms (median, n=5)
+BENCHMARK small / donut: path 0.139 ms, image 2.117 ms (median, n=5)
+BENCHMARK small / diagonalStripes: path 0.283 ms, image 3.702 ms (median, n=5)
+BENCHMARK small / abstract: path 0.166 ms, image 1.689 ms (median, n=5)
+BENCHMARK small / roundedPath: path 0.295 ms, image 1.460 ms (median, n=5)
+BENCHMARK small / blob: path 0.293 ms, image 1.814 ms (median, n=5)
+BENCHMARK small / circuit: path 0.199 ms, image 2.462 ms (median, n=5)
+BENCHMARK small / dripHorizontal: path 0.142 ms, image 1.908 ms (median, n=5)
+BENCHMARK small / dripVertical: path 0.136 ms, image 1.683 ms (median, n=5)
+BENCHMARK small / crosshatch: path 0.198 ms, image 3.601 ms (median, n=5)
+BENCHMARK small / curvePixel: path 0.168 ms, image 1.272 ms (median, n=5)
+BENCHMARK small / pointy: path 0.099 ms, image 0.576 ms (median, n=5)
+BENCHMARK small / razor: path 0.207 ms, image 1.720 ms (median, n=5)
+BENCHMARK small / roundedEndIndent: path 0.190 ms, image 1.180 ms (median, n=5)
+BENCHMARK small / vortex: path 0.191 ms, image 1.069 ms (median, n=5)
+BENCHMARK small / horizontal: path 0.109 ms, image 0.805 ms (median, n=5)
+BENCHMARK small / vertical: path 0.112 ms, image 0.960 ms (median, n=5)
+BENCHMARK medium / square: path 1.266 ms, image 2.247 ms (median, n=5)
+BENCHMARK medium / circle: path 1.662 ms, image 22.528 ms (median, n=5)
+BENCHMARK medium / squircle: path 1.683 ms, image 24.501 ms (median, n=5)
+BENCHMARK medium / flower: path 2.489 ms, image 102.549 ms (median, n=5)
+BENCHMARK medium / gear: path 4.830 ms, image 121.067 ms (median, n=5)
+BENCHMARK medium / roundedRect: path 2.252 ms, image 12.004 ms (median, n=5)
+BENCHMARK medium / grid2x2: path 2.034 ms, image 5.101 ms (median, n=5)
+BENCHMARK medium / grid3x3: path 3.764 ms, image 12.760 ms (median, n=5)
+BENCHMARK medium / grid4x4: path 5.145 ms, image 18.589 ms (median, n=5)
+BENCHMARK medium / donut: path 1.600 ms, image 50.780 ms (median, n=5)
+BENCHMARK medium / diagonalStripes: path 3.413 ms, image 85.618 ms (median, n=5)
+BENCHMARK medium / abstract: path 2.017 ms, image 12.735 ms (median, n=5)
+BENCHMARK medium / roundedPath: path 3.204 ms, image 12.587 ms (median, n=5)
+BENCHMARK medium / blob: path 3.317 ms, image 17.553 ms (median, n=5)
+BENCHMARK medium / circuit: path 2.415 ms, image 44.980 ms (median, n=5)
+BENCHMARK medium / dripHorizontal: path 1.735 ms, image 30.246 ms (median, n=5)
+BENCHMARK medium / dripVertical: path 1.772 ms, image 28.181 ms (median, n=5)
+BENCHMARK medium / crosshatch: path 2.307 ms, image 51.922 ms (median, n=5)
+BENCHMARK medium / curvePixel: path 1.844 ms, image 8.452 ms (median, n=5)
+BENCHMARK medium / pointy: path 1.198 ms, image 2.717 ms (median, n=5)
+BENCHMARK medium / razor: path 2.369 ms, image 15.316 ms (median, n=5)
+BENCHMARK medium / roundedEndIndent: path 2.135 ms, image 9.375 ms (median, n=5)
+BENCHMARK medium / vortex: path 2.237 ms, image 12.675 ms (median, n=5)
+BENCHMARK medium / horizontal: path 1.145 ms, image 8.544 ms (median, n=5)
+BENCHMARK medium / vertical: path 1.182 ms, image 14.760 ms (median, n=5)
+BENCHMARK large / square: path 4.454 ms, image 6.898 ms (median, n=5)
+BENCHMARK large / circle: path 6.233 ms, image 61.993 ms (median, n=5)
+BENCHMARK large / squircle: path 5.858 ms, image 294.421 ms (median, n=5)
+BENCHMARK large / flower: path 9.162 ms, image 447.908 ms (median, n=5)
+BENCHMARK large / gear: path 17.681 ms, image 789.632 ms (median, n=5)
+BENCHMARK large / roundedRect: path 8.049 ms, image 87.227 ms (median, n=5)
+BENCHMARK large / grid2x2: path 7.394 ms, image 17.609 ms (median, n=5)
+BENCHMARK large / grid3x3: path 13.198 ms, image 56.784 ms (median, n=5)
+BENCHMARK large / grid4x4: path 20.101 ms, image 150.807 ms (median, n=5)
+BENCHMARK large / donut: path 6.229 ms, image 382.726 ms (median, n=5)
+BENCHMARK large / diagonalStripes: path 13.060 ms, image 728.463 ms (median, n=5)
+BENCHMARK large / abstract: path 7.406 ms, image 58.993 ms (median, n=5)
+BENCHMARK large / roundedPath: path 11.310 ms, image 39.497 ms (median, n=5)
+BENCHMARK large / blob: path 11.957 ms, image 66.605 ms (median, n=5)
+BENCHMARK large / circuit: path 8.609 ms, image 220.563 ms (median, n=5)
+BENCHMARK large / dripHorizontal: path 6.407 ms, image 123.017 ms (median, n=5)
+BENCHMARK large / dripVertical: path 6.561 ms, image 117.121 ms (median, n=5)
+BENCHMARK large / crosshatch: path 9.007 ms, image 331.402 ms (median, n=5)
+BENCHMARK large / curvePixel: path 6.589 ms, image 28.735 ms (median, n=5)
+BENCHMARK large / pointy: path 4.229 ms, image 7.478 ms (median, n=5)
+BENCHMARK large / razor: path 8.818 ms, image 56.104 ms (median, n=5)
+BENCHMARK large / roundedEndIndent: path 7.681 ms, image 31.649 ms (median, n=5)
+BENCHMARK large / vortex: path 7.957 ms, image 46.177 ms (median, n=5)
+BENCHMARK large / horizontal: path 4.051 ms, image 20.466 ms (median, n=5)
+BENCHMARK large / vertical: path 4.268 ms, image 48.383 ms (median, n=5)
+BENCHMARK report: /Users/chase/Documents/Code/iOS/dagronf-QRCode/Benchmarks/copy-append-library-evaluation/elements-2.json

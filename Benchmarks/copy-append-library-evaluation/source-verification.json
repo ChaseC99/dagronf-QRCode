@@ -1,0 +1,28 @@
+{
+  "reports": [
+    {
+      "report": "elements-1",
+      "verifiedFileHashes": 314
+    },
+    {
+      "report": "copy-1",
+      "verifiedFileHashes": 314
+    },
+    {
+      "report": "elements-2",
+      "verifiedFileHashes": 314
+    },
+    {
+      "report": "copy-2",
+      "verifiedFileHashes": 314
+    },
+    {
+      "report": "validation",
+      "verifiedFileHashes": 314
+    }
+  ],
+  "onlyHelperDiffersBetweenVariants": true,
+  "elementsHelperMatchesBaseCommit": true,
+  "currentInputsMatchFinalValidation": true,
+  "finalValidationDiffersFromTimedCopyOnlyInOutputTest": true
+}

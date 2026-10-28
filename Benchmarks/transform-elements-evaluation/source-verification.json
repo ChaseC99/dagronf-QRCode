@@ -1,0 +1,31 @@
+{
+  "reports": [
+    {
+      "report": "transform-original-macos-arm64.json",
+      "verifiedFileHashes": 313,
+      "sourceStateSHA256": "c3a1676a348e7fa765769d03cfff4e941d0001b721c5efff33367bb56f5452a6"
+    },
+    {
+      "report": "transform-batching-2-macos-arm64.json",
+      "verifiedFileHashes": 314,
+      "sourceStateSHA256": "075bc0daca6f6b875d6c6356ffa7d82390affac16963eaf8cb46f42e9acacb4b"
+    },
+    {
+      "report": "transform-elements-3-macos-arm64.json",
+      "verifiedFileHashes": 313,
+      "sourceStateSHA256": "9f08fa670f28d3ccc4cb4a16888fd0f77f4e369efaf4e62da1d006cf7b6a6672"
+    },
+    {
+      "report": "transform-batching-3-macos-arm64.json",
+      "verifiedFileHashes": 314,
+      "sourceStateSHA256": "075bc0daca6f6b875d6c6356ffa7d82390affac16963eaf8cb46f42e9acacb4b"
+    },
+    {
+      "report": "transform-elements-4-macos-arm64.json",
+      "verifiedFileHashes": 313,
+      "sourceStateSHA256": "9f08fa670f28d3ccc4cb4a16888fd0f77f4e369efaf4e62da1d006cf7b6a6672"
+    }
+  ],
+  "originalTrackedSourcesMatchHEAD": true,
+  "mainCheckoutMatchesFinalInputs": true
+}

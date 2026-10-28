@@ -1,0 +1,28 @@
+{
+  "totalAssertions": 2907,
+  "controlBoundsAssertions": 2074,
+  "coordinateAssertions": 833,
+  "otherAssertions": 0,
+  "controlBoundsByCase": {
+    "razor": 1851,
+    "crt": 4,
+    "squircle": 18,
+    "heart": 23,
+    "flower": 18,
+    "shiny": 4,
+    "gear": 14,
+    "koala": 44,
+    "flame": 18,
+    "roundedTriangle": 18,
+    "leaf": 12,
+    "destination 1": 19,
+    "destination 2": 19,
+    "destination 3": 12
+  },
+  "coordinatesByStyle": {
+    "roundedPath": 412,
+    "roundedEndIndent": 412,
+    "curvePixel": 8,
+    "razor": 1
+  }
+}

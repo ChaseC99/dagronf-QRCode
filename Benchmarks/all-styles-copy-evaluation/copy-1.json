@@ -1,0 +1,5008 @@
+{
+  "fixtures" : [
+    {
+      "activeDataModules" : 303,
+      "imageHeight" : 702,
+      "imageWidth" : 702,
+      "maskedMatrixFNV1a64" : "2a891b88c866ec96",
+      "matrixDimension" : 31,
+      "name" : "small",
+      "pathDimension" : 558,
+      "payload" : "https:\/\/example.com\/",
+      "pixelsPerModule" : 18,
+      "utf8Bytes" : 20
+    },
+    {
+      "activeDataModules" : 3863,
+      "imageHeight" : 693,
+      "imageWidth" : 693,
+      "maskedMatrixFNV1a64" : "986ad723bcbac764",
+      "matrixDimension" : 91,
+      "name" : "medium",
+      "pathDimension" : 637,
+      "payload" : "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Example;Alex;;;\r\nFN:Alex Example\r\nNOTE:abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij \r\nEND:VCARD",
+      "pixelsPerModule" : 7,
+      "utf8Bytes" : 298
+    },
+    {
+      "activeDataModules" : 14173,
+      "imageHeight" : 716,
+      "imageWidth" : 716,
+      "maskedMatrixFNV1a64" : "8a619882b27f217a",
+      "matrixDimension" : 171,
+      "name" : "large",
+      "pathDimension" : 684,
+      "payload" : "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Example;Alex;;;\r\nFN:Alex Example\r\nNOTE:abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij abcdefghij \r\nEND:VCARD",
+      "pixelsPerModule" : 4,
+      "utf8Bytes" : 1123
+    }
+  ],
+  "metadata" : {
+    "architecture" : "arm64",
+    "configuration" : "release",
+    "finishedAt" : "2026-10-28T12:15:19Z",
+    "hardware" : "Apple M1 Pro \/ MacBookPro18,1",
+    "harness_sha256" : "a29aa574caa7f979bbbffa2a838bab45fa591832533fbbaf076befc7cc3ec0fc",
+    "os" : "Version 26.7.1 (Build 25G241)",
+    "packageResolved" : {
+      "object" : {
+        "pins" : [
+          {
+            "package" : "swift-argument-parser",
+            "repositoryURL" : "https:\/\/github.com\/apple\/swift-argument-parser",
+            "state" : {
+              "branch" : null,
+              "revision" : "83b23d940471b313427da226196661856f6ba3e0",
+              "version" : "0.4.4"
+            }
+          },
+          {
+            "package" : "swift-qrcode-generator",
+            "repositoryURL" : "https:\/\/github.com\/dagronf\/swift-qrcode-generator",
+            "state" : {
+              "branch" : null,
+              "revision" : "2b1980b825f08a81ccc762b0c4d17fcde9d5e953",
+              "version" : "2.0.2"
+            }
+          },
+          {
+            "package" : "SwiftImageReadWrite",
+            "repositoryURL" : "https:\/\/github.com\/dagronf\/SwiftImageReadWrite",
+            "state" : {
+              "branch" : null,
+              "revision" : "42ace2412279f18bc264bc306e96b51c36e12a33",
+              "version" : "1.9.2"
+            }
+          }
+        ]
+      },
+      "version" : 1
+    },
+    "physicalMemoryBytes" : 34359738368,
+    "processorCount" : 10,
+    "revision" : "ce204d020f9e70d4f32e318b157a9e1c2cd3314c",
+    "source_diff_sha256" : "ef6bdbc3a32dbca08cad681845ec0bf3cf213da946e6a75accb3648249c65f8f",
+    "source_state_sha256" : "59078c8f0401ddd197202b08d6b20353cc3d822c012f50d34b5e4f20b6b66c5d",
+    "source_tree" : "2ef51497ca483247ba56c1a686ed41078cb024d7",
+    "startedAt" : "2026-10-28T12:14:18Z",
+    "swift_version" : "Apple Swift version 6.4 (swiftlang-6.4.0.34.1 clang-2100.3.34.1)\nTarget: arm64-apple-macosx26.0",
+    "worktree_status" : " M Sources\/QRCode\/styles\/data\/pixel\/private\/CGMutablePath+PixelPath.swift\n M Tests\/QRCodeTests\/NativePixelReferences\/PathStateAssertions.swift\n M Tests\/QRCodeTests\/QRCodeNeighborBatchingTests.swift\n M Tests\/QRCodeTests\/QRCodePerformanceTests.swift\n M Tests\/QRCodeTests\/QRCodeTransformedPixelPathTests.swift\n?? Tests\/QRCodeTests\/QRCodePixelOutputEquivalenceTests.swift",
+    "xcode_version" : "Xcode 27.1\nBuild version 27A9275"
+  },
+  "method" : {
+    "additionalQuietZonePixels" : 4,
+    "background" : "white",
+    "clock" : "DispatchTime.uptimeNanoseconds",
+    "engine" : "coreimage",
+    "errorCorrection" : "high",
+    "eyes" : "square",
+    "foreground" : "black",
+    "image" : "QRCode.cgImage; includes context allocation, masking, all paths, drawing, and makeImage",
+    "logo" : "none",
+    "path" : "Pixel generator only; pre-masked data modules, excluding eyes and quiet zone",
+    "pupil" : "default for square eye",
+    "samples" : 5,
+    "styles" : [
+      "abstract",
+      "arrow",
+      "blob",
+      "circle",
+      "circuit",
+      "crosshatch",
+      "crt",
+      "curvePixel",
+      "diagonal",
+      "diagonalStripes",
+      "diamond",
+      "donut",
+      "dripHorizontal",
+      "dripVertical",
+      "flame",
+      "flower",
+      "gear",
+      "grid2x2",
+      "grid3x3",
+      "grid4x4",
+      "heart",
+      "hexa",
+      "hexagon",
+      "horizontal",
+      "koala",
+      "leaf",
+      "pointy",
+      "razor",
+      "roundedEndIndent",
+      "roundedPath",
+      "roundedRect",
+      "roundedTriangle",
+      "sharp",
+      "shiny",
+      "spikyCircle",
+      "square",
+      "squircle",
+      "star",
+      "stitch",
+      "vertical",
+      "vortex",
+      "wave",
+      "wex"
+    ],
+    "targetDimension" : 720,
+    "unit" : "milliseconds",
+    "warmups" : 1
+  },
+  "results" : [
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.9410000000000001,
+        "meanMs" : 1.6676918000000001,
+        "medianMs" : 1.593917,
+        "minMs" : 1.562208,
+        "samplesMs" : [
+          1.662542,
+          1.593917,
+          1.578792,
+          1.562208,
+          1.9410000000000001
+        ],
+        "standardDeviationMs" : 0.14085213540788086
+      },
+      "path" : {
+        "maxMs" : 0.16408300000000001,
+        "meanMs" : 0.15086680000000002,
+        "medianMs" : 0.14879200000000001,
+        "minMs" : 0.145792,
+        "samplesMs" : [
+          0.16408300000000001,
+          0.14970900000000001,
+          0.145792,
+          0.14879200000000001,
+          0.145958
+        ],
+        "standardDeviationMs" : 0.0067847350839955432
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "abstract",
+      "styleTitle" : "Abstract"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.59912500000000002,
+        "meanMs" : 0.58605839999999998,
+        "medianMs" : 0.58516699999999999,
+        "minMs" : 0.57399999999999995,
+        "samplesMs" : [
+          0.59912500000000002,
+          0.58308300000000002,
+          0.58516699999999999,
+          0.58891700000000002,
+          0.57399999999999995
+        ],
+        "standardDeviationMs" : 0.0081726402000822426
+      },
+      "path" : {
+        "maxMs" : 0.109417,
+        "meanMs" : 0.088341599999999992,
+        "medianMs" : 0.083291000000000004,
+        "minMs" : 0.082625000000000004,
+        "samplesMs" : [
+          0.083417000000000005,
+          0.083291000000000004,
+          0.082625000000000004,
+          0.082958000000000004,
+          0.109417
+        ],
+        "standardDeviationMs" : 0.010541303479171822
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "arrow",
+      "styleTitle" : "Arrow"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.9392499999999999,
+        "meanMs" : 1.8574583999999998,
+        "medianMs" : 1.8737919999999999,
+        "minMs" : 1.7757080000000001,
+        "samplesMs" : [
+          1.8737919999999999,
+          1.9392499999999999,
+          1.7831250000000001,
+          1.7757080000000001,
+          1.9154169999999999
+        ],
+        "standardDeviationMs" : 0.067118453333192885
+      },
+      "path" : {
+        "maxMs" : 0.33224999999999999,
+        "meanMs" : 0.27124199999999998,
+        "medianMs" : 0.26941700000000002,
+        "minMs" : 0.237709,
+        "samplesMs" : [
+          0.33224999999999999,
+          0.27208399999999999,
+          0.26941700000000002,
+          0.24475,
+          0.237709
+        ],
+        "standardDeviationMs" : 0.0333235766567756
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "blob",
+      "styleTitle" : "Blob"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.188625,
+        "meanMs" : 1.0890166000000001,
+        "medianMs" : 1.052041,
+        "minMs" : 1.0042500000000001,
+        "samplesMs" : [
+          1.155,
+          1.052041,
+          1.045167,
+          1.188625,
+          1.0042500000000001
+        ],
+        "standardDeviationMs" : 0.070357659593252533
+      },
+      "path" : {
+        "maxMs" : 0.091458999999999999,
+        "meanMs" : 0.08551700000000001,
+        "medianMs" : 0.084500000000000006,
+        "minMs" : 0.081667000000000003,
+        "samplesMs" : [
+          0.084500000000000006,
+          0.081667000000000003,
+          0.083417000000000005,
+          0.086541999999999994,
+          0.091458999999999999
+        ],
+        "standardDeviationMs" : 0.0033652571372779199
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed"
+      },
+      "style" : "circle",
+      "styleTitle" : "Circle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.8100830000000001,
+        "meanMs" : 2.7362000000000002,
+        "medianMs" : 2.7732920000000001,
+        "minMs" : 2.5877080000000001,
+        "samplesMs" : [
+          2.7732920000000001,
+          2.5877080000000001,
+          2.8071250000000001,
+          2.8100830000000001,
+          2.7027920000000001
+        ],
+        "standardDeviationMs" : 0.083702853363550281
+      },
+      "path" : {
+        "maxMs" : 0.294875,
+        "meanMs" : 0.2456584,
+        "medianMs" : 0.24254200000000001,
+        "minMs" : 0.21287500000000001,
+        "samplesMs" : [
+          0.24254200000000001,
+          0.22212499999999999,
+          0.21287500000000001,
+          0.294875,
+          0.25587500000000002
+        ],
+        "standardDeviationMs" : 0.028861520442277466
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "circuit",
+      "styleTitle" : "Circuit"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.8718330000000001,
+        "meanMs" : 3.5974417999999999,
+        "medianMs" : 3.5499589999999999,
+        "minMs" : 3.3572500000000001,
+        "samplesMs" : [
+          3.3572500000000001,
+          3.5499589999999999,
+          3.8006250000000001,
+          3.4075419999999998,
+          3.8718330000000001
+        ],
+        "standardDeviationMs" : 0.20619534161702108
+      },
+      "path" : {
+        "maxMs" : 0.25154199999999999,
+        "meanMs" : 0.20924200000000001,
+        "medianMs" : 0.20250000000000001,
+        "minMs" : 0.19204199999999999,
+        "samplesMs" : [
+          0.20250000000000001,
+          0.25154199999999999,
+          0.203042,
+          0.19708400000000001,
+          0.19204199999999999
+        ],
+        "standardDeviationMs" : 0.02152599139644908
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "crosshatch",
+      "styleTitle" : "Crosshatch"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.3117909999999999,
+        "meanMs" : 2.1643080000000001,
+        "medianMs" : 2.2095410000000002,
+        "minMs" : 1.995625,
+        "samplesMs" : [
+          2.2460830000000001,
+          2.3117909999999999,
+          2.0585,
+          2.2095410000000002,
+          1.995625
+        ],
+        "standardDeviationMs" : 0.11843453681760233
+      },
+      "path" : {
+        "maxMs" : 0.14791599999999999,
+        "meanMs" : 0.13650780000000001,
+        "medianMs" : 0.13470799999999999,
+        "minMs" : 0.126583,
+        "samplesMs" : [
+          0.14066600000000001,
+          0.13470799999999999,
+          0.14791599999999999,
+          0.13266600000000001,
+          0.126583
+        ],
+        "standardDeviationMs" : 0.0072655077840437267
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "crt",
+      "styleTitle" : "CRT"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.3426670000000001,
+        "meanMs" : 1.2070333999999998,
+        "medianMs" : 1.1317079999999999,
+        "minMs" : 1.1259999999999999,
+        "samplesMs" : [
+          1.1289579999999999,
+          1.1259999999999999,
+          1.1317079999999999,
+          1.3058339999999999,
+          1.3426670000000001
+        ],
+        "standardDeviationMs" : 0.09643041832865816
+      },
+      "path" : {
+        "maxMs" : 0.143709,
+        "meanMs" : 0.12855840000000002,
+        "medianMs" : 0.12554100000000001,
+        "minMs" : 0.122125,
+        "samplesMs" : [
+          0.12554100000000001,
+          0.12537499999999999,
+          0.122125,
+          0.143709,
+          0.12604199999999999
+        ],
+        "standardDeviationMs" : 0.0077006535203189121
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1
+      },
+      "style" : "curvePixel",
+      "styleTitle" : "Curve pixel"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.67420800000000003,
+        "meanMs" : 0.624,
+        "medianMs" : 0.61266699999999996,
+        "minMs" : 0.57699999999999996,
+        "samplesMs" : [
+          0.67420800000000003,
+          0.66800000000000004,
+          0.61266699999999996,
+          0.57699999999999996,
+          0.58812500000000001
+        ],
+        "standardDeviationMs" : 0.040202725723512855
+      },
+      "path" : {
+        "maxMs" : 0.094042000000000001,
+        "meanMs" : 0.080424999999999996,
+        "medianMs" : 0.077707999999999999,
+        "minMs" : 0.074624999999999997,
+        "samplesMs" : [
+          0.074624999999999997,
+          0.094042000000000001,
+          0.077707999999999999,
+          0.075999999999999998,
+          0.079750000000000001
+        ],
+        "standardDeviationMs" : 0.0070211256647349663
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "diagonal",
+      "styleTitle" : "Diagonal"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 4.0208750000000002,
+        "meanMs" : 3.8761665999999999,
+        "medianMs" : 3.9300830000000002,
+        "minMs" : 3.6222919999999998,
+        "samplesMs" : [
+          3.6222919999999998,
+          4.0208750000000002,
+          3.9607920000000001,
+          3.8467910000000001,
+          3.9300830000000002
+        ],
+        "standardDeviationMs" : 0.13879783567851492
+      },
+      "path" : {
+        "maxMs" : 0.29583300000000001,
+        "meanMs" : 0.28028339999999996,
+        "medianMs" : 0.27962500000000001,
+        "minMs" : 0.26383400000000001,
+        "samplesMs" : [
+          0.26383400000000001,
+          0.29583300000000001,
+          0.27962500000000001,
+          0.286833,
+          0.27529199999999998
+        ],
+        "standardDeviationMs" : 0.01077606278006954
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "diagonalStripes",
+      "styleTitle" : "DiagonalStripes"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.65162500000000001,
+        "meanMs" : 0.59490799999999999,
+        "medianMs" : 0.58154099999999997,
+        "minMs" : 0.56274999999999997,
+        "samplesMs" : [
+          0.58154099999999997,
+          0.56274999999999997,
+          0.60979099999999997,
+          0.65162500000000001,
+          0.56883300000000003
+        ],
+        "standardDeviationMs" : 0.032652843845521334
+      },
+      "path" : {
+        "maxMs" : 0.076457999999999998,
+        "meanMs" : 0.075041799999999992,
+        "medianMs" : 0.075249999999999997,
+        "minMs" : 0.073916999999999997,
+        "samplesMs" : [
+          0.075333999999999998,
+          0.074249999999999997,
+          0.076457999999999998,
+          0.073916999999999997,
+          0.075249999999999997
+        ],
+        "standardDeviationMs" : 0.00089738205910303384
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "diamond",
+      "styleTitle" : "Diamond"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.342292,
+        "meanMs" : 2.1588251999999999,
+        "medianMs" : 2.1058340000000002,
+        "minMs" : 2.005458,
+        "samplesMs" : [
+          2.342292,
+          2.1058340000000002,
+          2.005458,
+          2.0336249999999998,
+          2.3069169999999999
+        ],
+        "standardDeviationMs" : 0.13971106135363801
+      },
+      "path" : {
+        "maxMs" : 0.144875,
+        "meanMs" : 0.13679159999999999,
+        "medianMs" : 0.13741600000000001,
+        "minMs" : 0.12737499999999999,
+        "samplesMs" : [
+          0.144875,
+          0.141208,
+          0.12737499999999999,
+          0.13741600000000001,
+          0.13308400000000001
+        ],
+        "standardDeviationMs" : 0.0061262463744123172
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "donut",
+      "styleTitle" : "Donut"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.102125,
+        "meanMs" : 1.9321666,
+        "medianMs" : 1.8458330000000001,
+        "minMs" : 1.808708,
+        "samplesMs" : [
+          2.0583749999999998,
+          1.8458330000000001,
+          2.102125,
+          1.8457920000000001,
+          1.808708
+        ],
+        "standardDeviationMs" : 0.12245040293049259
+      },
+      "path" : {
+        "maxMs" : 0.14491699999999999,
+        "meanMs" : 0.13584160000000001,
+        "medianMs" : 0.13500000000000001,
+        "minMs" : 0.13200000000000001,
+        "samplesMs" : [
+          0.14491699999999999,
+          0.13500000000000001,
+          0.13200000000000001,
+          0.13520799999999999,
+          0.13208300000000001
+        ],
+        "standardDeviationMs" : 0.0047404132562467527
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripHorizontal",
+      "styleTitle" : "Drip Horizontal"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.865084,
+        "meanMs" : 1.7869334000000001,
+        "medianMs" : 1.793458,
+        "minMs" : 1.675208,
+        "samplesMs" : [
+          1.675208,
+          1.819083,
+          1.865084,
+          1.793458,
+          1.7818339999999999
+        ],
+        "standardDeviationMs" : 0.062757075061223161
+      },
+      "path" : {
+        "maxMs" : 0.151833,
+        "meanMs" : 0.145925,
+        "medianMs" : 0.14662500000000001,
+        "minMs" : 0.139542,
+        "samplesMs" : [
+          0.139542,
+          0.151833,
+          0.14662500000000001,
+          0.14929200000000001,
+          0.14233299999999999
+        ],
+        "standardDeviationMs" : 0.0044805425117947512
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripVertical",
+      "styleTitle" : "Drip Vertical"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.0908329999999999,
+        "meanMs" : 1.0113584,
+        "medianMs" : 1.0800000000000001,
+        "minMs" : 0.89941700000000002,
+        "samplesMs" : [
+          0.90100000000000002,
+          0.89941700000000002,
+          1.085542,
+          1.0908329999999999,
+          1.0800000000000001
+        ],
+        "standardDeviationMs" : 0.090819536762967473
+      },
+      "path" : {
+        "maxMs" : 0.112333,
+        "meanMs" : 0.10818320000000001,
+        "medianMs" : 0.106167,
+        "minMs" : 0.104958,
+        "samplesMs" : [
+          0.104958,
+          0.105541,
+          0.106167,
+          0.112333,
+          0.111917
+        ],
+        "standardDeviationMs" : 0.0032437725197676888
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flame",
+      "styleTitle" : "Flame"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.4536669999999998,
+        "meanMs" : 3.3434336,
+        "medianMs" : 3.3627500000000001,
+        "minMs" : 3.1930420000000002,
+        "samplesMs" : [
+          3.1930420000000002,
+          3.3086250000000001,
+          3.3990840000000002,
+          3.3627500000000001,
+          3.4536669999999998
+        ],
+        "standardDeviationMs" : 0.088826532960821949
+      },
+      "path" : {
+        "maxMs" : 0.27158300000000002,
+        "meanMs" : 0.25099140000000003,
+        "medianMs" : 0.25783299999999998,
+        "minMs" : 0.229958,
+        "samplesMs" : [
+          0.25783299999999998,
+          0.27158300000000002,
+          0.26050000000000001,
+          0.23508299999999999,
+          0.229958
+        ],
+        "standardDeviationMs" : 0.015853807499777467
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flower",
+      "styleTitle" : "Flower"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.659583,
+        "meanMs" : 3.4376584000000001,
+        "medianMs" : 3.3373339999999998,
+        "minMs" : 3.2979579999999999,
+        "samplesMs" : [
+          3.3200829999999999,
+          3.659583,
+          3.3373339999999998,
+          3.573334,
+          3.2979579999999999
+        ],
+        "standardDeviationMs" : 0.14903929562447624
+      },
+      "path" : {
+        "maxMs" : 0.481792,
+        "meanMs" : 0.44747480000000001,
+        "medianMs" : 0.44837500000000002,
+        "minMs" : 0.42070800000000003,
+        "samplesMs" : [
+          0.481792,
+          0.42920799999999998,
+          0.457291,
+          0.44837500000000002,
+          0.42070800000000003
+        ],
+        "standardDeviationMs" : 0.021563746997217342
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "gear",
+      "styleTitle" : "Gear"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.74858400000000003,
+        "meanMs" : 0.652617,
+        "medianMs" : 0.62679200000000002,
+        "minMs" : 0.62445899999999999,
+        "samplesMs" : [
+          0.63866699999999998,
+          0.62445899999999999,
+          0.62679200000000002,
+          0.624583,
+          0.74858400000000003
+        ],
+        "standardDeviationMs" : 0.048270024516256477
+      },
+      "path" : {
+        "maxMs" : 0.095958000000000002,
+        "meanMs" : 0.094891599999999993,
+        "medianMs" : 0.094792000000000001,
+        "minMs" : 0.093915999999999999,
+        "samplesMs" : [
+          0.094792000000000001,
+          0.094792000000000001,
+          0.093915999999999999,
+          0.095958000000000002,
+          0.095000000000000001
+        ],
+        "standardDeviationMs" : 0.00065124422454252979
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid2x2",
+      "styleTitle" : "2x2 Square Grid"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.1410830000000001,
+        "meanMs" : 1.1147082000000001,
+        "medianMs" : 1.1345419999999999,
+        "minMs" : 1.0555829999999999,
+        "samplesMs" : [
+          1.1382080000000001,
+          1.1345419999999999,
+          1.0555829999999999,
+          1.104125,
+          1.1410830000000001
+        ],
+        "standardDeviationMs" : 0.032400752135714424
+      },
+      "path" : {
+        "maxMs" : 0.17208399999999999,
+        "meanMs" : 0.1667584,
+        "medianMs" : 0.167125,
+        "minMs" : 0.16241700000000001,
+        "samplesMs" : [
+          0.16875000000000001,
+          0.16241700000000001,
+          0.16341600000000001,
+          0.17208399999999999,
+          0.167125
+        ],
+        "standardDeviationMs" : 0.0035350324807560062
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid3x3",
+      "styleTitle" : "3x3 Square Grid"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.4516659999999999,
+        "meanMs" : 1.404458,
+        "medianMs" : 1.4152910000000001,
+        "minMs" : 1.35975,
+        "samplesMs" : [
+          1.4516659999999999,
+          1.4335,
+          1.4152910000000001,
+          1.3620829999999999,
+          1.35975
+        ],
+        "standardDeviationMs" : 0.037373340246758778
+      },
+      "path" : {
+        "maxMs" : 0.28045799999999999,
+        "meanMs" : 0.26296679999999995,
+        "medianMs" : 0.266125,
+        "minMs" : 0.249334,
+        "samplesMs" : [
+          0.26866699999999999,
+          0.266125,
+          0.28045799999999999,
+          0.25024999999999997,
+          0.249334
+        ],
+        "standardDeviationMs" : 0.011798125468056357
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid4x4",
+      "styleTitle" : "4x4 Square Grid"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.5769169999999999,
+        "meanMs" : 1.3872418,
+        "medianMs" : 1.270875,
+        "minMs" : 1.266208,
+        "samplesMs" : [
+          1.266208,
+          1.266834,
+          1.555375,
+          1.5769169999999999,
+          1.270875
+        ],
+        "standardDeviationMs" : 0.14624220021785775
+      },
+      "path" : {
+        "maxMs" : 0.12795899999999999,
+        "meanMs" : 0.11638359999999999,
+        "medianMs" : 0.112125,
+        "minMs" : 0.110833,
+        "samplesMs" : [
+          0.111667,
+          0.112125,
+          0.110833,
+          0.119334,
+          0.12795899999999999
+        ],
+        "standardDeviationMs" : 0.0065404265182019998
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "heart",
+      "styleTitle" : "Heart"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.556917,
+        "meanMs" : 0.5436167999999999,
+        "medianMs" : 0.54595899999999997,
+        "minMs" : 0.53020800000000001,
+        "samplesMs" : [
+          0.53874999999999995,
+          0.54625000000000001,
+          0.53020800000000001,
+          0.556917,
+          0.54595899999999997
+        ],
+        "standardDeviationMs" : 0.0088633698196566284
+      },
+      "path" : {
+        "maxMs" : 0.081459000000000004,
+        "meanMs" : 0.081008400000000008,
+        "medianMs" : 0.081208000000000002,
+        "minMs" : 0.080083000000000001,
+        "samplesMs" : [
+          0.081459000000000004,
+          0.081333000000000003,
+          0.081208000000000002,
+          0.080959000000000003,
+          0.080083000000000001
+        ],
+        "standardDeviationMs" : 0.00049133516055743516
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "hexa",
+      "styleTitle" : "Hexa"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.79333299999999995,
+        "meanMs" : 0.65495820000000005,
+        "medianMs" : 0.66837500000000005,
+        "minMs" : 0.562083,
+        "samplesMs" : [
+          0.562083,
+          0.57633400000000001,
+          0.79333299999999995,
+          0.66837500000000005,
+          0.67466599999999999
+        ],
+        "standardDeviationMs" : 0.083094597632818443
+      },
+      "path" : {
+        "maxMs" : 0.092957999999999999,
+        "meanMs" : 0.088191800000000001,
+        "medianMs" : 0.086791999999999994,
+        "minMs" : 0.084750000000000006,
+        "samplesMs" : [
+          0.085791999999999993,
+          0.086791999999999994,
+          0.084750000000000006,
+          0.090666999999999998,
+          0.092957999999999999
+        ],
+        "standardDeviationMs" : 0.0031115187545634362
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0.10000000000000001,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "hexagon",
+      "styleTitle" : "Hexagon"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.91466599999999998,
+        "meanMs" : 0.82551680000000016,
+        "medianMs" : 0.80800000000000005,
+        "minMs" : 0.78704200000000002,
+        "samplesMs" : [
+          0.82304200000000005,
+          0.78704200000000002,
+          0.79483400000000004,
+          0.80800000000000005,
+          0.91466599999999998
+        ],
+        "standardDeviationMs" : 0.046221828671743376
+      },
+      "path" : {
+        "maxMs" : 0.110792,
+        "meanMs" : 0.10772499999999999,
+        "medianMs" : 0.107875,
+        "minMs" : 0.105334,
+        "samplesMs" : [
+          0.107875,
+          0.105334,
+          0.108083,
+          0.106541,
+          0.110792
+        ],
+        "standardDeviationMs" : 0.0018262469712500568
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "horizontal",
+      "styleTitle" : "Horizontal bars"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.608584,
+        "meanMs" : 1.5074749999999999,
+        "medianMs" : 1.5127079999999999,
+        "minMs" : 1.441667,
+        "samplesMs" : [
+          1.608584,
+          1.441667,
+          1.5127079999999999,
+          1.452,
+          1.522416
+        ],
+        "standardDeviationMs" : 0.059802702514184097
+      },
+      "path" : {
+        "maxMs" : 0.111291,
+        "meanMs" : 0.1024166,
+        "medianMs" : 0.099042000000000005,
+        "minMs" : 0.097666000000000003,
+        "samplesMs" : [
+          0.098750000000000004,
+          0.097666000000000003,
+          0.099042000000000005,
+          0.105334,
+          0.111291
+        ],
+        "standardDeviationMs" : 0.005189725988913093
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "koala",
+      "styleTitle" : "Koala"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.2144999999999999,
+        "meanMs" : 1.1338582000000001,
+        "medianMs" : 1.182625,
+        "minMs" : 1.026791,
+        "samplesMs" : [
+          1.2115,
+          1.2144999999999999,
+          1.182625,
+          1.0338750000000001,
+          1.026791
+        ],
+        "standardDeviationMs" : 0.085287250389258037
+      },
+      "path" : {
+        "maxMs" : 0.11125,
+        "meanMs" : 0.1050252,
+        "medianMs" : 0.10254199999999999,
+        "minMs" : 0.10195899999999999,
+        "samplesMs" : [
+          0.10199999999999999,
+          0.11125,
+          0.107375,
+          0.10195899999999999,
+          0.10254199999999999
+        ],
+        "standardDeviationMs" : 0.0037145496308435594
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "leaf",
+      "styleTitle" : "Leaf"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.51379200000000003,
+        "meanMs" : 0.50812500000000005,
+        "medianMs" : 0.50795900000000005,
+        "minMs" : 0.50041599999999997,
+        "samplesMs" : [
+          0.51379200000000003,
+          0.50795900000000005,
+          0.51100000000000001,
+          0.50041599999999997,
+          0.50745799999999996
+        ],
+        "standardDeviationMs" : 0.004478429188900966
+      },
+      "path" : {
+        "maxMs" : 0.065084000000000003,
+        "meanMs" : 0.063908400000000004,
+        "medianMs" : 0.063875000000000001,
+        "minMs" : 0.062916,
+        "samplesMs" : [
+          0.064000000000000001,
+          0.063875000000000001,
+          0.065084000000000003,
+          0.063667000000000001,
+          0.062916
+        ],
+        "standardDeviationMs" : 0.00069780702203403003
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "pointy",
+      "styleTitle" : "Pointy"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.849083,
+        "meanMs" : 1.7203334000000001,
+        "medianMs" : 1.652625,
+        "minMs" : 1.6363749999999999,
+        "samplesMs" : [
+          1.849083,
+          1.6363749999999999,
+          1.652625,
+          1.637292,
+          1.826292
+        ],
+        "standardDeviationMs" : 0.096263179761734471
+      },
+      "path" : {
+        "maxMs" : 0.19333400000000001,
+        "meanMs" : 0.16829160000000001,
+        "medianMs" : 0.16345799999999999,
+        "minMs" : 0.159833,
+        "samplesMs" : [
+          0.19333400000000001,
+          0.16350000000000001,
+          0.159833,
+          0.16345799999999999,
+          0.161333
+        ],
+        "standardDeviationMs" : 0.012596943638835574
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "razor",
+      "styleTitle" : "Razor"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.2146250000000001,
+        "meanMs" : 1.1707668,
+        "medianMs" : 1.166458,
+        "minMs" : 1.119667,
+        "samplesMs" : [
+          1.2146250000000001,
+          1.2030419999999999,
+          1.119667,
+          1.166458,
+          1.150042
+        ],
+        "standardDeviationMs" : 0.03471167784708773
+      },
+      "path" : {
+        "maxMs" : 0.15629199999999999,
+        "meanMs" : 0.15164159999999999,
+        "medianMs" : 0.151667,
+        "minMs" : 0.14804100000000001,
+        "samplesMs" : [
+          0.15629199999999999,
+          0.15033299999999999,
+          0.14804100000000001,
+          0.15187500000000001,
+          0.151667
+        ],
+        "standardDeviationMs" : 0.0026965939701779299
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : false
+      },
+      "style" : "roundedEndIndent",
+      "styleTitle" : "Rounded end indent"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.5065,
+        "meanMs" : 1.478575,
+        "medianMs" : 1.484542,
+        "minMs" : 1.450375,
+        "samplesMs" : [
+          1.4982500000000001,
+          1.484542,
+          1.450375,
+          1.4532080000000001,
+          1.5065
+        ],
+        "standardDeviationMs" : 0.022983650832711498
+      },
+      "path" : {
+        "maxMs" : 0.26145800000000002,
+        "meanMs" : 0.2456082,
+        "medianMs" : 0.24199999999999999,
+        "minMs" : 0.236792,
+        "samplesMs" : [
+          0.24875,
+          0.24199999999999999,
+          0.236792,
+          0.239041,
+          0.26145800000000002
+        ],
+        "standardDeviationMs" : 0.0088877406892865721
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : true
+      },
+      "style" : "roundedPath",
+      "styleTitle" : "Rounded path"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.271083,
+        "meanMs" : 1.2190167999999999,
+        "medianMs" : 1.223042,
+        "minMs" : 1.161834,
+        "samplesMs" : [
+          1.1732910000000001,
+          1.161834,
+          1.223042,
+          1.2658339999999999,
+          1.271083
+        ],
+        "standardDeviationMs" : 0.045342393044037664
+      },
+      "path" : {
+        "maxMs" : 0.28595799999999999,
+        "meanMs" : 0.21096659999999998,
+        "medianMs" : 0.18354200000000001,
+        "minMs" : 0.18074999999999999,
+        "samplesMs" : [
+          0.18074999999999999,
+          0.1825,
+          0.18354200000000001,
+          0.222083,
+          0.28595799999999999
+        ],
+        "standardDeviationMs" : 0.040553133884325139
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedRect",
+      "styleTitle" : "Rounded rectangle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.146042,
+        "meanMs" : 1.1159333999999999,
+        "medianMs" : 1.1062920000000001,
+        "minMs" : 1.0972500000000001,
+        "samplesMs" : [
+          1.146042,
+          1.130625,
+          1.0972500000000001,
+          1.099458,
+          1.1062920000000001
+        ],
+        "standardDeviationMs" : 0.019161606087173357
+      },
+      "path" : {
+        "maxMs" : 0.17191699999999999,
+        "meanMs" : 0.1695584,
+        "medianMs" : 0.16958300000000001,
+        "minMs" : 0.167959,
+        "samplesMs" : [
+          0.167959,
+          0.169625,
+          0.168708,
+          0.17191699999999999,
+          0.16958300000000001
+        ],
+        "standardDeviationMs" : 0.0013303604924981762
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedTriangle",
+      "styleTitle" : "RoundedTriangle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.1124170000000002,
+        "meanMs" : 3.0336082000000002,
+        "medianMs" : 3.0092500000000002,
+        "minMs" : 2.9824579999999998,
+        "samplesMs" : [
+          3.0092500000000002,
+          3.073375,
+          2.9905409999999999,
+          3.1124170000000002,
+          2.9824579999999998
+        ],
+        "standardDeviationMs" : 0.050708330524283772
+      },
+      "path" : {
+        "maxMs" : 0.142792,
+        "meanMs" : 0.136075,
+        "medianMs" : 0.13516600000000001,
+        "minMs" : 0.13179199999999999,
+        "samplesMs" : [
+          0.13450000000000001,
+          0.142792,
+          0.13179199999999999,
+          0.13516600000000001,
+          0.136125
+        ],
+        "standardDeviationMs" : 0.0036543558666336821
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "sharp",
+      "styleTitle" : "Sharp"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.818708,
+        "meanMs" : 3.4288996000000003,
+        "medianMs" : 3.3815409999999999,
+        "minMs" : 3.2518750000000001,
+        "samplesMs" : [
+          3.818708,
+          3.298416,
+          3.2518750000000001,
+          3.3815409999999999,
+          3.393958
+        ],
+        "standardDeviationMs" : 0.20188017237420813
+      },
+      "path" : {
+        "maxMs" : 0.137125,
+        "meanMs" : 0.13488300000000003,
+        "medianMs" : 0.13575000000000001,
+        "minMs" : 0.13154099999999999,
+        "samplesMs" : [
+          0.137125,
+          0.13341600000000001,
+          0.13154099999999999,
+          0.13575000000000001,
+          0.13658300000000001
+        ],
+        "standardDeviationMs" : 0.0020971078179244898
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "shiny",
+      "styleTitle" : "Shiny"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 5.8393329999999999,
+        "meanMs" : 5.7058245999999997,
+        "medianMs" : 5.7415409999999998,
+        "minMs" : 5.4702080000000004,
+        "samplesMs" : [
+          5.8393329999999999,
+          5.7415409999999998,
+          5.4702080000000004,
+          5.7699579999999999,
+          5.7080830000000002
+        ],
+        "standardDeviationMs" : 0.12548587941374101
+      },
+      "path" : {
+        "maxMs" : 0.25166699999999997,
+        "meanMs" : 0.23766659999999998,
+        "medianMs" : 0.23158300000000001,
+        "minMs" : 0.22562499999999999,
+        "samplesMs" : [
+          0.25166699999999997,
+          0.23158300000000001,
+          0.22562499999999999,
+          0.251,
+          0.22845799999999999
+        ],
+        "standardDeviationMs" : 0.011319005161232142
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "spikyCircle",
+      "styleTitle" : "Spiky Circle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.43241600000000002,
+        "meanMs" : 0.40914980000000006,
+        "medianMs" : 0.40512500000000001,
+        "minMs" : 0.39408300000000002,
+        "samplesMs" : [
+          0.43241600000000002,
+          0.41920800000000003,
+          0.39408300000000002,
+          0.39491700000000002,
+          0.40512500000000001
+        ],
+        "standardDeviationMs" : 0.014753057464810475
+      },
+      "path" : {
+        "maxMs" : 0.070749999999999993,
+        "meanMs" : 0.069667000000000007,
+        "medianMs" : 0.069583999999999993,
+        "minMs" : 0.068667000000000006,
+        "samplesMs" : [
+          0.069583999999999993,
+          0.069542000000000007,
+          0.068667000000000006,
+          0.070749999999999993,
+          0.069792000000000007
+        ],
+        "standardDeviationMs" : 0.00066498541337385369
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "square",
+      "styleTitle" : "Square"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.2530420000000002,
+        "meanMs" : 2.0646748000000001,
+        "medianMs" : 1.964791,
+        "minMs" : 1.9174580000000001,
+        "samplesMs" : [
+          1.9610000000000001,
+          1.9174580000000001,
+          1.964791,
+          2.2530420000000002,
+          2.2270829999999999
+        ],
+        "standardDeviationMs" : 0.1443998956528709
+      },
+      "path" : {
+        "maxMs" : 0.127416,
+        "meanMs" : 0.1190582,
+        "medianMs" : 0.11662500000000001,
+        "minMs" : 0.11375,
+        "samplesMs" : [
+          0.121375,
+          0.11662500000000001,
+          0.11612500000000001,
+          0.127416,
+          0.11375
+        ],
+        "standardDeviationMs" : 0.0048563668477576913
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "squircle",
+      "styleTitle" : "Squircle"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.67558300000000004,
+        "meanMs" : 0.6594000000000001,
+        "medianMs" : 0.66583300000000001,
+        "minMs" : 0.63683299999999998,
+        "samplesMs" : [
+          0.67558300000000004,
+          0.64979200000000004,
+          0.66895899999999997,
+          0.66583300000000001,
+          0.63683299999999998
+        ],
+        "standardDeviationMs" : 0.014115456861185904
+      },
+      "path" : {
+        "maxMs" : 0.088333999999999996,
+        "meanMs" : 0.088000200000000001,
+        "medianMs" : 0.087916999999999995,
+        "minMs" : 0.087832999999999994,
+        "samplesMs" : [
+          0.087916999999999995,
+          0.087832999999999994,
+          0.088333999999999996,
+          0.087833999999999995,
+          0.088082999999999995
+        ],
+        "standardDeviationMs" : 0.00019014668022345306
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "star",
+      "styleTitle" : "Star"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 3.6848749999999999,
+        "meanMs" : 3.5941670000000001,
+        "medianMs" : 3.5811250000000001,
+        "minMs" : 3.5447090000000001,
+        "samplesMs" : [
+          3.5447090000000001,
+          3.593709,
+          3.5811250000000001,
+          3.6848749999999999,
+          3.5664169999999999
+        ],
+        "standardDeviationMs" : 0.048196267606527315
+      },
+      "path" : {
+        "maxMs" : 0.168375,
+        "meanMs" : 0.16225020000000001,
+        "medianMs" : 0.1615,
+        "minMs" : 0.159084,
+        "samplesMs" : [
+          0.1615,
+          0.16200000000000001,
+          0.159084,
+          0.168375,
+          0.16029199999999999
+        ],
+        "standardDeviationMs" : 0.0032248393696430828
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "stitch",
+      "styleTitle" : "Stitch"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.1218330000000001,
+        "meanMs" : 0.9627420000000001,
+        "medianMs" : 0.94579199999999997,
+        "minMs" : 0.88308399999999998,
+        "samplesMs" : [
+          0.964167,
+          1.1218330000000001,
+          0.94579199999999997,
+          0.89883400000000002,
+          0.88308399999999998
+        ],
+        "standardDeviationMs" : 0.084886876293099656
+      },
+      "path" : {
+        "maxMs" : 0.108125,
+        "meanMs" : 0.1045248,
+        "medianMs" : 0.103875,
+        "minMs" : 0.10329099999999999,
+        "samplesMs" : [
+          0.108125,
+          0.10329199999999999,
+          0.10404099999999999,
+          0.10329099999999999,
+          0.103875
+        ],
+        "standardDeviationMs" : 0.0018253657606079954
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "vertical",
+      "styleTitle" : "Vertical bars"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 1.087709,
+        "meanMs" : 0.99143320000000001,
+        "medianMs" : 0.97762499999999997,
+        "minMs" : 0.94545800000000002,
+        "samplesMs" : [
+          0.986541,
+          0.97762499999999997,
+          0.95983300000000005,
+          0.94545800000000002,
+          1.087709
+        ],
+        "standardDeviationMs" : 0.050191476026911187
+      },
+      "path" : {
+        "maxMs" : 0.19558300000000001,
+        "meanMs" : 0.1652248,
+        "medianMs" : 0.15675,
+        "minMs" : 0.1535,
+        "samplesMs" : [
+          0.15675,
+          0.1555,
+          0.1535,
+          0.19558300000000001,
+          0.16479099999999999
+        ],
+        "standardDeviationMs" : 0.015656777412992755
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "vortex",
+      "styleTitle" : "Vortex"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 2.4621249999999999,
+        "meanMs" : 2.3229500000000001,
+        "medianMs" : 2.3068330000000001,
+        "minMs" : 2.234375,
+        "samplesMs" : [
+          2.234375,
+          2.2869169999999999,
+          2.3068330000000001,
+          2.3245,
+          2.4621249999999999
+        ],
+        "standardDeviationMs" : 0.075862702994290904
+      },
+      "path" : {
+        "maxMs" : 0.13916700000000001,
+        "meanMs" : 0.13710840000000002,
+        "medianMs" : 0.13850000000000001,
+        "minMs" : 0.13450000000000001,
+        "samplesMs" : [
+          0.13875000000000001,
+          0.13462499999999999,
+          0.13450000000000001,
+          0.13850000000000001,
+          0.13916700000000001
+        ],
+        "standardDeviationMs" : 0.0020899885741314525
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "wave",
+      "styleTitle" : "Wave"
+    },
+    {
+      "fixture" : "small",
+      "image" : {
+        "maxMs" : 0.71979199999999999,
+        "meanMs" : 0.69693319999999992,
+        "medianMs" : 0.70208300000000001,
+        "minMs" : 0.67554199999999998,
+        "samplesMs" : [
+          0.71979199999999999,
+          0.70208300000000001,
+          0.68270799999999998,
+          0.67554199999999998,
+          0.70454099999999997
+        ],
+        "standardDeviationMs" : 0.015917685452351421
+      },
+      "path" : {
+        "maxMs" : 0.097167000000000003,
+        "meanMs" : 0.096149999999999999,
+        "medianMs" : 0.096041000000000001,
+        "minMs" : 0.095625000000000002,
+        "samplesMs" : [
+          0.096041000000000001,
+          0.095625000000000002,
+          0.095834000000000003,
+          0.096083000000000002,
+          0.097167000000000003
+        ],
+        "standardDeviationMs" : 0.00053406741147536848
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "wex",
+      "styleTitle" : "Wex"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 13.603208,
+        "meanMs" : 13.252074799999999,
+        "medianMs" : 13.27825,
+        "minMs" : 12.8025,
+        "samplesMs" : [
+          13.263125,
+          12.8025,
+          13.27825,
+          13.603208,
+          13.313291
+        ],
+        "standardDeviationMs" : 0.25689168771869597
+      },
+      "path" : {
+        "maxMs" : 1.8578749999999999,
+        "meanMs" : 1.7678166000000002,
+        "medianMs" : 1.724458,
+        "minMs" : 1.705708,
+        "samplesMs" : [
+          1.8578749999999999,
+          1.7215830000000001,
+          1.705708,
+          1.724458,
+          1.8294589999999999
+        ],
+        "standardDeviationMs" : 0.062905155663427095
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "abstract",
+      "styleTitle" : "Abstract"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 3.1876250000000002,
+        "meanMs" : 3.0994750000000004,
+        "medianMs" : 3.1200000000000001,
+        "minMs" : 2.9824999999999999,
+        "samplesMs" : [
+          3.0787499999999999,
+          2.9824999999999999,
+          3.1284999999999998,
+          3.1876250000000002,
+          3.1200000000000001
+        ],
+        "standardDeviationMs" : 0.068039437093497537
+      },
+      "path" : {
+        "maxMs" : 1.054416,
+        "meanMs" : 1.0045248,
+        "medianMs" : 1.0019169999999999,
+        "minMs" : 0.97491700000000003,
+        "samplesMs" : [
+          0.97491700000000003,
+          1.054416,
+          0.97904100000000005,
+          1.0123329999999999,
+          1.0019169999999999
+        ],
+        "standardDeviationMs" : 0.028576026066617442
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "arrow",
+      "styleTitle" : "Arrow"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 18.715416999999999,
+        "meanMs" : 18.1734334,
+        "medianMs" : 18.279499999999999,
+        "minMs" : 17.588583,
+        "samplesMs" : [
+          17.681249999999999,
+          17.588583,
+          18.602416999999999,
+          18.279499999999999,
+          18.715416999999999
+        ],
+        "standardDeviationMs" : 0.46331798259709267
+      },
+      "path" : {
+        "maxMs" : 2.6711670000000001,
+        "meanMs" : 2.6119833999999997,
+        "medianMs" : 2.6038329999999998,
+        "minMs" : 2.5753339999999998,
+        "samplesMs" : [
+          2.5753339999999998,
+          2.5895000000000001,
+          2.6038329999999998,
+          2.6711670000000001,
+          2.6200830000000002
+        ],
+        "standardDeviationMs" : 0.03311619798588003
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "blob",
+      "styleTitle" : "Blob"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 22.987375,
+        "meanMs" : 22.5477332,
+        "medianMs" : 22.469957999999998,
+        "minMs" : 22.273916,
+        "samplesMs" : [
+          22.273916,
+          22.469957999999998,
+          22.425999999999998,
+          22.987375,
+          22.581416999999998
+        ],
+        "standardDeviationMs" : 0.24094120586682582
+      },
+      "path" : {
+        "maxMs" : 0.98516599999999999,
+        "meanMs" : 0.94531639999999995,
+        "medianMs" : 0.93604100000000001,
+        "minMs" : 0.91812499999999997,
+        "samplesMs" : [
+          0.96350000000000002,
+          0.98516599999999999,
+          0.91812499999999997,
+          0.93604100000000001,
+          0.92374999999999996
+        ],
+        "standardDeviationMs" : 0.025334359345363374
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed"
+      },
+      "style" : "circle",
+      "styleTitle" : "Circle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 46.224459000000003,
+        "meanMs" : 45.945733599999997,
+        "medianMs" : 45.864542,
+        "minMs" : 45.805624999999999,
+        "samplesMs" : [
+          46.224459000000003,
+          45.994624999999999,
+          45.839416999999997,
+          45.805624999999999,
+          45.864542
+        ],
+        "standardDeviationMs" : 0.15336488042521493
+      },
+      "path" : {
+        "maxMs" : 2.6391249999999999,
+        "meanMs" : 2.5859251999999997,
+        "medianMs" : 2.6099589999999999,
+        "minMs" : 2.503209,
+        "samplesMs" : [
+          2.6099589999999999,
+          2.5484580000000001,
+          2.503209,
+          2.6391249999999999,
+          2.6288749999999999
+        ],
+        "standardDeviationMs" : 0.051958230148456679
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "circuit",
+      "styleTitle" : "Circuit"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 54.404417000000002,
+        "meanMs" : 53.136850200000005,
+        "medianMs" : 53.022834000000003,
+        "minMs" : 52.042250000000003,
+        "samplesMs" : [
+          52.042250000000003,
+          52.804875000000003,
+          53.022834000000003,
+          53.409875,
+          54.404417000000002
+        ],
+        "standardDeviationMs" : 0.77493547589393486
+      },
+      "path" : {
+        "maxMs" : 2.55375,
+        "meanMs" : 2.4106498000000003,
+        "medianMs" : 2.3809580000000001,
+        "minMs" : 2.3378749999999999,
+        "samplesMs" : [
+          2.3809580000000001,
+          2.3378749999999999,
+          2.351416,
+          2.55375,
+          2.4292500000000001
+        ],
+        "standardDeviationMs" : 0.078115366279369131
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "crosshatch",
+      "styleTitle" : "Crosshatch"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 61.081625000000003,
+        "meanMs" : 60.293616599999993,
+        "medianMs" : 60.234583000000001,
+        "minMs" : 59.553792000000001,
+        "samplesMs" : [
+          61.081625000000003,
+          60.003208000000001,
+          60.594875000000002,
+          59.553792000000001,
+          60.234583000000001
+        ],
+        "standardDeviationMs" : 0.51901376122203202
+      },
+      "path" : {
+        "maxMs" : 1.77,
+        "meanMs" : 1.6667251999999997,
+        "medianMs" : 1.6496249999999999,
+        "minMs" : 1.606959,
+        "samplesMs" : [
+          1.77,
+          1.6496249999999999,
+          1.606959,
+          1.68025,
+          1.626792
+        ],
+        "standardDeviationMs" : 0.057109859910176641
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "crt",
+      "styleTitle" : "CRT"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 8.1935000000000002,
+        "meanMs" : 8.056841600000002,
+        "medianMs" : 8.0473750000000006,
+        "minMs" : 7.9604999999999997,
+        "samplesMs" : [
+          8.0589999999999993,
+          8.0238329999999998,
+          8.0473750000000006,
+          8.1935000000000002,
+          7.9604999999999997
+        ],
+        "standardDeviationMs" : 0.076342733853589653
+      },
+      "path" : {
+        "maxMs" : 1.4234169999999999,
+        "meanMs" : 1.4080584,
+        "medianMs" : 1.4075839999999999,
+        "minMs" : 1.3911659999999999,
+        "samplesMs" : [
+          1.4234169999999999,
+          1.421583,
+          1.3911659999999999,
+          1.4075839999999999,
+          1.396542
+        ],
+        "standardDeviationMs" : 0.012938370076636419
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1
+      },
+      "style" : "curvePixel",
+      "styleTitle" : "Curve pixel"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 2.6821660000000001,
+        "meanMs" : 2.5880745999999997,
+        "medianMs" : 2.5724580000000001,
+        "minMs" : 2.5281660000000001,
+        "samplesMs" : [
+          2.5281660000000001,
+          2.5295420000000002,
+          2.6280410000000001,
+          2.5724580000000001,
+          2.6821660000000001
+        ],
+        "standardDeviationMs" : 0.059513844599723136
+      },
+      "path" : {
+        "maxMs" : 0.91208400000000001,
+        "meanMs" : 0.90815880000000004,
+        "medianMs" : 0.91004200000000002,
+        "minMs" : 0.90129199999999998,
+        "samplesMs" : [
+          0.90541700000000003,
+          0.91195899999999996,
+          0.91004200000000002,
+          0.90129199999999998,
+          0.91208400000000001
+        ],
+        "standardDeviationMs" : 0.0041967979889434744
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "diagonal",
+      "styleTitle" : "Diagonal"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 88.915999999999997,
+        "meanMs" : 86.842858200000009,
+        "medianMs" : 87.250124999999997,
+        "minMs" : 84.758666000000005,
+        "samplesMs" : [
+          87.699042000000006,
+          88.915999999999997,
+          87.250124999999997,
+          85.590457999999998,
+          84.758666000000005
+        ],
+        "standardDeviationMs" : 1.4905835941786545
+      },
+      "path" : {
+        "maxMs" : 3.4862500000000001,
+        "meanMs" : 3.3515335999999998,
+        "medianMs" : 3.3325830000000001,
+        "minMs" : 3.2787920000000002,
+        "samplesMs" : [
+          3.4862500000000001,
+          3.3325830000000001,
+          3.3573339999999998,
+          3.2787920000000002,
+          3.3027090000000001
+        ],
+        "standardDeviationMs" : 0.072410579676177131
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "diagonalStripes",
+      "styleTitle" : "DiagonalStripes"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 3.0849160000000002,
+        "meanMs" : 2.9798084,
+        "medianMs" : 2.9793750000000001,
+        "minMs" : 2.886209,
+        "samplesMs" : [
+          2.886209,
+          2.9473750000000001,
+          2.9793750000000001,
+          3.0849160000000002,
+          3.0011670000000001
+        ],
+        "standardDeviationMs" : 0.06529434634514697
+      },
+      "path" : {
+        "maxMs" : 0.87512500000000004,
+        "meanMs" : 0.86565019999999993,
+        "medianMs" : 0.87,
+        "minMs" : 0.85408300000000004,
+        "samplesMs" : [
+          0.87233400000000005,
+          0.85670900000000005,
+          0.85408300000000004,
+          0.87512500000000004,
+          0.87
+        ],
+        "standardDeviationMs" : 0.0085686749360679992
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "diamond",
+      "styleTitle" : "Diamond"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 51.590083,
+        "meanMs" : 51.218924800000003,
+        "medianMs" : 51.324542000000001,
+        "minMs" : 50.717916000000002,
+        "samplesMs" : [
+          51.590083,
+          50.877958,
+          51.584125,
+          50.717916000000002,
+          51.324542000000001
+        ],
+        "standardDeviationMs" : 0.36043106548209686
+      },
+      "path" : {
+        "maxMs" : 1.6194999999999999,
+        "meanMs" : 1.6017918000000002,
+        "medianMs" : 1.599208,
+        "minMs" : 1.5903750000000001,
+        "samplesMs" : [
+          1.6194999999999999,
+          1.592417,
+          1.5903750000000001,
+          1.607459,
+          1.599208
+        ],
+        "standardDeviationMs" : 0.010682731137681938
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "donut",
+      "styleTitle" : "Donut"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 31.121583000000001,
+        "meanMs" : 30.582916599999997,
+        "medianMs" : 30.420916999999999,
+        "minMs" : 30.249375000000001,
+        "samplesMs" : [
+          30.328499999999998,
+          30.420916999999999,
+          30.794208000000001,
+          30.249375000000001,
+          31.121583000000001
+        ],
+        "standardDeviationMs" : 0.32772769852095274
+      },
+      "path" : {
+        "maxMs" : 1.7664580000000001,
+        "meanMs" : 1.7340914000000001,
+        "medianMs" : 1.740083,
+        "minMs" : 1.686958,
+        "samplesMs" : [
+          1.686958,
+          1.727292,
+          1.7496659999999999,
+          1.7664580000000001,
+          1.740083
+        ],
+        "standardDeviationMs" : 0.02680989916877722
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripHorizontal",
+      "styleTitle" : "Drip Horizontal"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 30.403207999999999,
+        "meanMs" : 29.775016399999998,
+        "medianMs" : 29.960083000000001,
+        "minMs" : 28.5075,
+        "samplesMs" : [
+          29.823708,
+          28.5075,
+          29.960083000000001,
+          30.180582999999999,
+          30.403207999999999
+        ],
+        "standardDeviationMs" : 0.66367571839885742
+      },
+      "path" : {
+        "maxMs" : 1.825833,
+        "meanMs" : 1.7710832000000003,
+        "medianMs" : 1.75,
+        "minMs" : 1.7228749999999999,
+        "samplesMs" : [
+          1.75,
+          1.7228749999999999,
+          1.825833,
+          1.8135829999999999,
+          1.743125
+        ],
+        "standardDeviationMs" : 0.04087533832716251
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripVertical",
+      "styleTitle" : "Drip Vertical"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 19.108708,
+        "meanMs" : 18.571191799999998,
+        "medianMs" : 18.698709000000001,
+        "minMs" : 17.865124999999999,
+        "samplesMs" : [
+          18.698709000000001,
+          19.108708,
+          17.865124999999999,
+          18.313333,
+          18.870083999999999
+        ],
+        "standardDeviationMs" : 0.43807358641643773
+      },
+      "path" : {
+        "maxMs" : 1.502291,
+        "meanMs" : 1.4005164000000001,
+        "medianMs" : 1.3943749999999999,
+        "minMs" : 1.341583,
+        "samplesMs" : [
+          1.502291,
+          1.409125,
+          1.341583,
+          1.3943749999999999,
+          1.355208
+        ],
+        "standardDeviationMs" : 0.056561277813005635
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flame",
+      "styleTitle" : "Flame"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 114.25637500000001,
+        "meanMs" : 109.7974416,
+        "medianMs" : 109.917208,
+        "minMs" : 106.357958,
+        "samplesMs" : [
+          107.4325,
+          109.917208,
+          111.023167,
+          114.25637500000001,
+          106.357958
+        ],
+        "standardDeviationMs" : 2.7864611972352762
+      },
+      "path" : {
+        "maxMs" : 3.6492079999999998,
+        "meanMs" : 3.2327500000000002,
+        "medianMs" : 3.139834,
+        "minMs" : 3.0622090000000002,
+        "samplesMs" : [
+          3.0622090000000002,
+          3.6492079999999998,
+          3.2465830000000002,
+          3.0659160000000001,
+          3.139834
+        ],
+        "standardDeviationMs" : 0.21871434198332754
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flower",
+      "styleTitle" : "Flower"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 122.965,
+        "meanMs" : 122.59110840000001,
+        "medianMs" : 122.701167,
+        "minMs" : 121.866208,
+        "samplesMs" : [
+          121.866208,
+          122.965,
+          122.701167,
+          122.63954200000001,
+          122.783625
+        ],
+        "standardDeviationMs" : 0.37862827913118235
+      },
+      "path" : {
+        "maxMs" : 5.5718329999999998,
+        "meanMs" : 5.424958199999999,
+        "medianMs" : 5.3807499999999999,
+        "minMs" : 5.3013750000000002,
+        "samplesMs" : [
+          5.5467500000000003,
+          5.3013750000000002,
+          5.3807499999999999,
+          5.3240829999999999,
+          5.5718329999999998
+        ],
+        "standardDeviationMs" : 0.11296763046713869
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "gear",
+      "styleTitle" : "Gear"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 4.6289579999999999,
+        "meanMs" : 4.4345331999999997,
+        "medianMs" : 4.3519170000000003,
+        "minMs" : 4.2895000000000003,
+        "samplesMs" : [
+          4.2895000000000003,
+          4.3519170000000003,
+          4.6289579999999999,
+          4.3376250000000001,
+          4.5646659999999999
+        ],
+        "standardDeviationMs" : 0.13563687796672391
+      },
+      "path" : {
+        "maxMs" : 1.2160839999999999,
+        "meanMs" : 1.1493753999999998,
+        "medianMs" : 1.134209,
+        "minMs" : 1.1296250000000001,
+        "samplesMs" : [
+          1.2160839999999999,
+          1.134209,
+          1.1296250000000001,
+          1.136792,
+          1.1301669999999999
+        ],
+        "standardDeviationMs" : 0.033458750392684991
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid2x2",
+      "styleTitle" : "2x2 Square Grid"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 12.524165999999999,
+        "meanMs" : 11.489583,
+        "medianMs" : 11.178375000000001,
+        "minMs" : 10.956833,
+        "samplesMs" : [
+          10.956833,
+          11.178375000000001,
+          11.743916,
+          11.044625,
+          12.524165999999999
+        ],
+        "standardDeviationMs" : 0.5854413484382528
+      },
+      "path" : {
+        "maxMs" : 2.1668750000000001,
+        "meanMs" : 2.1184002,
+        "medianMs" : 2.136917,
+        "minMs" : 2.0192079999999999,
+        "samplesMs" : [
+          2.136917,
+          2.1668750000000001,
+          2.150709,
+          2.0192079999999999,
+          2.1182919999999998
+        ],
+        "standardDeviationMs" : 0.052106891910379823
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid3x3",
+      "styleTitle" : "3x3 Square Grid"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 17.492334,
+        "meanMs" : 17.256000199999999,
+        "medianMs" : 17.247667,
+        "minMs" : 16.917166999999999,
+        "samplesMs" : [
+          16.917166999999999,
+          17.247667,
+          17.169958000000001,
+          17.492334,
+          17.452874999999999
+        ],
+        "standardDeviationMs" : 0.2082757747424312
+      },
+      "path" : {
+        "maxMs" : 3.2324999999999999,
+        "meanMs" : 3.1308829999999999,
+        "medianMs" : 3.1102910000000001,
+        "minMs" : 3.0984579999999999,
+        "samplesMs" : [
+          3.101375,
+          3.1102910000000001,
+          3.0984579999999999,
+          3.2324999999999999,
+          3.1117910000000002
+        ],
+        "standardDeviationMs" : 0.05106202562766185
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid4x4",
+      "styleTitle" : "4x4 Square Grid"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 16.499666999999999,
+        "meanMs" : 15.829700199999996,
+        "medianMs" : 15.837584,
+        "minMs" : 15.235749999999999,
+        "samplesMs" : [
+          15.937250000000001,
+          15.638249999999999,
+          16.499666999999999,
+          15.235749999999999,
+          15.837584
+        ],
+        "standardDeviationMs" : 0.4122898606671766
+      },
+      "path" : {
+        "maxMs" : 1.4390000000000001,
+        "meanMs" : 1.4111414000000002,
+        "medianMs" : 1.3988750000000001,
+        "minMs" : 1.3927080000000001,
+        "samplesMs" : [
+          1.429791,
+          1.3927080000000001,
+          1.4390000000000001,
+          1.3988750000000001,
+          1.3953329999999999
+        ],
+        "standardDeviationMs" : 0.019308389312420661
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "heart",
+      "styleTitle" : "Heart"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 2.8402500000000002,
+        "meanMs" : 2.7253084000000003,
+        "medianMs" : 2.7099169999999999,
+        "minMs" : 2.6532499999999999,
+        "samplesMs" : [
+          2.6913749999999999,
+          2.6532499999999999,
+          2.7317499999999999,
+          2.7099169999999999,
+          2.8402500000000002
+        ],
+        "standardDeviationMs" : 0.062982298245141968
+      },
+      "path" : {
+        "maxMs" : 1.0559160000000001,
+        "meanMs" : 1.0151665999999999,
+        "medianMs" : 1,
+        "minMs" : 0.989375,
+        "samplesMs" : [
+          0.99091700000000005,
+          0.989375,
+          1.039625,
+          1,
+          1.0559160000000001
+        ],
+        "standardDeviationMs" : 0.02735690924501525
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "hexa",
+      "styleTitle" : "Hexa"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 3.623875,
+        "meanMs" : 3.4095249999999999,
+        "medianMs" : 3.3759999999999999,
+        "minMs" : 3.3093750000000002,
+        "samplesMs" : [
+          3.3582920000000001,
+          3.3093750000000002,
+          3.623875,
+          3.3759999999999999,
+          3.3800829999999999
+        ],
+        "standardDeviationMs" : 0.11008317062839347
+      },
+      "path" : {
+        "maxMs" : 1.068084,
+        "meanMs" : 1.0526170000000001,
+        "medianMs" : 1.0519590000000001,
+        "minMs" : 1.027083,
+        "samplesMs" : [
+          1.068084,
+          1.027083,
+          1.050084,
+          1.0658749999999999,
+          1.0519590000000001
+        ],
+        "standardDeviationMs" : 0.014654943616404672
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0.10000000000000001,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "hexagon",
+      "styleTitle" : "Hexagon"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 9.1646669999999997,
+        "meanMs" : 8.3963499999999982,
+        "medianMs" : 8.2040830000000007,
+        "minMs" : 8.0307499999999994,
+        "samplesMs" : [
+          9.1646669999999997,
+          8.4136249999999997,
+          8.0307499999999994,
+          8.1686250000000005,
+          8.2040830000000007
+        ],
+        "standardDeviationMs" : 0.40326122378131013
+      },
+      "path" : {
+        "maxMs" : 1.2188749999999999,
+        "meanMs" : 1.1563500000000002,
+        "medianMs" : 1.144833,
+        "minMs" : 1.119875,
+        "samplesMs" : [
+          1.1576249999999999,
+          1.2188749999999999,
+          1.119875,
+          1.1405419999999999,
+          1.144833
+        ],
+        "standardDeviationMs" : 0.033537921903421496
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "horizontal",
+      "styleTitle" : "Horizontal bars"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 16.870291999999999,
+        "meanMs" : 16.221250199999997,
+        "medianMs" : 16.349333999999999,
+        "minMs" : 15.660958000000001,
+        "samplesMs" : [
+          16.870291999999999,
+          16.349333999999999,
+          15.737708,
+          16.487959,
+          15.660958000000001
+        ],
+        "standardDeviationMs" : 0.45968134844233088
+      },
+      "path" : {
+        "maxMs" : 1.206458,
+        "meanMs" : 1.1773913999999999,
+        "medianMs" : 1.180458,
+        "minMs" : 1.146916,
+        "samplesMs" : [
+          1.1655420000000001,
+          1.180458,
+          1.206458,
+          1.1875830000000001,
+          1.146916
+        ],
+        "standardDeviationMs" : 0.020136028740543644
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "koala",
+      "styleTitle" : "Koala"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 15.770834000000001,
+        "meanMs" : 15.4620002,
+        "medianMs" : 15.59075,
+        "minMs" : 14.954000000000001,
+        "samplesMs" : [
+          15.695667,
+          15.59075,
+          14.954000000000001,
+          15.770834000000001,
+          15.29875
+        ],
+        "standardDeviationMs" : 0.30042297896292813
+      },
+      "path" : {
+        "maxMs" : 1.283291,
+        "meanMs" : 1.2668666,
+        "medianMs" : 1.2711669999999999,
+        "minMs" : 1.245042,
+        "samplesMs" : [
+          1.283291,
+          1.2711669999999999,
+          1.245042,
+          1.2712920000000001,
+          1.263541
+        ],
+        "standardDeviationMs" : 0.012611195829103595
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "leaf",
+      "styleTitle" : "Leaf"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 2.2907500000000001,
+        "meanMs" : 2.1849748,
+        "medianMs" : 2.215916,
+        "minMs" : 2.0813329999999999,
+        "samplesMs" : [
+          2.215916,
+          2.2298749999999998,
+          2.1070000000000002,
+          2.0813329999999999,
+          2.2907500000000001
+        ],
+        "standardDeviationMs" : 0.078719083956560354
+      },
+      "path" : {
+        "maxMs" : 0.75183299999999997,
+        "meanMs" : 0.73326679999999989,
+        "medianMs" : 0.72904199999999997,
+        "minMs" : 0.72733400000000004,
+        "samplesMs" : [
+          0.75183299999999997,
+          0.72904199999999997,
+          0.72999999999999998,
+          0.72812500000000002,
+          0.72733400000000004
+        ],
+        "standardDeviationMs" : 0.0093258878697955478
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "pointy",
+      "styleTitle" : "Pointy"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 15.327417000000001,
+        "meanMs" : 14.751808199999999,
+        "medianMs" : 14.82075,
+        "minMs" : 14.214458,
+        "samplesMs" : [
+          14.82075,
+          14.481375,
+          14.915041,
+          14.214458,
+          15.327417000000001
+        ],
+        "standardDeviationMs" : 0.38068432132747476
+      },
+      "path" : {
+        "maxMs" : 1.8733340000000001,
+        "meanMs" : 1.8097667999999998,
+        "medianMs" : 1.80775,
+        "minMs" : 1.7517499999999999,
+        "samplesMs" : [
+          1.7865,
+          1.8294999999999999,
+          1.7517499999999999,
+          1.8733340000000001,
+          1.80775
+        ],
+        "standardDeviationMs" : 0.040844947410420336
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "razor",
+      "styleTitle" : "Razor"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 9.4562089999999994,
+        "meanMs" : 8.803908400000001,
+        "medianMs" : 8.6467089999999995,
+        "minMs" : 8.5663750000000007,
+        "samplesMs" : [
+          8.6179159999999992,
+          8.7323330000000006,
+          8.6467089999999995,
+          8.5663750000000007,
+          9.4562089999999994
+        ],
+        "standardDeviationMs" : 0.33055893603991388
+      },
+      "path" : {
+        "maxMs" : 1.5978749999999999,
+        "meanMs" : 1.5785500000000003,
+        "medianMs" : 1.5816669999999999,
+        "minMs" : 1.5538749999999999,
+        "samplesMs" : [
+          1.5816669999999999,
+          1.5538749999999999,
+          1.5978749999999999,
+          1.5822080000000001,
+          1.5771250000000001
+        ],
+        "standardDeviationMs" : 0.014194636508202683
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : false
+      },
+      "style" : "roundedEndIndent",
+      "styleTitle" : "Rounded end indent"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 12.425041999999999,
+        "meanMs" : 12.074624799999999,
+        "medianMs" : 11.968083,
+        "minMs" : 11.85225,
+        "samplesMs" : [
+          12.268666,
+          12.425041999999999,
+          11.968083,
+          11.859083,
+          11.85225
+        ],
+        "standardDeviationMs" : 0.23138892614937284
+      },
+      "path" : {
+        "maxMs" : 2.672291,
+        "meanMs" : 2.6375248,
+        "medianMs" : 2.64575,
+        "minMs" : 2.5884999999999998,
+        "samplesMs" : [
+          2.64575,
+          2.6499579999999998,
+          2.5884999999999998,
+          2.672291,
+          2.6311249999999999
+        ],
+        "standardDeviationMs" : 0.027839955081860369
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : true
+      },
+      "style" : "roundedPath",
+      "styleTitle" : "Rounded path"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 12.43675,
+        "meanMs" : 11.845083200000001,
+        "medianMs" : 11.571166,
+        "minMs" : 11.436875000000001,
+        "samplesMs" : [
+          12.43675,
+          12.211375,
+          11.436875000000001,
+          11.56925,
+          11.571166
+        ],
+        "standardDeviationMs" : 0.40049664323057682
+      },
+      "path" : {
+        "maxMs" : 2.37825,
+        "meanMs" : 2.3289249999999999,
+        "medianMs" : 2.3296250000000001,
+        "minMs" : 2.2982499999999999,
+        "samplesMs" : [
+          2.3390840000000002,
+          2.3296250000000001,
+          2.2994159999999999,
+          2.2982499999999999,
+          2.37825
+        ],
+        "standardDeviationMs" : 0.02949029539356977
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedRect",
+      "styleTitle" : "Rounded rectangle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 16.719750000000001,
+        "meanMs" : 13.780066600000001,
+        "medianMs" : 13.282708,
+        "minMs" : 12.443125,
+        "samplesMs" : [
+          12.443125,
+          13.282708,
+          13.114416,
+          16.719750000000001,
+          13.340334
+        ],
+        "standardDeviationMs" : 1.5041923009923437
+      },
+      "path" : {
+        "maxMs" : 2.1663749999999999,
+        "meanMs" : 2.1206499999999999,
+        "medianMs" : 2.1052080000000002,
+        "minMs" : 2.0623339999999999,
+        "samplesMs" : [
+          2.1642079999999999,
+          2.1052080000000002,
+          2.1663749999999999,
+          2.0623339999999999,
+          2.1051250000000001
+        ],
+        "standardDeviationMs" : 0.039669413492009156
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedTriangle",
+      "styleTitle" : "RoundedTriangle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 71.490167,
+        "meanMs" : 70.567049999999995,
+        "medianMs" : 70.735749999999996,
+        "minMs" : 69.045790999999994,
+        "samplesMs" : [
+          70.660416999999995,
+          70.735749999999996,
+          71.490167,
+          70.903125000000003,
+          69.045790999999994
+        ],
+        "standardDeviationMs" : 0.814432002451281
+      },
+      "path" : {
+        "maxMs" : 1.753166,
+        "meanMs" : 1.7168331999999999,
+        "medianMs" : 1.7033750000000001,
+        "minMs" : 1.688458,
+        "samplesMs" : [
+          1.744292,
+          1.7033750000000001,
+          1.688458,
+          1.753166,
+          1.6948749999999999
+        ],
+        "standardDeviationMs" : 0.026617647239378608
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "sharp",
+      "styleTitle" : "Sharp"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 59.400125000000003,
+        "meanMs" : 58.458824800000002,
+        "medianMs" : 58.199624999999997,
+        "minMs" : 58.032625000000003,
+        "samplesMs" : [
+          59.400125000000003,
+          58.032625000000003,
+          58.498083000000001,
+          58.163665999999999,
+          58.199624999999997
+        ],
+        "standardDeviationMs" : 0.49467904662413276
+      },
+      "path" : {
+        "maxMs" : 1.639667,
+        "meanMs" : 1.5823416000000001,
+        "medianMs" : 1.570166,
+        "minMs" : 1.5614589999999999,
+        "samplesMs" : [
+          1.5730409999999999,
+          1.639667,
+          1.5614589999999999,
+          1.570166,
+          1.567375
+        ],
+        "standardDeviationMs" : 0.028917226627738719
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "shiny",
+      "styleTitle" : "Shiny"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 120.861417,
+        "meanMs" : 118.60271680000001,
+        "medianMs" : 119.19779200000001,
+        "minMs" : 116.637958,
+        "samplesMs" : [
+          119.67512499999999,
+          120.861417,
+          116.64129200000001,
+          116.637958,
+          119.19779200000001
+        ],
+        "standardDeviationMs" : 1.6919435465047166
+      },
+      "path" : {
+        "maxMs" : 3.2799999999999998,
+        "meanMs" : 3.0812584000000003,
+        "medianMs" : 2.9957919999999998,
+        "minMs" : 2.9830830000000002,
+        "samplesMs" : [
+          2.9957919999999998,
+          3.1523750000000001,
+          3.2799999999999998,
+          2.9830830000000002,
+          2.9950420000000002
+        ],
+        "standardDeviationMs" : 0.11741548167869509
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "spikyCircle",
+      "styleTitle" : "Spiky Circle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 2.032292,
+        "meanMs" : 1.8695913999999998,
+        "medianMs" : 1.829666,
+        "minMs" : 1.7723329999999999,
+        "samplesMs" : [
+          2.032292,
+          1.911583,
+          1.829666,
+          1.8020830000000001,
+          1.7723329999999999
+        ],
+        "standardDeviationMs" : 0.093643363584612879
+      },
+      "path" : {
+        "maxMs" : 0.92787500000000001,
+        "meanMs" : 0.85572499999999996,
+        "medianMs" : 0.83174999999999999,
+        "minMs" : 0.82437499999999997,
+        "samplesMs" : [
+          0.92787500000000001,
+          0.86837500000000001,
+          0.82625000000000004,
+          0.82437499999999997,
+          0.83174999999999999
+        ],
+        "standardDeviationMs" : 0.039476686157781785
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "square",
+      "styleTitle" : "Square"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 24.943916999999999,
+        "meanMs" : 24.381025000000001,
+        "medianMs" : 24.285374999999998,
+        "minMs" : 23.916291999999999,
+        "samplesMs" : [
+          23.916291999999999,
+          24.078082999999999,
+          24.943916999999999,
+          24.285374999999998,
+          24.681457999999999
+        ],
+        "standardDeviationMs" : 0.38052777304843344
+      },
+      "path" : {
+        "maxMs" : 1.49275,
+        "meanMs" : 1.4673834000000001,
+        "medianMs" : 1.465209,
+        "minMs" : 1.442458,
+        "samplesMs" : [
+          1.442458,
+          1.465209,
+          1.49275,
+          1.4725410000000001,
+          1.463959
+        ],
+        "standardDeviationMs" : 0.016172787819049635
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "squircle",
+      "styleTitle" : "Squircle"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 4.9470830000000001,
+        "meanMs" : 4.9178167999999998,
+        "medianMs" : 4.9288749999999997,
+        "minMs" : 4.8602920000000003,
+        "samplesMs" : [
+          4.8602920000000003,
+          4.9132920000000002,
+          4.9288749999999997,
+          4.9470830000000001,
+          4.9395420000000003
+        ],
+        "standardDeviationMs" : 0.030920397781399836
+      },
+      "path" : {
+        "maxMs" : 1.141167,
+        "meanMs" : 1.0863001999999999,
+        "medianMs" : 1.0728340000000001,
+        "minMs" : 1.0531250000000001,
+        "samplesMs" : [
+          1.0672079999999999,
+          1.0728340000000001,
+          1.0531250000000001,
+          1.141167,
+          1.097167
+        ],
+        "standardDeviationMs" : 0.03090274299410976
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "star",
+      "styleTitle" : "Star"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 158.269541,
+        "meanMs" : 157.39397500000001,
+        "medianMs" : 157.51974999999999,
+        "minMs" : 156.53591700000001,
+        "samplesMs" : [
+          157.68320800000001,
+          157.51974999999999,
+          156.53591700000001,
+          156.96145899999999,
+          158.269541
+        ],
+        "standardDeviationMs" : 0.5982348236085886
+      },
+      "path" : {
+        "maxMs" : 2.18275,
+        "meanMs" : 2.0404835999999995,
+        "medianMs" : 2.023542,
+        "minMs" : 1.983417,
+        "samplesMs" : [
+          2.18275,
+          2.023542,
+          1.986667,
+          2.0260419999999999,
+          1.983417
+        ],
+        "standardDeviationMs" : 0.073332297742809069
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "stitch",
+      "styleTitle" : "Stitch"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 16.910416000000001,
+        "meanMs" : 15.373775,
+        "medianMs" : 15.261625,
+        "minMs" : 14.321667,
+        "samplesMs" : [
+          16.910416000000001,
+          15.409667000000001,
+          14.321667,
+          15.261625,
+          14.9655
+        ],
+        "standardDeviationMs" : 0.85425419405865421
+      },
+      "path" : {
+        "maxMs" : 1.200834,
+        "meanMs" : 1.1801501999999999,
+        "medianMs" : 1.177,
+        "minMs" : 1.1673340000000001,
+        "samplesMs" : [
+          1.187208,
+          1.200834,
+          1.1673340000000001,
+          1.1683749999999999,
+          1.177
+        ],
+        "standardDeviationMs" : 0.012573513437380958
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "vertical",
+      "styleTitle" : "Vertical bars"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 12.249209,
+        "meanMs" : 11.5009584,
+        "medianMs" : 11.450125,
+        "minMs" : 10.846,
+        "samplesMs" : [
+          11.396375000000001,
+          11.563083000000001,
+          10.846,
+          12.249209,
+          11.450125
+        ],
+        "standardDeviationMs" : 0.44860464869798233
+      },
+      "path" : {
+        "maxMs" : 2.005417,
+        "meanMs" : 1.9211085999999997,
+        "medianMs" : 1.868959,
+        "minMs" : 1.860541,
+        "samplesMs" : [
+          2.003209,
+          1.868959,
+          1.860541,
+          2.005417,
+          1.8674170000000001
+        ],
+        "standardDeviationMs" : 0.067998801241198351
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "vortex",
+      "styleTitle" : "Vortex"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 31.741541999999999,
+        "meanMs" : 31.258841999999998,
+        "medianMs" : 31.131958999999998,
+        "minMs" : 30.931916999999999,
+        "samplesMs" : [
+          31.546792,
+          31.741541999999999,
+          31.131958999999998,
+          30.942,
+          30.931916999999999
+        ],
+        "standardDeviationMs" : 0.32841516310243662
+      },
+      "path" : {
+        "maxMs" : 1.7412920000000001,
+        "meanMs" : 1.7094332000000001,
+        "medianMs" : 1.7002079999999999,
+        "minMs" : 1.6939580000000001,
+        "samplesMs" : [
+          1.7412920000000001,
+          1.6939580000000001,
+          1.7152499999999999,
+          1.7002079999999999,
+          1.696458
+        ],
+        "standardDeviationMs" : 0.017559955835935361
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "wave",
+      "styleTitle" : "Wave"
+    },
+    {
+      "fixture" : "medium",
+      "image" : {
+        "maxMs" : 5.7810829999999997,
+        "meanMs" : 5.5619752,
+        "medianMs" : 5.517417,
+        "minMs" : 5.3852089999999997,
+        "samplesMs" : [
+          5.517417,
+          5.6747920000000001,
+          5.7810829999999997,
+          5.4513749999999996,
+          5.3852089999999997
+        ],
+        "standardDeviationMs" : 0.14573948351273933
+      },
+      "path" : {
+        "maxMs" : 1.155,
+        "meanMs" : 1.1398750000000002,
+        "medianMs" : 1.1319170000000001,
+        "minMs" : 1.129875,
+        "samplesMs" : [
+          1.129875,
+          1.1525000000000001,
+          1.1319170000000001,
+          1.1300829999999999,
+          1.155
+        ],
+        "standardDeviationMs" : 0.011378657899770109
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "wex",
+      "styleTitle" : "Wex"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 59.746082999999999,
+        "meanMs" : 59.174016600000002,
+        "medianMs" : 59.184958999999999,
+        "minMs" : 58.708083000000002,
+        "samplesMs" : [
+          59.326582999999999,
+          58.708083000000002,
+          59.184958999999999,
+          58.904375000000002,
+          59.746082999999999
+        ],
+        "standardDeviationMs" : 0.35789856680215848
+      },
+      "path" : {
+        "maxMs" : 6.4109999999999996,
+        "meanMs" : 6.290025,
+        "medianMs" : 6.2880000000000003,
+        "minMs" : 6.1501669999999997,
+        "samplesMs" : [
+          6.4109999999999996,
+          6.1501669999999997,
+          6.3197080000000003,
+          6.2880000000000003,
+          6.28125
+        ],
+        "standardDeviationMs" : 0.083853911689318342
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "abstract",
+      "styleTitle" : "Abstract"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 12.96575,
+        "meanMs" : 12.857816600000001,
+        "medianMs" : 12.865083,
+        "minMs" : 12.774749999999999,
+        "samplesMs" : [
+          12.793542,
+          12.865083,
+          12.774749999999999,
+          12.889958,
+          12.96575
+        ],
+        "standardDeviationMs" : 0.068944576638340554
+      },
+      "path" : {
+        "maxMs" : 3.810708,
+        "meanMs" : 3.6738416000000003,
+        "medianMs" : 3.6452089999999999,
+        "minMs" : 3.5863330000000002,
+        "samplesMs" : [
+          3.6452089999999999,
+          3.6435,
+          3.5863330000000002,
+          3.810708,
+          3.6834579999999999
+        ],
+        "standardDeviationMs" : 0.075130659713861112
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "arrow",
+      "styleTitle" : "Arrow"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 66.039457999999996,
+        "meanMs" : 65.565300199999996,
+        "medianMs" : 65.437624999999997,
+        "minMs" : 65.146041999999994,
+        "samplesMs" : [
+          66.039457999999996,
+          65.146041999999994,
+          65.279667000000003,
+          65.923709000000002,
+          65.437624999999997
+        ],
+        "standardDeviationMs" : 0.35410371563224291
+      },
+      "path" : {
+        "maxMs" : 9.6041249999999998,
+        "meanMs" : 9.4460583999999983,
+        "medianMs" : 9.4644169999999992,
+        "minMs" : 9.3386669999999992,
+        "samplesMs" : [
+          9.4648749999999993,
+          9.3386669999999992,
+          9.3582079999999994,
+          9.6041249999999998,
+          9.4644169999999992
+        ],
+        "standardDeviationMs" : 0.094791094770764375
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "blob",
+      "styleTitle" : "Blob"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 58.694583000000002,
+        "meanMs" : 58.22743340000001,
+        "medianMs" : 58.599083999999998,
+        "minMs" : 57.573459,
+        "samplesMs" : [
+          58.694583000000002,
+          57.618040999999998,
+          58.652000000000001,
+          57.573459,
+          58.599083999999998
+        ],
+        "standardDeviationMs" : 0.51684646233271314
+      },
+      "path" : {
+        "maxMs" : 3.598875,
+        "meanMs" : 3.5612749999999997,
+        "medianMs" : 3.5692080000000002,
+        "minMs" : 3.5132919999999999,
+        "samplesMs" : [
+          3.5692080000000002,
+          3.5309170000000001,
+          3.5940829999999999,
+          3.5132919999999999,
+          3.598875
+        ],
+        "standardDeviationMs" : 0.0339912747804492
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed"
+      },
+      "style" : "circle",
+      "styleTitle" : "Circle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 229.87312499999999,
+        "meanMs" : 226.07875820000004,
+        "medianMs" : 225.52766600000001,
+        "minMs" : 224.612458,
+        "samplesMs" : [
+          225.60916700000001,
+          225.52766600000001,
+          224.77137500000001,
+          224.612458,
+          229.87312499999999
+        ],
+        "standardDeviationMs" : 1.93807765732556
+      },
+      "path" : {
+        "maxMs" : 9.8018330000000002,
+        "meanMs" : 9.3325917999999994,
+        "medianMs" : 9.2540840000000006,
+        "minMs" : 9.1564999999999994,
+        "samplesMs" : [
+          9.8018330000000002,
+          9.1869999999999994,
+          9.2635419999999993,
+          9.1564999999999994,
+          9.2540840000000006
+        ],
+        "standardDeviationMs" : 0.23804367144404431
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "circuit",
+      "styleTitle" : "Circuit"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 321.05666600000001,
+        "meanMs" : 314.77933339999998,
+        "medianMs" : 314.40625,
+        "minMs" : 310.57958400000001,
+        "samplesMs" : [
+          314.55108300000001,
+          313.30308400000001,
+          310.57958400000001,
+          314.40625,
+          321.05666600000001
+        ],
+        "standardDeviationMs" : 3.4471263786893322
+      },
+      "path" : {
+        "maxMs" : 8.9294170000000008,
+        "meanMs" : 8.7576667999999991,
+        "medianMs" : 8.7725000000000009,
+        "minMs" : 8.5783330000000007,
+        "samplesMs" : [
+          8.7725000000000009,
+          8.7757919999999991,
+          8.9294170000000008,
+          8.7322919999999993,
+          8.5783330000000007
+        ],
+        "standardDeviationMs" : 0.11211705507620157
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "crosshatch",
+      "styleTitle" : "Crosshatch"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 303.45266600000002,
+        "meanMs" : 297.96137480000004,
+        "medianMs" : 298.48612500000002,
+        "minMs" : 293.14491700000002,
+        "samplesMs" : [
+          303.45266600000002,
+          295.39237500000002,
+          298.48612500000002,
+          299.33079099999998,
+          293.14491700000002
+        ],
+        "standardDeviationMs" : 3.524286261244983
+      },
+      "path" : {
+        "maxMs" : 6.1405839999999996,
+        "meanMs" : 6.0085083999999993,
+        "medianMs" : 5.998208,
+        "minMs" : 5.920083,
+        "samplesMs" : [
+          6.1405839999999996,
+          5.9581670000000004,
+          5.920083,
+          6.0255000000000001,
+          5.998208
+        ],
+        "standardDeviationMs" : 0.075089393052813869
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "crt",
+      "styleTitle" : "CRT"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 28.540500000000002,
+        "meanMs" : 28.254350199999998,
+        "medianMs" : 28.313209000000001,
+        "minMs" : 28.010209,
+        "samplesMs" : [
+          28.328333000000001,
+          28.079499999999999,
+          28.540500000000002,
+          28.010209,
+          28.313209000000001
+        ],
+        "standardDeviationMs" : 0.19026141965769169
+      },
+      "path" : {
+        "maxMs" : 5.3135000000000003,
+        "meanMs" : 5.1912083999999998,
+        "medianMs" : 5.1671250000000004,
+        "minMs" : 5.0580410000000002,
+        "samplesMs" : [
+          5.1152920000000002,
+          5.3135000000000003,
+          5.1671250000000004,
+          5.3020839999999998,
+          5.0580410000000002
+        ],
+        "standardDeviationMs" : 0.10131683026348577
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1
+      },
+      "style" : "curvePixel",
+      "styleTitle" : "Curve pixel"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 8.6431249999999995,
+        "meanMs" : 8.4270166,
+        "medianMs" : 8.3539999999999992,
+        "minMs" : 8.3321670000000001,
+        "samplesMs" : [
+          8.3425410000000007,
+          8.6431249999999995,
+          8.3321670000000001,
+          8.3539999999999992,
+          8.4632500000000004
+        ],
+        "standardDeviationMs" : 0.11788103945690316
+      },
+      "path" : {
+        "maxMs" : 3.3868749999999999,
+        "meanMs" : 3.3396585999999999,
+        "medianMs" : 3.3401670000000001,
+        "minMs" : 3.3024170000000002,
+        "samplesMs" : [
+          3.3263750000000001,
+          3.3868749999999999,
+          3.3024170000000002,
+          3.3424589999999998,
+          3.3401670000000001
+        ],
+        "standardDeviationMs" : 0.027571289194377444
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "diagonal",
+      "styleTitle" : "Diagonal"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 748.13012500000002,
+        "meanMs" : 738.92620820000013,
+        "medianMs" : 738.30141600000002,
+        "minMs" : 729.77929200000005,
+        "samplesMs" : [
+          744.10474999999997,
+          748.13012500000002,
+          734.31545800000004,
+          729.77929200000005,
+          738.30141600000002
+        ],
+        "standardDeviationMs" : 6.5855119513287885
+      },
+      "path" : {
+        "maxMs" : 13.26925,
+        "meanMs" : 12.4621168,
+        "medianMs" : 12.308833,
+        "minMs" : 12.136167,
+        "samplesMs" : [
+          13.26925,
+          12.183417,
+          12.412917,
+          12.136167,
+          12.308833
+        ],
+        "standardDeviationMs" : 0.41504153932945043
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "diagonalStripes",
+      "styleTitle" : "DiagonalStripes"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 15.780250000000001,
+        "meanMs" : 15.295033200000001,
+        "medianMs" : 15.418749999999999,
+        "minMs" : 14.869125,
+        "samplesMs" : [
+          14.869125,
+          15.525333,
+          15.418749999999999,
+          15.780250000000001,
+          14.881708
+        ],
+        "standardDeviationMs" : 0.36221946476322892
+      },
+      "path" : {
+        "maxMs" : 3.4325000000000001,
+        "meanMs" : 3.339925,
+        "medianMs" : 3.3187500000000001,
+        "minMs" : 3.2600419999999999,
+        "samplesMs" : [
+          3.3722080000000001,
+          3.2600419999999999,
+          3.4325000000000001,
+          3.3187500000000001,
+          3.316125
+        ],
+        "standardDeviationMs" : 0.058323986537273054
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "diamond",
+      "styleTitle" : "Diamond"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 371.72416600000003,
+        "meanMs" : 368.12538319999993,
+        "medianMs" : 368.271208,
+        "minMs" : 364.59333299999997,
+        "samplesMs" : [
+          365.66204199999999,
+          364.59333299999997,
+          368.271208,
+          371.72416600000003,
+          370.37616700000001
+        ],
+        "standardDeviationMs" : 2.7048829442750857
+      },
+      "path" : {
+        "maxMs" : 6.1545829999999997,
+        "meanMs" : 5.9190917999999995,
+        "medianMs" : 5.8987920000000003,
+        "minMs" : 5.7995419999999998,
+        "samplesMs" : [
+          6.1545829999999997,
+          5.8322500000000002,
+          5.8987920000000003,
+          5.7995419999999998,
+          5.9102920000000001
+        ],
+        "standardDeviationMs" : 0.12472311457368268
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "donut",
+      "styleTitle" : "Donut"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 131.97675000000001,
+        "meanMs" : 126.96854980000001,
+        "medianMs" : 125.92929100000001,
+        "minMs" : 124.850291,
+        "samplesMs" : [
+          127.09925,
+          125.92929100000001,
+          131.97675000000001,
+          124.987167,
+          124.850291
+        ],
+        "standardDeviationMs" : 2.6302892914221769
+      },
+      "path" : {
+        "maxMs" : 6.6820830000000004,
+        "meanMs" : 6.4204249999999998,
+        "medianMs" : 6.3579999999999997,
+        "minMs" : 6.2915000000000001,
+        "samplesMs" : [
+          6.2915000000000001,
+          6.6820830000000004,
+          6.4582499999999996,
+          6.3122920000000002,
+          6.3579999999999997
+        ],
+        "standardDeviationMs" : 0.14290340900622361
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripHorizontal",
+      "styleTitle" : "Drip Horizontal"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 116.114333,
+        "meanMs" : 113.86353319999998,
+        "medianMs" : 113.608,
+        "minMs" : 111.025583,
+        "samplesMs" : [
+          111.025583,
+          112.97225,
+          115.5975,
+          116.114333,
+          113.608
+        ],
+        "standardDeviationMs" : 1.8431703610771741
+      },
+      "path" : {
+        "maxMs" : 6.8041669999999996,
+        "meanMs" : 6.5145501999999995,
+        "medianMs" : 6.5237499999999997,
+        "minMs" : 6.242,
+        "samplesMs" : [
+          6.242,
+          6.6039589999999997,
+          6.5237499999999997,
+          6.8041669999999996,
+          6.3988750000000003
+        ],
+        "standardDeviationMs" : 0.18953671100596825
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "dripVertical",
+      "styleTitle" : "Drip Vertical"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 48.870916999999999,
+        "meanMs" : 48.441491799999994,
+        "medianMs" : 48.462584,
+        "minMs" : 48.020792,
+        "samplesMs" : [
+          48.466208000000002,
+          48.020792,
+          48.870916999999999,
+          48.386958,
+          48.462584
+        ],
+        "standardDeviationMs" : 0.27034201704537114
+      },
+      "path" : {
+        "maxMs" : 5.071917,
+        "meanMs" : 4.9682002000000001,
+        "medianMs" : 4.9699999999999998,
+        "minMs" : 4.8373340000000002,
+        "samplesMs" : [
+          5.001417,
+          4.9699999999999998,
+          5.071917,
+          4.9603330000000003,
+          4.8373340000000002
+        ],
+        "standardDeviationMs" : 0.076225487630844233
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flame",
+      "styleTitle" : "Flame"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 459.12625000000003,
+        "meanMs" : 448.09058340000001,
+        "medianMs" : 445.00970899999999,
+        "minMs" : 443.60237499999999,
+        "samplesMs" : [
+          445.00970899999999,
+          444.925208,
+          443.60237499999999,
+          459.12625000000003,
+          447.78937500000001
+        ],
+        "standardDeviationMs" : 5.6838730974559581
+      },
+      "path" : {
+        "maxMs" : 11.295584,
+        "meanMs" : 11.0352502,
+        "medianMs" : 10.934417,
+        "minMs" : 10.843958000000001,
+        "samplesMs" : [
+          11.295584,
+          10.843958000000001,
+          10.861875,
+          10.934417,
+          11.240417000000001
+        ],
+        "standardDeviationMs" : 0.19322841572750121
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "flower",
+      "styleTitle" : "Flower"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 817.21933300000001,
+        "meanMs" : 802.95330780000006,
+        "medianMs" : 797.79066599999999,
+        "minMs" : 793.68716600000005,
+        "samplesMs" : [
+          793.68716600000005,
+          794.80941600000006,
+          817.21933300000001,
+          811.25995799999998,
+          797.79066599999999
+        ],
+        "standardDeviationMs" : 9.5011277269081589
+      },
+      "path" : {
+        "maxMs" : 20.414459000000001,
+        "meanMs" : 19.891742000000001,
+        "medianMs" : 19.738667,
+        "minMs" : 19.518542,
+        "samplesMs" : [
+          20.414459000000001,
+          19.738667,
+          20.214708999999999,
+          19.572333,
+          19.518542
+        ],
+        "standardDeviationMs" : 0.35840565009050851
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "gear",
+      "styleTitle" : "Gear"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 16.091417,
+        "meanMs" : 15.628025400000002,
+        "medianMs" : 15.634834,
+        "minMs" : 15.276042,
+        "samplesMs" : [
+          16.091417,
+          15.634834,
+          15.789042,
+          15.348792,
+          15.276042
+        ],
+        "standardDeviationMs" : 0.29751238058648921
+      },
+      "path" : {
+        "maxMs" : 4.4995830000000003,
+        "meanMs" : 4.3663581999999996,
+        "medianMs" : 4.4175420000000001,
+        "minMs" : 4.0984579999999999,
+        "samplesMs" : [
+          4.4289579999999997,
+          4.4175420000000001,
+          4.3872499999999999,
+          4.0984579999999999,
+          4.4995830000000003
+        ],
+        "standardDeviationMs" : 0.13892037154053405
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid2x2",
+      "styleTitle" : "2x2 Square Grid"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 55.441082999999999,
+        "meanMs" : 54.103266600000005,
+        "medianMs" : 53.962166000000003,
+        "minMs" : 53.140166999999998,
+        "samplesMs" : [
+          55.441082999999999,
+          53.140166999999998,
+          54.115583000000001,
+          53.857334000000002,
+          53.962166000000003
+        ],
+        "standardDeviationMs" : 0.74804511580535027
+      },
+      "path" : {
+        "maxMs" : 8.1534999999999993,
+        "meanMs" : 7.8065329999999999,
+        "medianMs" : 7.7425410000000001,
+        "minMs" : 7.6706659999999998,
+        "samplesMs" : [
+          8.1534999999999993,
+          7.7791670000000002,
+          7.6706659999999998,
+          7.7425410000000001,
+          7.6867910000000004
+        ],
+        "standardDeviationMs" : 0.17777961714549811
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid3x3",
+      "styleTitle" : "3x3 Square Grid"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 136.752208,
+        "meanMs" : 134.88547480000003,
+        "medianMs" : 134.592333,
+        "minMs" : 133.851292,
+        "samplesMs" : [
+          136.752208,
+          134.489958,
+          134.74158299999999,
+          133.851292,
+          134.592333
+        ],
+        "standardDeviationMs" : 0.98155971880418835
+      },
+      "path" : {
+        "maxMs" : 11.824707999999999,
+        "meanMs" : 11.587025000000001,
+        "medianMs" : 11.553875,
+        "minMs" : 11.38725,
+        "samplesMs" : [
+          11.553875,
+          11.824707999999999,
+          11.512458000000001,
+          11.38725,
+          11.656834
+        ],
+        "standardDeviationMs" : 0.14692563805136236
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "grid4x4",
+      "styleTitle" : "4x4 Square Grid"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 121.831625,
+        "meanMs" : 119.5653918,
+        "medianMs" : 119.25700000000001,
+        "minMs" : 117.1755,
+        "samplesMs" : [
+          119.25700000000001,
+          118.612792,
+          117.1755,
+          120.950042,
+          121.831625
+        ],
+        "standardDeviationMs" : 1.6593494984551507
+      },
+      "path" : {
+        "maxMs" : 5.3114160000000004,
+        "meanMs" : 5.1385249999999996,
+        "medianMs" : 5.1902920000000003,
+        "minMs" : 4.9793329999999996,
+        "samplesMs" : [
+          5.1902920000000003,
+          4.9833340000000002,
+          4.9793329999999996,
+          5.3114160000000004,
+          5.2282500000000001
+        ],
+        "standardDeviationMs" : 0.1341998771534462
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "heart",
+      "styleTitle" : "Heart"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 9.3798750000000002,
+        "meanMs" : 9.185575,
+        "medianMs" : 9.2174169999999993,
+        "minMs" : 9.0081249999999997,
+        "samplesMs" : [
+          9.3798750000000002,
+          9.3130419999999994,
+          9.0094159999999999,
+          9.0081249999999997,
+          9.2174169999999993
+        ],
+        "standardDeviationMs" : 0.15331975400058534
+      },
+      "path" : {
+        "maxMs" : 3.8458749999999999,
+        "meanMs" : 3.7118832000000004,
+        "medianMs" : 3.655875,
+        "minMs" : 3.6015000000000001,
+        "samplesMs" : [
+          3.8458749999999999,
+          3.8451249999999999,
+          3.655875,
+          3.6110410000000002,
+          3.6015000000000001
+        ],
+        "standardDeviationMs" : 0.11063245305496927
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "hexa",
+      "styleTitle" : "Hexa"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 20.010083000000002,
+        "meanMs" : 19.4755246,
+        "medianMs" : 19.456665999999998,
+        "minMs" : 18.769666000000001,
+        "samplesMs" : [
+          19.456665999999998,
+          19.427458000000001,
+          18.769666000000001,
+          19.713750000000001,
+          20.010083000000002
+        ],
+        "standardDeviationMs" : 0.41070827414095296
+      },
+      "path" : {
+        "maxMs" : 4.0554170000000003,
+        "meanMs" : 3.9719334000000002,
+        "medianMs" : 3.9561250000000001,
+        "minMs" : 3.9129170000000002,
+        "samplesMs" : [
+          4.0554170000000003,
+          3.9561250000000001,
+          3.915375,
+          4.0198330000000002,
+          3.9129170000000002
+        ],
+        "standardDeviationMs" : 0.056913226475398551
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0.10000000000000001,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "hexagon",
+      "styleTitle" : "Hexagon"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 23.465125,
+        "meanMs" : 23.034399799999999,
+        "medianMs" : 23.043624999999999,
+        "minMs" : 22.548500000000001,
+        "samplesMs" : [
+          22.548500000000001,
+          22.853415999999999,
+          23.261333,
+          23.465125,
+          23.043624999999999
+        ],
+        "standardDeviationMs" : 0.31810744442555888
+      },
+      "path" : {
+        "maxMs" : 4.3054589999999999,
+        "meanMs" : 4.2173167999999999,
+        "medianMs" : 4.2300420000000001,
+        "minMs" : 4.0920420000000002,
+        "samplesMs" : [
+          4.2690830000000002,
+          4.2300420000000001,
+          4.0920420000000002,
+          4.1899579999999998,
+          4.3054589999999999
+        ],
+        "standardDeviationMs" : 0.073556776779301544
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "horizontal",
+      "styleTitle" : "Horizontal bars"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 125.602541,
+        "meanMs" : 123.7269998,
+        "medianMs" : 123.53212499999999,
+        "minMs" : 122.02012499999999,
+        "samplesMs" : [
+          122.02012499999999,
+          123.428,
+          125.602541,
+          124.05220799999999,
+          123.53212499999999
+        ],
+        "standardDeviationMs" : 1.1544880958411683
+      },
+      "path" : {
+        "maxMs" : 4.6758749999999996,
+        "meanMs" : 4.4533752,
+        "medianMs" : 4.4698339999999996,
+        "minMs" : 4.2752920000000003,
+        "samplesMs" : [
+          4.6758749999999996,
+          4.3292919999999997,
+          4.4698339999999996,
+          4.5165829999999998,
+          4.2752920000000003
+        ],
+        "standardDeviationMs" : 0.14204403945452954
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "koala",
+      "styleTitle" : "Koala"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 57.968083,
+        "meanMs" : 57.254324799999992,
+        "medianMs" : 57.084583000000002,
+        "minMs" : 56.627042000000003,
+        "samplesMs" : [
+          57.084583000000002,
+          57.968083,
+          57.01925,
+          56.627042000000003,
+          57.572665999999998
+        ],
+        "standardDeviationMs" : 0.46655075589324568
+      },
+      "path" : {
+        "maxMs" : 4.7758330000000004,
+        "meanMs" : 4.6454333999999999,
+        "medianMs" : 4.6307919999999996,
+        "minMs" : 4.4898749999999996,
+        "samplesMs" : [
+          4.7444579999999998,
+          4.7758330000000004,
+          4.6307919999999996,
+          4.4898749999999996,
+          4.5862090000000002
+        ],
+        "standardDeviationMs" : 0.10462336550235821
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "leaf",
+      "styleTitle" : "Leaf"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 6.175084,
+        "meanMs" : 6.0821585999999996,
+        "medianMs" : 6.1186249999999998,
+        "minMs" : 5.9678339999999999,
+        "samplesMs" : [
+          6.1186249999999998,
+          6.1408750000000003,
+          6.008375,
+          5.9678339999999999,
+          6.175084
+        ],
+        "standardDeviationMs" : 0.07990829458473013
+      },
+      "path" : {
+        "maxMs" : 2.7560829999999998,
+        "meanMs" : 2.6947413999999998,
+        "medianMs" : 2.667875,
+        "minMs" : 2.6610830000000001,
+        "samplesMs" : [
+          2.665333,
+          2.667875,
+          2.7233329999999998,
+          2.6610830000000001,
+          2.7560829999999998
+        ],
+        "standardDeviationMs" : 0.038209466919076389
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "pointy",
+      "styleTitle" : "Pointy"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 51.339666999999999,
+        "meanMs" : 50.879433200000001,
+        "medianMs" : 50.895125,
+        "minMs" : 50.296999999999997,
+        "samplesMs" : [
+          50.895125,
+          51.339666999999999,
+          50.296999999999997,
+          50.653291000000003,
+          51.212083
+        ],
+        "standardDeviationMs" : 0.37764692499020847
+      },
+      "path" : {
+        "maxMs" : 6.4645000000000001,
+        "meanMs" : 6.3511164000000004,
+        "medianMs" : 6.3241250000000004,
+        "minMs" : 6.2524579999999998,
+        "samplesMs" : [
+          6.3241250000000004,
+          6.4645000000000001,
+          6.4056660000000001,
+          6.3088329999999999,
+          6.2524579999999998
+        ],
+        "standardDeviationMs" : 0.074941845572683949
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "razor",
+      "styleTitle" : "Razor"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 28.619875,
+        "meanMs" : 28.310541600000001,
+        "medianMs" : 28.196916000000002,
+        "minMs" : 28.063542000000002,
+        "samplesMs" : [
+          28.086375,
+          28.619875,
+          28.196916000000002,
+          28.063542000000002,
+          28.585999999999999
+        ],
+        "standardDeviationMs" : 0.24320145000274895
+      },
+      "path" : {
+        "maxMs" : 5.6628749999999997,
+        "meanMs" : 5.6208916000000002,
+        "medianMs" : 5.6164579999999997,
+        "minMs" : 5.5910840000000004,
+        "samplesMs" : [
+          5.5954579999999998,
+          5.6385829999999997,
+          5.6164579999999997,
+          5.6628749999999997,
+          5.5910840000000004
+        ],
+        "standardDeviationMs" : 0.026946648567864422
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : false
+      },
+      "style" : "roundedEndIndent",
+      "styleTitle" : "Rounded end indent"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 41.212707999999999,
+        "meanMs" : 40.394841599999999,
+        "medianMs" : 40.623249999999999,
+        "minMs" : 39.109791999999999,
+        "samplesMs" : [
+          39.109791999999999,
+          40.623249999999999,
+          40.852542,
+          40.175916000000001,
+          41.212707999999999
+        ],
+        "standardDeviationMs" : 0.725237394843261
+      },
+      "path" : {
+        "maxMs" : 10.059291999999999,
+        "meanMs" : 9.8082665999999996,
+        "medianMs" : 9.7914999999999992,
+        "minMs" : 9.5946669999999994,
+        "samplesMs" : [
+          9.5946669999999994,
+          9.7535410000000002,
+          10.059291999999999,
+          9.7914999999999992,
+          9.842333
+        ],
+        "standardDeviationMs" : 0.15038289154368584
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "hasInnerCorners" : true
+      },
+      "style" : "roundedPath",
+      "styleTitle" : "Rounded path"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 91.549542000000002,
+        "meanMs" : 89.349708199999995,
+        "medianMs" : 88.763625000000005,
+        "minMs" : 88.332082999999997,
+        "samplesMs" : [
+          89.619708000000003,
+          88.483582999999996,
+          88.332082999999997,
+          91.549542000000002,
+          88.763625000000005
+        ],
+        "standardDeviationMs" : 1.1867094055997718
+      },
+      "path" : {
+        "maxMs" : 8.1054999999999993,
+        "meanMs" : 7.979891799999999,
+        "medianMs" : 7.9992919999999996,
+        "minMs" : 7.8093750000000002,
+        "samplesMs" : [
+          7.9992919999999996,
+          7.9580830000000002,
+          7.8093750000000002,
+          8.0272089999999992,
+          8.1054999999999993
+        ],
+        "standardDeviationMs" : 0.097922732726164918
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 0.65000000000000002,
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedRect",
+      "styleTitle" : "Rounded rectangle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 93.486874999999998,
+        "meanMs" : 91.835124799999988,
+        "medianMs" : 91.490958000000006,
+        "minMs" : 90.013333000000003,
+        "samplesMs" : [
+          93.486874999999998,
+          93.005332999999993,
+          91.490958000000006,
+          91.179124999999999,
+          90.013333000000003
+        ],
+        "standardDeviationMs" : 1.2621709742278786
+      },
+      "path" : {
+        "maxMs" : 7.9712909999999999,
+        "meanMs" : 7.7366746000000006,
+        "medianMs" : 7.7528329999999999,
+        "minMs" : 7.5311659999999998,
+        "samplesMs" : [
+          7.7528329999999999,
+          7.9712909999999999,
+          7.8312499999999998,
+          7.5311659999999998,
+          7.5968330000000002
+        ],
+        "standardDeviationMs" : 0.15877021955593559
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "roundedTriangle",
+      "styleTitle" : "RoundedTriangle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 321.46325000000002,
+        "meanMs" : 318.20339180000008,
+        "medianMs" : 317.83199999999999,
+        "minMs" : 315.88037500000002,
+        "samplesMs" : [
+          321.46325000000002,
+          317.83199999999999,
+          315.88037500000002,
+          317.795209,
+          318.04612500000002
+        ],
+        "standardDeviationMs" : 1.8084446605243321
+      },
+      "path" : {
+        "maxMs" : 6.5081249999999997,
+        "meanMs" : 6.0082836000000004,
+        "medianMs" : 5.9299590000000002,
+        "minMs" : 5.7453750000000001,
+        "samplesMs" : [
+          5.9535419999999997,
+          5.9044169999999996,
+          5.7453750000000001,
+          6.5081249999999997,
+          5.9299590000000002
+        ],
+        "standardDeviationMs" : 0.26033901491678108
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "sharp",
+      "styleTitle" : "Sharp"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 316.61537499999997,
+        "meanMs" : 312.34910819999999,
+        "medianMs" : 313.060833,
+        "minMs" : 306.735792,
+        "samplesMs" : [
+          313.060833,
+          315.78358300000002,
+          316.61537499999997,
+          309.549958,
+          306.735792
+        ],
+        "standardDeviationMs" : 3.7375864499672686
+      },
+      "path" : {
+        "maxMs" : 6.061375,
+        "meanMs" : 5.8447833999999999,
+        "medianMs" : 5.8221670000000003,
+        "minMs" : 5.6989169999999998,
+        "samplesMs" : [
+          5.8221670000000003,
+          6.061375,
+          5.9057079999999997,
+          5.7357500000000003,
+          5.6989169999999998
+        ],
+        "standardDeviationMs" : 0.12984646209211859
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "shiny",
+      "styleTitle" : "Shiny"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 1539.454667,
+        "meanMs" : 1517.3033834,
+        "medianMs" : 1512.308,
+        "minMs" : 1508.9930420000001,
+        "samplesMs" : [
+          1508.9930420000001,
+          1514.0088330000001,
+          1511.752375,
+          1512.308,
+          1539.454667
+        ],
+        "standardDeviationMs" : 11.19252206806121
+      },
+      "path" : {
+        "maxMs" : 11.811833,
+        "meanMs" : 11.039083399999999,
+        "medianMs" : 10.988,
+        "minMs" : 10.635375,
+        "samplesMs" : [
+          11.811833,
+          10.635375,
+          10.735374999999999,
+          10.988,
+          11.024834
+        ],
+        "standardDeviationMs" : 0.41356348192682596
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "spikyCircle",
+      "styleTitle" : "Spiky Circle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 5.7527080000000002,
+        "meanMs" : 5.6327084000000003,
+        "medianMs" : 5.6479590000000002,
+        "minMs" : 5.4705000000000004,
+        "samplesMs" : [
+          5.7527080000000002,
+          5.4705000000000004,
+          5.5706249999999997,
+          5.6479590000000002,
+          5.7217500000000001
+        ],
+        "standardDeviationMs" : 0.10269060805857562
+      },
+      "path" : {
+        "maxMs" : 3.3181669999999999,
+        "meanMs" : 3.2083499999999994,
+        "medianMs" : 3.2515830000000001,
+        "minMs" : 3.0605829999999998,
+        "samplesMs" : [
+          3.1110419999999999,
+          3.2515830000000001,
+          3.0605829999999998,
+          3.3181669999999999,
+          3.3003749999999998
+        ],
+        "standardDeviationMs" : 0.10363532173540065
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "square",
+      "styleTitle" : "Square"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 302.273708,
+        "meanMs" : 299.15733339999997,
+        "medianMs" : 299.58524999999997,
+        "minMs" : 296.35487499999999,
+        "samplesMs" : [
+          300.92620899999997,
+          299.58524999999997,
+          296.64662499999997,
+          296.35487499999999,
+          302.273708
+        ],
+        "standardDeviationMs" : 2.3315768872553724
+      },
+      "path" : {
+        "maxMs" : 6.381875,
+        "meanMs" : 5.7520666,
+        "medianMs" : 5.5834169999999999,
+        "minMs" : 5.4702909999999996,
+        "samplesMs" : [
+          6.381875,
+          5.4792920000000001,
+          5.4702909999999996,
+          5.8454579999999998,
+          5.5834169999999999
+        ],
+        "standardDeviationMs" : 0.3428196998555364
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "squircle",
+      "styleTitle" : "Squircle"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 30.15325,
+        "meanMs" : 26.8317166,
+        "medianMs" : 26.333749999999998,
+        "minMs" : 25.332708,
+        "samplesMs" : [
+          25.879290999999998,
+          25.332708,
+          26.459584,
+          26.333749999999998,
+          30.15325
+        ],
+        "standardDeviationMs" : 1.7072304378977785
+      },
+      "path" : {
+        "maxMs" : 4.1746660000000002,
+        "meanMs" : 4.0677749999999993,
+        "medianMs" : 4.1095829999999998,
+        "minMs" : 3.947667,
+        "samplesMs" : [
+          4.1746660000000002,
+          4.1095829999999998,
+          3.995584,
+          3.947667,
+          4.1113749999999998
+        ],
+        "standardDeviationMs" : 0.083321098036451727
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "star",
+      "styleTitle" : "Star"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 803.68441700000005,
+        "meanMs" : 785.11772500000006,
+        "medianMs" : 784.91875000000005,
+        "minMs" : 764.54158299999995,
+        "samplesMs" : [
+          764.54158299999995,
+          803.68441700000005,
+          782.95124999999996,
+          784.91875000000005,
+          789.49262499999998
+        ],
+        "standardDeviationMs" : 12.585488678738558
+      },
+      "path" : {
+        "maxMs" : 7.9904999999999999,
+        "meanMs" : 7.8360666000000005,
+        "medianMs" : 7.9106249999999996,
+        "minMs" : 7.6669159999999996,
+        "samplesMs" : [
+          7.9222080000000004,
+          7.6669159999999996,
+          7.6900839999999997,
+          7.9904999999999999,
+          7.9106249999999996
+        ],
+        "standardDeviationMs" : 0.13172077727010284
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "stitch",
+      "styleTitle" : "Stitch"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 67.813374999999994,
+        "meanMs" : 63.521183199999996,
+        "medianMs" : 63.565750000000001,
+        "minMs" : 57.404249999999998,
+        "samplesMs" : [
+          67.813374999999994,
+          66.907332999999994,
+          63.565750000000001,
+          61.915208,
+          57.404249999999998
+        ],
+        "standardDeviationMs" : 3.7386343825511137
+      },
+      "path" : {
+        "maxMs" : 4.532,
+        "meanMs" : 4.4159752000000001,
+        "medianMs" : 4.4225839999999996,
+        "minMs" : 4.2954999999999997,
+        "samplesMs" : [
+          4.532,
+          4.5302090000000002,
+          4.4225839999999996,
+          4.2954999999999997,
+          4.2995830000000002
+        ],
+        "standardDeviationMs" : 0.10451431437922758
+      },
+      "pixelSettings" : {
+        "cornerRadiusFraction" : 1,
+        "insetFraction" : 0.10000000000000001
+      },
+      "style" : "vertical",
+      "styleTitle" : "Vertical bars"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 62.850124999999998,
+        "meanMs" : 52.869891400000007,
+        "medianMs" : 51.056083000000001,
+        "minMs" : 47.929457999999997,
+        "samplesMs" : [
+          62.850124999999998,
+          52.200249999999997,
+          50.313541000000001,
+          51.056083000000001,
+          47.929457999999997
+        ],
+        "standardDeviationMs" : 5.1823969893185371
+      },
+      "path" : {
+        "maxMs" : 6.9291669999999996,
+        "meanMs" : 6.8172915999999999,
+        "medianMs" : 6.8000410000000002,
+        "minMs" : 6.7442089999999997,
+        "samplesMs" : [
+          6.851458,
+          6.7442089999999997,
+          6.7615829999999999,
+          6.9291669999999996,
+          6.8000410000000002
+        ],
+        "standardDeviationMs" : 0.066970957513238491
+      },
+      "pixelSettings" : {
+
+      },
+      "style" : "vortex",
+      "styleTitle" : "Vortex"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 417.55920800000001,
+        "meanMs" : 414.22136639999997,
+        "medianMs" : 413.92266599999999,
+        "minMs" : 412.19929200000001,
+        "samplesMs" : [
+          412.19929200000001,
+          412.21645799999999,
+          417.55920800000001,
+          415.20920799999999,
+          413.92266599999999
+        ],
+        "standardDeviationMs" : 2.0156726953484911
+      },
+      "path" : {
+        "maxMs" : 6.444083,
+        "meanMs" : 6.2321915999999993,
+        "medianMs" : 6.1717079999999997,
+        "minMs" : 6.1043329999999996,
+        "samplesMs" : [
+          6.1413339999999996,
+          6.2995000000000001,
+          6.1043329999999996,
+          6.1717079999999997,
+          6.444083
+        ],
+        "standardDeviationMs" : 0.12465117492041558
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "wave",
+      "styleTitle" : "Wave"
+    },
+    {
+      "fixture" : "large",
+      "image" : {
+        "maxMs" : 36.959207999999997,
+        "meanMs" : 36.331583199999997,
+        "medianMs" : 36.197082999999999,
+        "minMs" : 36.025207999999999,
+        "samplesMs" : [
+          36.025207999999999,
+          36.155749999999998,
+          36.197082999999999,
+          36.320667,
+          36.959207999999997
+        ],
+        "standardDeviationMs" : 0.32769053516841079
+      },
+      "path" : {
+        "maxMs" : 4.3049580000000001,
+        "meanMs" : 4.2305082000000001,
+        "medianMs" : 4.2033750000000003,
+        "minMs" : 4.1678750000000004,
+        "samplesMs" : [
+          4.1678750000000004,
+          4.3026660000000003,
+          4.2033750000000003,
+          4.3049580000000001,
+          4.173667
+        ],
+        "standardDeviationMs" : 0.061056647668865642
+      },
+      "pixelSettings" : {
+        "insetFraction" : 0,
+        "insetGeneratorName" : "fixed",
+        "rotationFraction" : 0,
+        "rotationGeneratorName" : "fixed"
+      },
+      "style" : "wex",
+      "styleTitle" : "Wex"
+    }
+  ],
+  "schemaVersion" : 1
+}

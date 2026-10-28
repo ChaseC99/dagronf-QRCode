@@ -1,0 +1,62 @@
+[
+  {
+    "fixture": "small",
+    "style": "flower",
+    "operation": "path",
+    "ratios": [
+      1.2493506493506492,
+      1.2278915104649106
+    ],
+    "deltaMs": 0.04435399999999998
+  },
+  {
+    "fixture": "small",
+    "style": "gear",
+    "operation": "path",
+    "ratios": [
+      1.1284300384197092,
+      1.058703125
+    ],
+    "deltaMs": 0.036354
+  },
+  {
+    "fixture": "medium",
+    "style": "flower",
+    "operation": "path",
+    "ratios": [
+      1.26165260346349,
+      1.214579943686829
+    ],
+    "deltaMs": 0.6185215
+  },
+  {
+    "fixture": "large",
+    "style": "flower",
+    "operation": "path",
+    "ratios": [
+      1.2207236070429643,
+      1.2401693955923179
+    ],
+    "deltaMs": 2.159021000000001
+  },
+  {
+    "fixture": "large",
+    "style": "gear",
+    "operation": "path",
+    "ratios": [
+      1.0613543081859416,
+      1.1311424257879825
+    ],
+    "deltaMs": 1.395604500000001
+  },
+  {
+    "fixture": "large",
+    "style": "vertical",
+    "operation": "image",
+    "ratios": [
+      1.0847018990888202,
+      1.1782576519364811
+    ],
+    "deltaMs": 12.095166500000005
+  }
+]

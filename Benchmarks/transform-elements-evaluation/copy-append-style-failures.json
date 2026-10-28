@@ -1,0 +1,12 @@
+{
+  "method": "Original copy(using:) + identity append; all 40 candidates migrated",
+  "configuration": "Debug",
+  "failedAssertionsByStyle": {
+    "roundedPath": 412,
+    "roundedEndIndent": 412,
+    "curvePixel": 8,
+    "razor": 1
+  },
+  "rasterFailures": 0,
+  "firstFailure": "/Users/chase/Documents/Code/iOS/dagronf-QRCode/Tests/QRCodeTests/QRCodeNeighborBatchingTests.swift:46: error: -[QRCodeTests.QRCodeNeighborBatchingTests testAll512NeighborhoodsIncludingEdgesAndVortexQuadrants] : failed - roundedPath, dimension 3, settings [\"hasInnerCorners\": true, \"cornerRadiusFraction\": 0.65], cells [true, false, true, false, false, false, false, false, false]: element 12 differs"
+}

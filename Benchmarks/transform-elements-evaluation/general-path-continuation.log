@@ -1,0 +1,30 @@
+Building for debugging...
+[Computing dependencies]
+[Starting]
+[1 / 28] QRCodeGenerator
+[2 / 14] QRCode
+[4 / 16] QRCode
+[9 / 19] QRCode
+[14 / 16] QRCodeDynamic-product
+[17 / 19] QRCodeTests-product
+[21 / 21] qrcodegen-product
+Build complete! (8.00 sec)
+Test Suite 'Selected tests' started at 2026-10-27 23:20:57.911.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-27 23:20:57.912.
+Test Suite 'QRCodeTransformedPathTests' started at 2026-10-27 23:20:57.912.
+Test Case '-[QRCodeTests.QRCodeTransformedPathTests testHolesUnderBothFillRules]' started.
+Test Case '-[QRCodeTests.QRCodeTransformedPathTests testHolesUnderBothFillRules]' passed (0.018 seconds).
+Test Case '-[QRCodeTests.QRCodeTransformedPathTests testNativeAppendEquivalence]' started.
+Test Case '-[QRCodeTests.QRCodeTransformedPathTests testNativeAppendEquivalence]' passed (0.499 seconds).
+Test Case '-[QRCodeTests.QRCodeTransformedPathTests testRepeatedAppendsPreserveCurrentSubpath]' started.
+/Users/chase/Documents/Code/iOS/dagronf-QRCode/Tests/QRCodeTests/QRCodeTransformedPathTests.swift:59: error: -[QRCodeTests.QRCodeTransformedPathTests testRepeatedAppendsPreserveCurrentSubpath] : XCTAssertEqualWithAccuracy failed: ("-15.365507724349825") is not equal to ("-21.242704963671855") +/- ("1e-10") - continued subpath
+/Users/chase/Documents/Code/iOS/dagronf-QRCode/Tests/QRCodeTests/QRCodeTransformedPathTests.swift:59: error: -[QRCodeTests.QRCodeTransformedPathTests testRepeatedAppendsPreserveCurrentSubpath] : XCTAssertEqualWithAccuracy failed: ("17.703338795497952") is not equal to ("1.412673875253108") +/- ("1e-10") - continued subpath
+Test Case '-[QRCodeTests.QRCodeTransformedPathTests testRepeatedAppendsPreserveCurrentSubpath]' failed (0.524 seconds).
+Test Suite 'QRCodeTransformedPathTests' failed at 2026-10-27 23:20:58.953.
+	 Executed 3 tests, with 2 failures (0 unexpected) in 1.041 (1.041) seconds
+Test Suite 'QRCodeTests.xctest' failed at 2026-10-27 23:20:58.953.
+	 Executed 3 tests, with 2 failures (0 unexpected) in 1.041 (1.041) seconds
+Test Suite 'Selected tests' failed at 2026-10-27 23:20:58.953.
+	 Executed 3 tests, with 2 failures (0 unexpected) in 1.041 (1.042) seconds
+Note: Some test targets reported failures:
+  - QRCodeTests (XCTest)

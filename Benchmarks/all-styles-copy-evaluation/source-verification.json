@@ -1,0 +1,19 @@
+{
+  "reports": [
+    {
+      "report": "copy-1",
+      "verifiedFileHashes": 314
+    },
+    {
+      "report": "original",
+      "verifiedFileHashes": 314
+    },
+    {
+      "report": "copy-2",
+      "verifiedFileHashes": 314
+    }
+  ],
+  "originalTrackedProductionMatchesBaseline": true,
+  "sameInputsOutsideProduction": true,
+  "bothCopyRunsMatchCurrentInputs": true
+}
