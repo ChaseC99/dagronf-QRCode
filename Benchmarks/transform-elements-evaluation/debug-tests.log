@@ -1,0 +1,124 @@
+Building for debugging...
+[Computing dependencies]
+[2 / 17] QRCode
+[4 / 19] QRCode
+[10 / 22] QRCode
+[15 / 21] QRCodeTests-product
+[19 / 24] QRCodeTests-product
+[25 / 29] QRCodeTests-product
+[29 / 29] QRCodeDynamic-product
+Build complete! (9.01 sec)
+Test Suite 'Selected tests' started at 2026-10-27 23:29:55.317.
+Test Suite 'QRCodeTests.xctest' started at 2026-10-27 23:29:55.317.
+Test Suite 'QRCodeDetectionTests' started at 2026-10-27 23:29:55.317.
+Test Case '-[QRCodeTests.QRCodeDetectionTests testBasicDetection]' started.
+Test Case '-[QRCodeTests.QRCodeDetectionTests testBasicDetection]' passed (0.092 seconds).
+Test Suite 'QRCodeDetectionTests' passed at 2026-10-27 23:29:55.409.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.092 (0.092) seconds
+Test Suite 'QRCodeMaskingTests' started at 2026-10-27 23:29:55.409.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testAbsolutePositioningMask]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testAbsolutePositioningMask]' passed (0.030 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testBasicMask]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testBasicMask]' passed (0.058 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testFixedTemplates]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testFixedTemplates]' passed (0.027 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testIssue34Export]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testIssue34Export]' passed (0.095 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testLogoImageMasking]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testLogoImageMasking]' passed (0.013 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testLogoQRMasking]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testLogoQRMasking]' passed (0.072 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testOverlayImage]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testOverlayImage]' passed (0.142 seconds).
+Test Case '-[QRCodeTests.QRCodeMaskingTests testPathGenerationWithLogoTemplate]' started.
+Test Case '-[QRCodeTests.QRCodeMaskingTests testPathGenerationWithLogoTemplate]' passed (0.031 seconds).
+Test Suite 'QRCodeMaskingTests' passed at 2026-10-27 23:29:55.879.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.469 (0.469) seconds
+Test Suite 'QRCodeNeighborBatchingTests' started at 2026-10-27 23:29:55.879.
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testAll512NeighborhoodsIncludingEdgesAndVortexQuadrants]' started.
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testAll512NeighborhoodsIncludingEdgesAndVortexQuadrants]' passed (11.885 seconds).
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testCustomAndDegenerateSettings]' started.
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testCustomAndDegenerateSettings]' passed (0.440 seconds).
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testEmptySingleSparseDenseAndActiveCountBoundaries]' started.
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testEmptySingleSparseDenseAndActiveCountBoundaries]' passed (1.004 seconds).
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testExactEmittedPathBoundaries]' started.
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testExactEmittedPathBoundaries]' passed (1.221 seconds).
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testOffCellEmissionsAcrossExactBatchBoundaries]' started.
+Test Case '-[QRCodeTests.QRCodeNeighborBatchingTests testOffCellEmissionsAcrossExactBatchBoundaries]' passed (0.077 seconds).
+Test Suite 'QRCodeNeighborBatchingTests' passed at 2026-10-27 23:30:10.507.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 14.627 (14.628) seconds
+Test Suite 'QRCodePathTests' started at 2026-10-27 23:30:10.507.
+Test Case '-[QRCodeTests.QRCodePathTests testBasicQRCode]' started.
+Test Case '-[QRCodeTests.QRCodePathTests testBasicQRCode]' passed (4.434 seconds).
+Test Case '-[QRCodeTests.QRCodePathTests testEyeBackground]' started.
+Test Case '-[QRCodeTests.QRCodePathTests testEyeBackground]' passed (0.058 seconds).
+Test Case '-[QRCodeTests.QRCodePathTests testOffOnRegistration]' started.
+Test Case '-[QRCodeTests.QRCodePathTests testOffOnRegistration]' passed (0.029 seconds).
+Test Case '-[QRCodeTests.QRCodePathTests testShadow]' started.
+Test Case '-[QRCodeTests.QRCodePathTests testShadow]' passed (0.022 seconds).
+Test Suite 'QRCodePathTests' passed at 2026-10-27 23:30:15.050.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 4.542 (4.544) seconds
+Test Suite 'QRCodePixelBatchingTests' started at 2026-10-27 23:30:15.050.
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testCustomAndStatefulSettings]' started.
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testCustomAndStatefulSettings]' passed (2.441 seconds).
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testDenseMatricesAndSingleCellIntegrationRaster]' started.
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testDenseMatricesAndSingleCellIntegrationRaster]' passed (0.440 seconds).
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testEmptyAndSingleModuleMatrices]' started.
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testEmptyAndSingleModuleMatrices]' passed (0.044 seconds).
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testEveryStyleAcrossBatchBoundaries]' started.
+Test Case '-[QRCodeTests.QRCodePixelBatchingTests testEveryStyleAcrossBatchBoundaries]' passed (1.858 seconds).
+Test Suite 'QRCodePixelBatchingTests' passed at 2026-10-27 23:30:19.833.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 4.783 (4.783) seconds
+Test Suite 'QRCodeSVGTests' started at 2026-10-27 23:30:19.834.
+Test Case '-[QRCodeTests.QRCodeSVGTests testBasicSVG]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testBasicSVG]' passed (0.056 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testBlockMaskPixelsForImageSVGIssue]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testBlockMaskPixelsForImageSVGIssue]' passed (0.023 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithBackgroundPixelColors]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithBackgroundPixelColors]' passed (0.032 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithImage]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithImage]' passed (0.605 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithLinearFill]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithLinearFill]' passed (0.012 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithRadialFill]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithRadialFill]' passed (0.016 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithSolidFill]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testExportSVGWithSolidFill]' passed (0.013 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testIssue19ExportSVGIssue]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testIssue19ExportSVGIssue]' passed (0.005 seconds).
+Test Case '-[QRCodeTests.QRCodeSVGTests testSVGFormatter]' started.
+Test Case '-[QRCodeTests.QRCodeSVGTests testSVGFormatter]' passed (0.000 seconds).
+Test Suite 'QRCodeSVGTests' passed at 2026-10-27 23:30:20.598.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.764 (0.765) seconds
+Test Suite 'QRCodeStandaloneBatchingTests' started at 2026-10-27 23:30:20.598.
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testDonutHolesWithNonzeroAndEvenOddWinding]' started.
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testDonutHolesWithNonzeroAndEvenOddWinding]' passed (0.089 seconds).
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testEmptySingleSparseAndDenseMatrices]' started.
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testEmptySingleSparseAndDenseMatrices]' passed (0.420 seconds).
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testEveryStyleAcrossBatchBoundaries]' started.
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testEveryStyleAcrossBatchBoundaries]' passed (0.962 seconds).
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testSingleCellIntegrationRaster]' started.
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testSingleCellIntegrationRaster]' passed (0.041 seconds).
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testTemplateSubpathsStayClosedAndOrdered]' started.
+Test Case '-[QRCodeTests.QRCodeStandaloneBatchingTests testTemplateSubpathsStayClosedAndOrdered]' passed (0.366 seconds).
+Test Suite 'QRCodeStandaloneBatchingTests' passed at 2026-10-27 23:30:22.476.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 1.878 (1.878) seconds
+Test Suite 'QRCodeTests' started at 2026-10-27 23:30:22.476.
+Test Case '-[QRCodeTests.QRCodeTests testBasicDocumentionationCode]' started.
+Test Case '-[QRCodeTests.QRCodeTests testBasicDocumentionationCode]' passed (0.147 seconds).
+Test Suite 'QRCodeTests' passed at 2026-10-27 23:30:22.623.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.147 (0.147) seconds
+Test Suite 'QRCodeTransformedPixelPathTests' started at 2026-10-27 23:30:22.624.
+Test Case '-[QRCodeTests.QRCodeTransformedPixelPathTests testHolesUnderBothFillRules]' started.
+Test Case '-[QRCodeTests.QRCodeTransformedPixelPathTests testHolesUnderBothFillRules]' passed (0.014 seconds).
+Test Case '-[QRCodeTests.QRCodeTransformedPixelPathTests testNativeAppendEquivalenceForPixelTemplates]' started.
+Test Case '-[QRCodeTests.QRCodeTransformedPixelPathTests testNativeAppendEquivalenceForPixelTemplates]' passed (0.376 seconds).
+Test Case '-[QRCodeTests.QRCodeTransformedPixelPathTests testRepeatedModulesAndNewSubpath]' started.
+Test Case '-[QRCodeTests.QRCodeTransformedPixelPathTests testRepeatedModulesAndNewSubpath]' passed (0.326 seconds).
+Test Suite 'QRCodeTransformedPixelPathTests' passed at 2026-10-27 23:30:23.340.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.717 (0.717) seconds
+Test Suite 'QRCodeTests.xctest' passed at 2026-10-27 23:30:23.341.
+	 Executed 40 tests, with 0 failures (0 unexpected) in 28.018 (28.024) seconds
+Test Suite 'Selected tests' passed at 2026-10-27 23:30:23.341.
+	 Executed 40 tests, with 0 failures (0 unexpected) in 28.018 (28.024) seconds
+TestContainer(QRCodeTests - Generated files at: file:///var/folders/56/z7kc8vh54f77bxtsm49lgc200000gn/T/QRCodeTests/2026-10-27T232955-0700/

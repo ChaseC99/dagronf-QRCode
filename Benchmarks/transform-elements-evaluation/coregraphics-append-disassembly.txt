@@ -1,0 +1,418 @@
+(lldb) target create /tmp/qrcode-alternatives
+Current executable set to '/tmp/qrcode-alternatives' (arm64).
+(lldb) disassemble -n "CG::Path::append(CG::Path const&, CGAffineTransform const*)"
+CoreGraphics`CG::Path::append:
+CoreGraphics[0x18733e870] <+0>:    pacibsp 
+CoreGraphics[0x18733e874] <+4>:    stp    x22, x21, [sp, #-0x30]!
+CoreGraphics[0x18733e878] <+8>:    stp    x20, x19, [sp, #0x10]
+CoreGraphics[0x18733e87c] <+12>:   stp    x29, x30, [sp, #0x20]
+CoreGraphics[0x18733e880] <+16>:   add    x29, sp, #0x20
+CoreGraphics[0x18733e884] <+20>:   mov    x20, x2
+CoreGraphics[0x18733e888] <+24>:   mov    x21, x1
+CoreGraphics[0x18733e88c] <+28>:   mov    x19, x0
+CoreGraphics[0x18733e890] <+32>:   ldr    w9, [x0]
+CoreGraphics[0x18733e894] <+36>:   ldr    w8, [x1]
+CoreGraphics[0x18733e898] <+40>:   cbz    w9, 0x18733e950           ; <+224>
+CoreGraphics[0x18733e89c] <+44>:   cbz    w8, 0x18733ed08           ; <+1176>
+CoreGraphics[0x18733e8a0] <+48>:   cmp    w9, #0x9
+CoreGraphics[0x18733e8a4] <+52>:   b.eq   0x18733e8b4               ; <+68>
+CoreGraphics[0x18733e8a8] <+56>:   mov    x0, x19
+CoreGraphics[0x18733e8ac] <+60>:   bl     0x187607e70               ; CG::Path::convert_to_huge_()
+CoreGraphics[0x18733e8b0] <+64>:   ldr    w8, [x21]
+CoreGraphics[0x18733e8b4] <+68>:   ldr    x22, [x19, #0x8]
+CoreGraphics[0x18733e8b8] <+72>:   cmp    w8, #0x4
+CoreGraphics[0x18733e8bc] <+76>:   b.le   0x18733e9fc               ; <+396>
+CoreGraphics[0x18733e8c0] <+80>:   cmp    w8, #0x6
+CoreGraphics[0x18733e8c4] <+84>:   b.le   0x18733ea90               ; <+544>
+CoreGraphics[0x18733e8c8] <+88>:   cmp    w8, #0x7
+CoreGraphics[0x18733e8cc] <+92>:   b.eq   0x18733eb68               ; <+760>
+CoreGraphics[0x18733e8d0] <+96>:   cmp    w8, #0x8
+CoreGraphics[0x18733e8d4] <+100>:  b.eq   0x18733eb94               ; <+804>
+CoreGraphics[0x18733e8d8] <+104>:  cmp    w8, #0x9
+CoreGraphics[0x18733e8dc] <+108>:  b.ne   0x18733ebac               ; <+828>
+CoreGraphics[0x18733e8e0] <+112>:  ldp    x1, x2, [x21, #0x8]
+CoreGraphics[0x18733e8e4] <+116>:  mov    x0, x19
+CoreGraphics[0x18733e8e8] <+120>:  bl     0x1872f4234               ; CG::Path::reserve_space(unsigned long, unsigned long)
+CoreGraphics[0x18733e8ec] <+124>:  ldr    x8, [x19, #0x20]
+CoreGraphics[0x18733e8f0] <+128>:  ldr    x9, [x19, #0x8]
+CoreGraphics[0x18733e8f4] <+132>:  add    x0, x8, x9, lsl #4
+CoreGraphics[0x18733e8f8] <+136>:  ldr    x1, [x21, #0x20]
+CoreGraphics[0x18733e8fc] <+140>:  ldr    x8, [x21, #0x8]
+CoreGraphics[0x18733e900] <+144>:  lsl    x2, x8, #4
+CoreGraphics[0x18733e904] <+148>:  bl     0x1877bb87c               ; symbol stub for: memcpy
+CoreGraphics[0x18733e908] <+152>:  ldp    x9, x8, [x19, #0x18]
+CoreGraphics[0x18733e90c] <+156>:  ldr    x10, [x19, #0x10]
+CoreGraphics[0x18733e910] <+160>:  add    x8, x8, x9
+CoreGraphics[0x18733e914] <+164>:  sub    x8, x8, x10
+CoreGraphics[0x18733e918] <+168>:  ldp    x2, x9, [x21, #0x10]
+CoreGraphics[0x18733e91c] <+172>:  sub    x0, x8, x2
+CoreGraphics[0x18733e920] <+176>:  ldr    x8, [x21, #0x20]
+CoreGraphics[0x18733e924] <+180>:  add    x8, x8, x9
+CoreGraphics[0x18733e928] <+184>:  sub    x1, x8, x2
+CoreGraphics[0x18733e92c] <+188>:  bl     0x1877bb87c               ; symbol stub for: memcpy
+CoreGraphics[0x18733e930] <+192>:  ldr    x8, [x21, #0x8]
+CoreGraphics[0x18733e934] <+196>:  ldp    x9, x10, [x19, #0x8]
+CoreGraphics[0x18733e938] <+200>:  add    x8, x9, x8
+CoreGraphics[0x18733e93c] <+204>:  str    x8, [x19, #0x8]
+CoreGraphics[0x18733e940] <+208>:  ldr    x8, [x21, #0x10]
+CoreGraphics[0x18733e944] <+212>:  add    x8, x10, x8
+CoreGraphics[0x18733e948] <+216>:  str    x8, [x19, #0x10]
+CoreGraphics[0x18733e94c] <+220>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733e950] <+224>:  str    w8, [x19]
+CoreGraphics[0x18733e954] <+228>:  cmp    w8, #0x4
+CoreGraphics[0x18733e958] <+232>:  b.le   0x18733ea30               ; <+448>
+CoreGraphics[0x18733e95c] <+236>:  cmp    w8, #0x6
+CoreGraphics[0x18733e960] <+240>:  b.le   0x18733eaf0               ; <+640>
+CoreGraphics[0x18733e964] <+244>:  cmp    w8, #0x7
+CoreGraphics[0x18733e968] <+248>:  b.eq   0x18733ed58               ; <+1256>
+CoreGraphics[0x18733e96c] <+252>:  cmp    w8, #0x8
+CoreGraphics[0x18733e970] <+256>:  b.eq   0x18733ed94               ; <+1316>
+CoreGraphics[0x18733e974] <+260>:  cmp    w8, #0x9
+CoreGraphics[0x18733e978] <+264>:  b.ne   0x18733ed68               ; <+1272>
+CoreGraphics[0x18733e97c] <+268>:  ldr    x8, [x21, #0x48]
+CoreGraphics[0x18733e980] <+272>:  str    x8, [x19, #0x48]
+CoreGraphics[0x18733e984] <+276>:  ldr    x8, [x21, #0x50]
+CoreGraphics[0x18733e988] <+280>:  str    x8, [x19, #0x50]
+CoreGraphics[0x18733e98c] <+284>:  ldr    x0, [x21, #0x18]
+CoreGraphics[0x18733e990] <+288>:  str    x0, [x19, #0x18]
+CoreGraphics[0x18733e994] <+292>:  ldr    x8, [x21, #0x8]
+CoreGraphics[0x18733e998] <+296>:  str    x8, [x19, #0x8]
+CoreGraphics[0x18733e99c] <+300>:  ldr    x8, [x21, #0x10]
+CoreGraphics[0x18733e9a0] <+304>:  str    x8, [x19, #0x10]
+CoreGraphics[0x18733e9a4] <+308>:  mov    x1, #0x4924               ; =18724 
+CoreGraphics[0x18733e9a8] <+312>:  movk   x1, #0x7777, lsl #16
+CoreGraphics[0x18733e9ac] <+316>:  movk   x1, #0x40, lsl #32
+CoreGraphics[0x18733e9b0] <+320>:  movk   x1, #0x100, lsl #48
+CoreGraphics[0x18733e9b4] <+324>:  bl     0x1877bb80c               ; symbol stub for: malloc_type_malloc
+CoreGraphics[0x18733e9b8] <+328>:  str    x0, [x19, #0x20]
+CoreGraphics[0x18733e9bc] <+332>:  ldr    x1, [x21, #0x20]
+CoreGraphics[0x18733e9c0] <+336>:  ldr    x8, [x19, #0x8]
+CoreGraphics[0x18733e9c4] <+340>:  lsl    x2, x8, #4
+CoreGraphics[0x18733e9c8] <+344>:  bl     0x1877bb87c               ; symbol stub for: memcpy
+CoreGraphics[0x18733e9cc] <+348>:  ldp    x9, x8, [x19, #0x18]
+CoreGraphics[0x18733e9d0] <+352>:  ldr    x2, [x19, #0x10]
+CoreGraphics[0x18733e9d4] <+356>:  add    x8, x8, x9
+CoreGraphics[0x18733e9d8] <+360>:  sub    x0, x8, x2
+CoreGraphics[0x18733e9dc] <+364>:  ldr    x8, [x21, #0x20]
+CoreGraphics[0x18733e9e0] <+368>:  add    x8, x8, x9
+CoreGraphics[0x18733e9e4] <+372>:  sub    x1, x8, x2
+CoreGraphics[0x18733e9e8] <+376>:  bl     0x1877bb87c               ; symbol stub for: memcpy
+CoreGraphics[0x18733e9ec] <+380>:  ldur   q0, [x21, #0x28]
+CoreGraphics[0x18733e9f0] <+384>:  stur   q0, [x19, #0x28]
+CoreGraphics[0x18733e9f4] <+388>:  ldur   q0, [x21, #0x38]
+CoreGraphics[0x18733e9f8] <+392>:  b      0x18733ed4c               ; <+1244>
+CoreGraphics[0x18733e9fc] <+396>:  cmp    w8, #0x2
+CoreGraphics[0x18733ea00] <+400>:  b.gt   0x18733ea60               ; <+496>
+CoreGraphics[0x18733ea04] <+404>:  cmp    w8, #0x1
+CoreGraphics[0x18733ea08] <+408>:  b.eq   0x18733eb34               ; <+708>
+CoreGraphics[0x18733ea0c] <+412>:  cmp    w8, #0x2
+CoreGraphics[0x18733ea10] <+416>:  b.ne   0x18733ebac               ; <+828>
+CoreGraphics[0x18733ea14] <+420>:  ldp    d0, d1, [x21, #0x38]
+CoreGraphics[0x18733ea18] <+424>:  adrp   x1, 1591
+CoreGraphics[0x18733ea1c] <+428>:  add    x1, x1, #0x9a8            ; unit_rect
+CoreGraphics[0x18733ea20] <+432>:  add    x2, x21, #0x8
+CoreGraphics[0x18733ea24] <+436>:  mov    x0, x19
+CoreGraphics[0x18733ea28] <+440>:  bl     0x187341d38               ; CG::Path::append_rounded_rect(CGRect const&, CGSize, CGAffineTransform const*)
+CoreGraphics[0x18733ea2c] <+444>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733ea30] <+448>:  cmp    w8, #0x2
+CoreGraphics[0x18733ea34] <+452>:  b.gt   0x18733eac8               ; <+600>
+CoreGraphics[0x18733ea38] <+456>:  cmp    w8, #0x1
+CoreGraphics[0x18733ea3c] <+460>:  b.eq   0x18733ecec               ; <+1148>
+CoreGraphics[0x18733ea40] <+464>:  cmp    w8, #0x2
+CoreGraphics[0x18733ea44] <+468>:  b.ne   0x18733ed68               ; <+1272>
+CoreGraphics[0x18733ea48] <+472>:  ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733ea4c] <+476>:  ldur   q1, [x21, #0x18]
+CoreGraphics[0x18733ea50] <+480>:  ldur   q2, [x21, #0x28]
+CoreGraphics[0x18733ea54] <+484>:  ldur   q3, [x21, #0x38]
+CoreGraphics[0x18733ea58] <+488>:  stur   q3, [x19, #0x38]
+CoreGraphics[0x18733ea5c] <+492>:  b      0x18733ecf8               ; <+1160>
+CoreGraphics[0x18733ea60] <+496>:  cmp    w8, #0x3
+CoreGraphics[0x18733ea64] <+500>:  b.eq   0x18733eb4c               ; <+732>
+CoreGraphics[0x18733ea68] <+504>:  cmp    w8, #0x4
+CoreGraphics[0x18733ea6c] <+508>:  b.ne   0x18733ebac               ; <+828>
+CoreGraphics[0x18733ea70] <+512>:  ldrb   w2, [x21, #0x39]
+CoreGraphics[0x18733ea74] <+516>:  ldrb   w3, [x21, #0x38]
+CoreGraphics[0x18733ea78] <+520>:  adrp   x1, 1591
+CoreGraphics[0x18733ea7c] <+524>:  add    x1, x1, #0x9a8            ; unit_rect
+CoreGraphics[0x18733ea80] <+528>:  add    x4, x21, #0x8
+CoreGraphics[0x18733ea84] <+532>:  mov    x0, x19
+CoreGraphics[0x18733ea88] <+536>:  bl     0x187316960               ; CG::Path::append_ellipse(CGRect const&, bool, bool, CGAffineTransform const*)
+CoreGraphics[0x18733ea8c] <+540>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733ea90] <+544>:  cmp    w8, #0x5
+CoreGraphics[0x18733ea94] <+548>:  b.eq   0x18733eb7c               ; <+780>
+CoreGraphics[0x18733ea98] <+552>:  cmp    w8, #0x6
+CoreGraphics[0x18733ea9c] <+556>:  b.ne   0x18733ebac               ; <+828>
+CoreGraphics[0x18733eaa0] <+560>:  ldr    d2, [x21, #0x38]
+CoreGraphics[0x18733eaa4] <+564>:  adrp   x1, 1619
+CoreGraphics[0x18733eaa8] <+568>:  add    x1, x1, #0x170            ; CGPointZero
+CoreGraphics[0x18733eaac] <+572>:  fmov   d0, #1.00000000
+CoreGraphics[0x18733eab0] <+576>:  movi.2d v1, #0000000000000000
+CoreGraphics[0x18733eab4] <+580>:  add    x2, x21, #0x8
+CoreGraphics[0x18733eab8] <+584>:  mov    x0, x19
+CoreGraphics[0x18733eabc] <+588>:  mov    w3, #0x1                  ; =1 
+CoreGraphics[0x18733eac0] <+592>:  bl     0x18774f708               ; CG::Path::add_arc_relative(CGPoint const&, double, double, double, CGAffineTransform const*, bool)
+CoreGraphics[0x18733eac4] <+596>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733eac8] <+600>:  cmp    w8, #0x3
+CoreGraphics[0x18733eacc] <+604>:  b.eq   0x18733ed18               ; <+1192>
+CoreGraphics[0x18733ead0] <+608>:  cmp    w8, #0x4
+CoreGraphics[0x18733ead4] <+612>:  b.ne   0x18733ed68               ; <+1272>
+CoreGraphics[0x18733ead8] <+616>:  ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733eadc] <+620>:  ldur   q1, [x21, #0x18]
+CoreGraphics[0x18733eae0] <+624>:  ldur   q2, [x21, #0x28]
+CoreGraphics[0x18733eae4] <+628>:  ldr    x8, [x21, #0x38]
+CoreGraphics[0x18733eae8] <+632>:  str    x8, [x19, #0x38]
+CoreGraphics[0x18733eaec] <+636>:  b      0x18733ecf8               ; <+1160>
+CoreGraphics[0x18733eaf0] <+640>:  cmp    w8, #0x5
+CoreGraphics[0x18733eaf4] <+644>:  b.eq   0x18733eb28               ; <+696>
+CoreGraphics[0x18733eaf8] <+648>:  cmp    w8, #0x6
+CoreGraphics[0x18733eafc] <+652>:  b.ne   0x18733ed68               ; <+1272>
+CoreGraphics[0x18733eb00] <+656>:  ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733eb04] <+660>:  stur   q0, [x19, #0x8]
+CoreGraphics[0x18733eb08] <+664>:  ldur   q0, [x21, #0x18]
+CoreGraphics[0x18733eb0c] <+668>:  ldur   q1, [x21, #0x28]
+CoreGraphics[0x18733eb10] <+672>:  ldur   q2, [x21, #0x38]
+CoreGraphics[0x18733eb14] <+676>:  ldur   q3, [x21, #0x48]
+CoreGraphics[0x18733eb18] <+680>:  stur   q3, [x19, #0x48]
+CoreGraphics[0x18733eb1c] <+684>:  stur   q2, [x19, #0x38]
+CoreGraphics[0x18733eb20] <+688>:  stur   q1, [x19, #0x28]
+CoreGraphics[0x18733eb24] <+692>:  stur   q0, [x19, #0x18]
+CoreGraphics[0x18733eb28] <+696>:  ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733eb2c] <+700>:  ldur   q1, [x21, #0x18]
+CoreGraphics[0x18733eb30] <+704>:  b      0x18733ecfc               ; <+1164>
+CoreGraphics[0x18733eb34] <+708>:  adrp   x1, 1591
+CoreGraphics[0x18733eb38] <+712>:  add    x1, x1, #0x9a8            ; unit_rect
+CoreGraphics[0x18733eb3c] <+716>:  add    x2, x21, #0x8
+CoreGraphics[0x18733eb40] <+720>:  mov    x0, x19
+CoreGraphics[0x18733eb44] <+724>:  bl     0x18732fafc               ; CG::Path::append_rect(CGRect const&, CGAffineTransform const*)
+CoreGraphics[0x18733eb48] <+728>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733eb4c] <+732>:  adrp   x1, 1591
+CoreGraphics[0x18733eb50] <+736>:  add    x1, x1, #0x9a8            ; unit_rect
+CoreGraphics[0x18733eb54] <+740>:  add    x2, x21, #0x38
+CoreGraphics[0x18733eb58] <+744>:  add    x3, x21, #0x8
+CoreGraphics[0x18733eb5c] <+748>:  mov    x0, x19
+CoreGraphics[0x18733eb60] <+752>:  bl     0x187608074               ; CG::Path::append_uneven_rounded_rect(CGRect const&, CGSize const*, CGAffineTransform const*)
+CoreGraphics[0x18733eb64] <+756>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733eb68] <+760>:  mov    x0, x19
+CoreGraphics[0x18733eb6c] <+764>:  mov    x1, x22
+CoreGraphics[0x18733eb70] <+768>:  mov    x2, #0x0                  ; =0 
+CoreGraphics[0x18733eb74] <+772>:  bl     0x187327188               ; CG::Path::append_region(CGSRegionObject*, CGAffineTransform const*)
+CoreGraphics[0x18733eb78] <+776>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733eb7c] <+780>:  add    x1, x21, #0x8
+CoreGraphics[0x18733eb80] <+784>:  add    x2, x21, #0x18
+CoreGraphics[0x18733eb84] <+788>:  mov    x0, x19
+CoreGraphics[0x18733eb88] <+792>:  mov    x3, #0x0                  ; =0 
+CoreGraphics[0x18733eb8c] <+796>:  bl     0x187608330               ; CG::Path::append_line_segment(CGPoint const&, CGPoint const&, CGAffineTransform const*)
+CoreGraphics[0x18733eb90] <+800>:  b      0x18733ebac               ; <+828>
+CoreGraphics[0x18733eb94] <+804>:  ldrh   w2, [x21, #0x8]
+CoreGraphics[0x18733eb98] <+808>:  ldr    w3, [x21, #0xc]
+CoreGraphics[0x18733eb9c] <+812>:  ldrh   w4, [x21, #0xa]
+CoreGraphics[0x18733eba0] <+816>:  add    x1, x21, #0x10
+CoreGraphics[0x18733eba4] <+820>:  mov    x0, x19
+CoreGraphics[0x18733eba8] <+824>:  bl     0x1872f40c4               ; CG::Path::append_tiny(CGPoint const*, unsigned int, unsigned int, unsigned int)
+CoreGraphics[0x18733ebac] <+828>:  ldr    x8, [x19, #0x8]
+CoreGraphics[0x18733ebb0] <+832>:  cbz    x20, 0x18733ec40          ; <+976>
+CoreGraphics[0x18733ebb4] <+836>:  cmp    x22, x8
+CoreGraphics[0x18733ebb8] <+840>:  b.hs   0x18733ebf8               ; <+904>
+CoreGraphics[0x18733ebbc] <+844>:  lsl    x9, x22, #4
+CoreGraphics[0x18733ebc0] <+848>:  ldr    x8, [x19, #0x20]
+CoreGraphics[0x18733ebc4] <+852>:  add    x8, x8, x9
+CoreGraphics[0x18733ebc8] <+856>:  ldp    d0, d1, [x8]
+CoreGraphics[0x18733ebcc] <+860>:  ldp    q2, q3, [x20]
+CoreGraphics[0x18733ebd0] <+864>:  fmul.2d v1, v3, v1[0]
+CoreGraphics[0x18733ebd4] <+868>:  fmla.2d v1, v2, v0[0]
+CoreGraphics[0x18733ebd8] <+872>:  ldr    q0, [x20, #0x20]
+CoreGraphics[0x18733ebdc] <+876>:  fadd.2d v0, v0, v1
+CoreGraphics[0x18733ebe0] <+880>:  str    q0, [x8]
+CoreGraphics[0x18733ebe4] <+884>:  add    x22, x22, #0x1
+CoreGraphics[0x18733ebe8] <+888>:  ldr    x8, [x19, #0x8]
+CoreGraphics[0x18733ebec] <+892>:  add    x9, x9, #0x10
+CoreGraphics[0x18733ebf0] <+896>:  cmp    x22, x8
+CoreGraphics[0x18733ebf4] <+900>:  b.lo   0x18733ebc0               ; <+848>
+CoreGraphics[0x18733ebf8] <+904>:  ldr    d0, [x20]
+CoreGraphics[0x18733ebfc] <+908>:  fmov   d1, #1.00000000
+CoreGraphics[0x18733ec00] <+912>:  fcmp   d0, d1
+CoreGraphics[0x18733ec04] <+916>:  b.ne   0x18733ec88               ; <+1048>
+CoreGraphics[0x18733ec08] <+920>:  ldur   q0, [x20, #0x8]
+CoreGraphics[0x18733ec0c] <+924>:  ldur   q1, [x20, #0x18]
+CoreGraphics[0x18733ec10] <+928>:  adrp   x9, 1160
+CoreGraphics[0x18733ec14] <+932>:  ldr    q2, [x9, #0x450]
+CoreGraphics[0x18733ec18] <+936>:  fcmeq.2d v1, v1, v2
+CoreGraphics[0x18733ec1c] <+940>:  fcmeq.2d v0, v0, #0.0
+CoreGraphics[0x18733ec20] <+944>:  uzp1.4s v0, v0, v1
+CoreGraphics[0x18733ec24] <+948>:  mvn.16b v0, v0
+CoreGraphics[0x18733ec28] <+952>:  umaxv.4s s0, v0
+CoreGraphics[0x18733ec2c] <+956>:  fmov   w9, s0
+CoreGraphics[0x18733ec30] <+960>:  tbnz   w9, #0x0, 0x18733ec88     ; <+1048>
+CoreGraphics[0x18733ec34] <+964>:  ldr    d0, [x20, #0x28]
+CoreGraphics[0x18733ec38] <+968>:  fcmp   d0, #0.0
+CoreGraphics[0x18733ec3c] <+972>:  b.ne   0x18733ec88               ; <+1048>
+CoreGraphics[0x18733ec40] <+976>:  cbz    x8, 0x18733ecd0           ; <+1120>
+CoreGraphics[0x18733ec44] <+980>:  mov    x0, x21
+CoreGraphics[0x18733ec48] <+984>:  bl     0x18738269c               ; CG::Path::path_bounding_box() const
+CoreGraphics[0x18733ec4c] <+988>:  ldur   q4, [x19, #0x28]
+CoreGraphics[0x18733ec50] <+992>:  mov.d  v0[1], v1[0]
+CoreGraphics[0x18733ec54] <+996>:  fcmgt.2d v1, v4, v0
+CoreGraphics[0x18733ec58] <+1000>: bsl.16b v1, v0, v4
+CoreGraphics[0x18733ec5c] <+1004>: mov.d  v2[1], v3[0]
+CoreGraphics[0x18733ec60] <+1008>: fadd.2d v2, v0, v2
+CoreGraphics[0x18733ec64] <+1012>: fcmgt.2d v3, v1, v2
+CoreGraphics[0x18733ec68] <+1016>: bit.16b v1, v2, v3
+CoreGraphics[0x18733ec6c] <+1020>: stur   q1, [x19, #0x28]
+CoreGraphics[0x18733ec70] <+1024>: ldur   q1, [x19, #0x38]
+CoreGraphics[0x18733ec74] <+1028>: fcmgt.2d v3, v0, v1
+CoreGraphics[0x18733ec78] <+1032>: bif.16b v0, v1, v3
+CoreGraphics[0x18733ec7c] <+1036>: fcmgt.2d v1, v2, v0
+CoreGraphics[0x18733ec80] <+1040>: bit.16b v0, v2, v1
+CoreGraphics[0x18733ec84] <+1044>: b      0x18733ece4               ; <+1140>
+CoreGraphics[0x18733ec88] <+1048>: mov    x9, #0x7ff0000000000000   ; =9218868437227405312 
+CoreGraphics[0x18733ec8c] <+1052>: dup.2d v0, x9
+CoreGraphics[0x18733ec90] <+1056>: stur   q0, [x19, #0x28]
+CoreGraphics[0x18733ec94] <+1060>: mov    x9, #-0x10000000000000    ; =-4503599627370496 
+CoreGraphics[0x18733ec98] <+1064>: dup.2d v1, x9
+CoreGraphics[0x18733ec9c] <+1068>: stur   q1, [x19, #0x38]
+CoreGraphics[0x18733eca0] <+1072>: cbz    x8, 0x18733ed08           ; <+1176>
+CoreGraphics[0x18733eca4] <+1076>: ldr    x9, [x19, #0x20]
+CoreGraphics[0x18733eca8] <+1080>: ldr    q2, [x9], #0x10
+CoreGraphics[0x18733ecac] <+1084>: fcmgt.2d v3, v0, v2
+CoreGraphics[0x18733ecb0] <+1088>: bit.16b v0, v2, v3
+CoreGraphics[0x18733ecb4] <+1092>: stur   q0, [x19, #0x28]
+CoreGraphics[0x18733ecb8] <+1096>: fcmgt.2d v3, v2, v1
+CoreGraphics[0x18733ecbc] <+1100>: bit.16b v1, v2, v3
+CoreGraphics[0x18733ecc0] <+1104>: stur   q1, [x19, #0x38]
+CoreGraphics[0x18733ecc4] <+1108>: subs   x8, x8, #0x1
+CoreGraphics[0x18733ecc8] <+1112>: b.ne   0x18733eca8               ; <+1080>
+CoreGraphics[0x18733eccc] <+1116>: b      0x18733ed08               ; <+1176>
+CoreGraphics[0x18733ecd0] <+1120>: mov    x8, #0x7ff0000000000000   ; =9218868437227405312 
+CoreGraphics[0x18733ecd4] <+1124>: dup.2d v0, x8
+CoreGraphics[0x18733ecd8] <+1128>: stur   q0, [x19, #0x28]
+CoreGraphics[0x18733ecdc] <+1132>: mov    x8, #-0x10000000000000    ; =-4503599627370496 
+CoreGraphics[0x18733ece0] <+1136>: dup.2d v0, x8
+CoreGraphics[0x18733ece4] <+1140>: stur   q0, [x19, #0x38]
+CoreGraphics[0x18733ece8] <+1144>: b      0x18733ed08               ; <+1176>
+CoreGraphics[0x18733ecec] <+1148>: ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733ecf0] <+1152>: ldur   q1, [x21, #0x18]
+CoreGraphics[0x18733ecf4] <+1156>: ldur   q2, [x21, #0x28]
+CoreGraphics[0x18733ecf8] <+1160>: stur   q2, [x19, #0x28]
+CoreGraphics[0x18733ecfc] <+1164>: stur   q1, [x19, #0x18]
+CoreGraphics[0x18733ed00] <+1168>: stur   q0, [x19, #0x8]
+CoreGraphics[0x18733ed04] <+1172>: cbnz   x20, 0x18733ed6c          ; <+1276>
+CoreGraphics[0x18733ed08] <+1176>: ldp    x29, x30, [sp, #0x20]
+CoreGraphics[0x18733ed0c] <+1180>: ldp    x20, x19, [sp, #0x10]
+CoreGraphics[0x18733ed10] <+1184>: ldp    x22, x21, [sp], #0x30
+CoreGraphics[0x18733ed14] <+1188>: retab  
+CoreGraphics[0x18733ed18] <+1192>: ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733ed1c] <+1196>: ldur   q1, [x21, #0x18]
+CoreGraphics[0x18733ed20] <+1200>: ldur   q2, [x21, #0x28]
+CoreGraphics[0x18733ed24] <+1204>: stur   q2, [x19, #0x28]
+CoreGraphics[0x18733ed28] <+1208>: stur   q1, [x19, #0x18]
+CoreGraphics[0x18733ed2c] <+1212>: stur   q0, [x19, #0x8]
+CoreGraphics[0x18733ed30] <+1216>: ldur   q0, [x21, #0x38]
+CoreGraphics[0x18733ed34] <+1220>: ldur   q1, [x21, #0x48]
+CoreGraphics[0x18733ed38] <+1224>: ldur   q2, [x21, #0x58]
+CoreGraphics[0x18733ed3c] <+1228>: ldur   q3, [x21, #0x68]
+CoreGraphics[0x18733ed40] <+1232>: stur   q3, [x19, #0x68]
+CoreGraphics[0x18733ed44] <+1236>: stur   q2, [x19, #0x58]
+CoreGraphics[0x18733ed48] <+1240>: stur   q1, [x19, #0x48]
+CoreGraphics[0x18733ed4c] <+1244>: stur   q0, [x19, #0x38]
+CoreGraphics[0x18733ed50] <+1248>: cbnz   x20, 0x18733ed6c          ; <+1276>
+CoreGraphics[0x18733ed54] <+1252>: b      0x18733ed08               ; <+1176>
+CoreGraphics[0x18733ed58] <+1256>: ldr    x0, [x21, #0x8]
+CoreGraphics[0x18733ed5c] <+1260>: cbz    x0, 0x18733ed64           ; <+1268>
+CoreGraphics[0x18733ed60] <+1264>: bl     0x1877b9d2c               ; symbol stub for: CFRetain
+CoreGraphics[0x18733ed64] <+1268>: str    x0, [x19, #0x8]
+CoreGraphics[0x18733ed68] <+1272>: cbz    x20, 0x18733ed08          ; <+1176>
+CoreGraphics[0x18733ed6c] <+1276>: mov    x0, x19
+CoreGraphics[0x18733ed70] <+1280>: mov    x1, x20
+CoreGraphics[0x18733ed74] <+1284>: ldp    x29, x30, [sp, #0x20]
+CoreGraphics[0x18733ed78] <+1288>: ldp    x20, x19, [sp, #0x10]
+CoreGraphics[0x18733ed7c] <+1292>: ldp    x22, x21, [sp], #0x30
+CoreGraphics[0x18733ed80] <+1296>: autibsp 
+CoreGraphics[0x18733ed84] <+1300>: eor    x16, x30, x30, lsl #1
+CoreGraphics[0x18733ed88] <+1304>: tbz    x16, #0x3e, 0x18733ed90   ; <+1312>
+CoreGraphics[0x18733ed8c] <+1308>: brk    #0xc471
+CoreGraphics[0x18733ed90] <+1312>: b      0x1872f4bfc               ; CG::Path::apply_transform(CGAffineTransform const&)
+CoreGraphics[0x18733ed94] <+1316>: ldur   q0, [x21, #0x8]
+CoreGraphics[0x18733ed98] <+1320>: ldur   q1, [x21, #0x18]
+CoreGraphics[0x18733ed9c] <+1324>: ldur   q2, [x21, #0x28]
+CoreGraphics[0x18733eda0] <+1328>: ldur   q3, [x21, #0x38]
+CoreGraphics[0x18733eda4] <+1332>: stur   q3, [x19, #0x38]
+CoreGraphics[0x18733eda8] <+1336>: stur   q2, [x19, #0x28]
+CoreGraphics[0x18733edac] <+1340>: stur   q1, [x19, #0x18]
+CoreGraphics[0x18733edb0] <+1344>: stur   q0, [x19, #0x8]
+CoreGraphics[0x18733edb4] <+1348>: ldur   q0, [x21, #0x48]
+CoreGraphics[0x18733edb8] <+1352>: ldur   q1, [x21, #0x58]
+CoreGraphics[0x18733edbc] <+1356>: ldur   q2, [x21, #0x68]
+CoreGraphics[0x18733edc0] <+1360>: ldr    x8, [x21, #0x78]
+CoreGraphics[0x18733edc4] <+1364>: str    x8, [x19, #0x78]
+CoreGraphics[0x18733edc8] <+1368>: stur   q2, [x19, #0x68]
+CoreGraphics[0x18733edcc] <+1372>: stur   q1, [x19, #0x58]
+CoreGraphics[0x18733edd0] <+1376>: stur   q0, [x19, #0x48]
+CoreGraphics[0x18733edd4] <+1380>: cbnz   x20, 0x18733ed6c          ; <+1276>
+CoreGraphics[0x18733edd8] <+1384>: b      0x18733ed08               ; <+1176>
+(lldb) disassemble -n CGPathCreateCopyByTransformingPath
+CoreGraphics`CGPathCreateCopyByTransformingPath:
+CoreGraphics[0x1872f4b14] <+0>: b      0x1872f4b18               ; CGPathCreateMutableCopyByTransformingPath
+(lldb) disassemble -n CGPathGetBoundingBox
+CoreGraphics`CGPathGetBoundingBox:
+CoreGraphics[0x1872f4820] <+0>:   pacibsp 
+CoreGraphics[0x1872f4824] <+4>:   stp    d9, d8, [sp, #-0x30]!
+CoreGraphics[0x1872f4828] <+8>:   stp    x20, x19, [sp, #0x10]
+CoreGraphics[0x1872f482c] <+12>:  stp    x29, x30, [sp, #0x20]
+CoreGraphics[0x1872f4830] <+16>:  add    x29, sp, #0x20
+CoreGraphics[0x1872f4834] <+20>:  movi.2d v8, #0000000000000000
+CoreGraphics[0x1872f4838] <+24>:  cbz    x0, 0x1872f4874           ; <+84>
+CoreGraphics[0x1872f483c] <+28>:  mov    x19, x0
+CoreGraphics[0x1872f4840] <+32>:  adrp   x8, 416972
+CoreGraphics[0x1872f4844] <+36>:  ldrb   w8, [x8, #0xad0]
+CoreGraphics[0x1872f4848] <+40>:  tbnz   w8, #0x0, 0x1872f4864     ; <+68>
+CoreGraphics[0x1872f484c] <+44>:  mov    x0, x19
+CoreGraphics[0x1872f4850] <+48>:  bl     0x1877b9afc               ; symbol stub for: CFGetTypeID
+CoreGraphics[0x1872f4854] <+52>:  mov    x20, x0
+CoreGraphics[0x1872f4858] <+56>:  bl     0x1872f5524               ; CGPathGetTypeID
+CoreGraphics[0x1872f485c] <+60>:  cmp    x20, x0
+CoreGraphics[0x1872f4860] <+64>:  b.ne   0x1872f4874               ; <+84>
+CoreGraphics[0x1872f4864] <+68>:  add    x0, x19, #0x10
+CoreGraphics[0x1872f4868] <+72>:  bl     0x1872f4898               ; CG::Path::bounding_box() const
+CoreGraphics[0x1872f486c] <+76>:  mov.16b v8, v2
+CoreGraphics[0x1872f4870] <+80>:  b      0x1872f4884               ; <+100>
+CoreGraphics[0x1872f4874] <+84>:  mov    x8, #0x7ff0000000000000   ; =9218868437227405312 
+CoreGraphics[0x1872f4878] <+88>:  fmov   d1, x8
+CoreGraphics[0x1872f487c] <+92>:  mov.16b v0, v1
+CoreGraphics[0x1872f4880] <+96>:  movi.2d v3, #0000000000000000
+CoreGraphics[0x1872f4884] <+100>: mov.16b v2, v8
+CoreGraphics[0x1872f4888] <+104>: ldp    x29, x30, [sp, #0x20]
+CoreGraphics[0x1872f488c] <+108>: ldp    x20, x19, [sp, #0x10]
+CoreGraphics[0x1872f4890] <+112>: ldp    d9, d8, [sp], #0x30
+CoreGraphics[0x1872f4894] <+116>: retab  
+(lldb) disassemble -n CGPathGetPathBoundingBox
+CoreGraphics`CGPathGetPathBoundingBox:
+CoreGraphics[0x187382624] <+0>:   pacibsp 
+CoreGraphics[0x187382628] <+4>:   stp    d9, d8, [sp, #-0x30]!
+CoreGraphics[0x18738262c] <+8>:   stp    x20, x19, [sp, #0x10]
+CoreGraphics[0x187382630] <+12>:  stp    x29, x30, [sp, #0x20]
+CoreGraphics[0x187382634] <+16>:  add    x29, sp, #0x20
+CoreGraphics[0x187382638] <+20>:  movi.2d v8, #0000000000000000
+CoreGraphics[0x18738263c] <+24>:  cbz    x0, 0x187382678           ; <+84>
+CoreGraphics[0x187382640] <+28>:  mov    x19, x0
+CoreGraphics[0x187382644] <+32>:  adrp   x8, 416830
+CoreGraphics[0x187382648] <+36>:  ldrb   w8, [x8, #0xad0]
+CoreGraphics[0x18738264c] <+40>:  tbnz   w8, #0x0, 0x187382668     ; <+68>
+CoreGraphics[0x187382650] <+44>:  mov    x0, x19
+CoreGraphics[0x187382654] <+48>:  bl     0x1877b9afc               ; symbol stub for: CFGetTypeID
+CoreGraphics[0x187382658] <+52>:  mov    x20, x0
+CoreGraphics[0x18738265c] <+56>:  bl     0x1872f5524               ; CGPathGetTypeID
+CoreGraphics[0x187382660] <+60>:  cmp    x20, x0
+CoreGraphics[0x187382664] <+64>:  b.ne   0x187382678               ; <+84>
+CoreGraphics[0x187382668] <+68>:  add    x0, x19, #0x10
+CoreGraphics[0x18738266c] <+72>:  bl     0x18738269c               ; CG::Path::path_bounding_box() const
+CoreGraphics[0x187382670] <+76>:  mov.16b v8, v2
+CoreGraphics[0x187382674] <+80>:  b      0x187382688               ; <+100>
+CoreGraphics[0x187382678] <+84>:  mov    x8, #0x7ff0000000000000   ; =9218868437227405312 
+CoreGraphics[0x18738267c] <+88>:  fmov   d1, x8
+CoreGraphics[0x187382680] <+92>:  mov.16b v0, v1
+CoreGraphics[0x187382684] <+96>:  movi.2d v3, #0000000000000000
+CoreGraphics[0x187382688] <+100>: mov.16b v2, v8
+CoreGraphics[0x18738268c] <+104>: ldp    x29, x30, [sp, #0x20]
+CoreGraphics[0x187382690] <+108>: ldp    x20, x19, [sp, #0x10]
+CoreGraphics[0x187382694] <+112>: ldp    d9, d8, [sp], #0x30
+CoreGraphics[0x187382698] <+116>: retab  
