@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
-"""Reconstruct every comparison input, verify hashes, and check the final checkout."""
+"""Verify archived comparison inputs, optionally checking the final checkout too."""
 from pathlib import Path
+import argparse
 import base64
 import hashlib
 import json
 import subprocess
 import tempfile
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--archives-only", action="store_true",
+                    help="Verify recorded inputs without checking the current tree or rewriting the saved verification record")
+args = parser.parse_args()
 
 here = Path(__file__).resolve().parent
 root = here.parent.parent
@@ -45,6 +51,9 @@ for name in names:
                      "sourceStateSHA256": state_sha})
     print(name, len(state["fileSHA256"]), "file hashes verified")
     final_state = state
+if args.archives_only:
+    print("Verified all archived comparison inputs; current checkout and saved verification record left unchanged.")
+    raise SystemExit(0)
 for path, expected in final_state["fileSHA256"].items():
     assert hashlib.sha256((root / path).read_bytes()).hexdigest() == expected, path
 assert not (root / "Sources/QRCode/styles/data/pixel/private/QRCodeBatchedModulePath.swift").exists()

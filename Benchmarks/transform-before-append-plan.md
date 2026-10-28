@@ -1,6 +1,11 @@
 # Plan for transforming pixel paths before appending
 
-Replace repeated transformed appends with a small internal helper that transforms each incoming path first, then appends it using an identity transform. This addresses the [observed CoreGraphics bounds-scan behavior](/Users/chase/Documents/Code/iOS/dagronf-QRCode/Benchmarks/cgmutablepath-findings.md) and removes batching state. Adoption depends on correctness checks and a Release comparison against both the original implementation and batching.
+**Historical proposal, not the current implementation.** The whole-path copy
+approach below failed the [native-equivalence evaluation](transform-before-append-evaluation/README.md).
+The [final element-wise approach](transform-elements-evaluation/README.md) replaced
+it. This plan is retained to explain the original hypothesis and decision gates.
+
+Replace repeated transformed appends with a small internal helper that transforms each incoming path first, then appends it using an identity transform. This addresses the [observed CoreGraphics bounds-scan behavior](cgmutablepath-findings.md) and removes batching state. Adoption depends on correctness checks and a Release comparison against both the original implementation and batching.
 
 1. **Preserve comparable references.** Retain the existing baseline reports and record the exact current production source state. Use the same benchmark harness and settings for all implementations being compared; if coverage expands, run that expanded harness against each implementation. Keep the original native transformed-append operation available in test code as an independent reference.
 

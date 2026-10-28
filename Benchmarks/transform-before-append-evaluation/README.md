@@ -1,5 +1,9 @@
 # Transform-before-append evaluation
 
+**Historical rejected candidate.** Statements below about restored batching refer
+to the end of this evaluation. The current proposal uses element-wise accumulation;
+see the [research overview](../README.md) for the branch layout and final decision.
+
 **Follow-up:** The [element-wise implementation](../transform-elements-evaluation/README.md)
 addresses pixel accumulation with a scoped helper. The rejected whole-path-copy
 candidate and its general-path failure evidence below remain unchanged.
@@ -40,7 +44,7 @@ swiftc -O Benchmarks/transform-before-append-evaluation/native-equivalence-probe
 
 The probe exits with status **1 when equivalence fails**, intentionally. Its [source](native-equivalence-probe.swift), [Debug output](native-equivalence-debug.log), and [Release output](native-equivalence-release.log) are retained. It uses only public CoreGraphics APIs.
 
-The complete provisional common-generator candidate, helper, test files, and existing harness can be reconstructed from [common-candidate.source-state.json](common-candidate.source-state.json), using the [existing source-state restoration recipe](../README.md#exact-source-states-and-reproduction). It is based on commit `a8b8a51`; restoration was checked against **all 308 recorded file hashes**. The resolved dependency pins are in the fresh batching report's `metadata.packageResolved`.
+The complete provisional common-generator candidate, helper, test files, and existing harness can be reconstructed from [common-candidate.source-state.json](common-candidate.source-state.json), using the [existing source-state restoration recipe](../history.md#exact-source-states-and-reproduction). It is based on commit `a8b8a51`; restoration was checked against **all 308 recorded file hashes**. The resolved dependency pins are in the fresh batching report's `metadata.packageResolved`.
 
 After restoring that snapshot in a separate checkout, run:
 

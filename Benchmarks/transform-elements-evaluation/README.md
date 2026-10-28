@@ -1,5 +1,10 @@
 # Transforming pixel-path elements before accumulation
 
+This is the accepted approach in the [organized research](../README.md). The
+measurements and test logs below are historical evidence from the recorded source
+states. The current helper is named `addPixelPath`; those snapshots used
+`addTransformedPixelPath`. The rename was preserved when the branches were split.
+
 The replacement expands each incoming template into path elements, then passes its transform to the individual move, line, quadratic and cubic additions. Those operations transform the new coordinates without repeatedly rescanning the accumulated path. This uses no batch path, batch counter, cache, size parameter or temporary transformed-path copy.
 
 The internal `addPixelPath` helper retains native append for an empty destination and an identity transform. The first native append only processes one template and preserves CoreGraphics' initial primitive representation. Other appends use individual elements. All 40 candidate styles have migrated; the three identity-append styles retain their original append expressions. Removing common-generator batching also removes the bookkeeping that previously affected Rounded Rectangle.
@@ -44,11 +49,17 @@ The [full three-way comparison](comparison.md) includes the original native impl
 
 The earlier `transform-elements-1` report is exploratory and includes additional checks for degenerate general paths; `transform-elements-2` measures the final code in the main checkout. Neither is substituted for the paired comparison runs. All old reports remain intact.
 
-All five comparison source states were reconstructed and checked against every recorded file hash; the original production files match `a8b8a51`, and the main checkout matched the final measured inputs at verification time. The helper has since been renamed from `addTransformedPixelPath` to `addPixelPath` without changing its behavior. Saved source states retain the measured name; the verification script's exact checkout-hash check will flag this rename. See [verification results](source-verification.json). Rebuild the checks and comparison from the repository root with:
+All five comparison source states were reconstructed and checked against every recorded file hash; the original production files matched `a8b8a51`, and the working checkout matched the final measured inputs at verification time. The helper has since been renamed without changing its behavior. See the archived [verification results](source-verification.json). Rebuild the archive checks and comparison from the repository root with:
 
 ```sh
-python3 Benchmarks/transform-elements-evaluation/verify-sources.py
+python3 Benchmarks/transform-elements-evaluation/verify-sources.py --archives-only
 python3 Benchmarks/transform-elements-evaluation/compare.py
 ```
 
-Physical-iPhone performance has not been measured; no iOS speedup is claimed. No branch or PR has been published.
+Archive-only verification leaves the saved verification record unchanged. The
+default verifier also checks the current checkout byte for byte and rewrites that
+record; it is intended for a reconstructed measured checkout, before the rename.
+
+Physical-iPhone performance has not been measured; no iOS speedup is claimed.
+The local review branches are described in the [research overview](../README.md).
+No branch or PR has been published.

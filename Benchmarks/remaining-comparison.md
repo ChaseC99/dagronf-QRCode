@@ -1,5 +1,10 @@
 # Remaining pixel generators: macOS Release comparison
 
+**Historical batching results.** The retained styles described below were later
+migrated to [element-wise accumulation](transform-elements-evaluation/README.md).
+This report preserves that earlier experiment, including rejected trials and
+measurement limitations; see the [research overview](README.md) for current scope.
+
 Collected October 27, 2026 (America/Los_Angeles), on Apple M1 Pro / MacBookPro18,1,
 10 cores, 32 GiB RAM, macOS 26.7.1 (25G241), Xcode 27.1 (27A9275), Swift 6.4.
 These are macOS results, not physical-iPhone results.
@@ -349,7 +354,7 @@ Core Graphics native-path expansion findings; raster equality remains exact.
 Use the same Mac/toolchain, a quiet machine, and five samples. Runs were serial;
 no other builds or tests were launched during measurements. Source states, including
 untracked reference files and the accumulator, can be restored using the executable
-Python recipe in [README](README.md#exact-source-states-and-reproduction), selecting
+Python recipe in [README](history.md#exact-source-states-and-reproduction), selecting
 one of this report's JSON files. All four completed report restoration recipes were
 verified against every recorded file hash. Resolved dependencies come from the
 report's `metadata.packageResolved`.
